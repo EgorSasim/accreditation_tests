@@ -1,5 +1,11 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  OnDestroy,
+  OnInit,
+} from '@angular/core';
 import { Router } from '@angular/router';
+import { Howl } from 'howler';
 import { KSIS } from 'src/app/common/questions/KSIS';
 import { OOTPISP } from 'src/app/common/questions/OOTPISP';
 import { OSISP } from 'src/app/common/questions/OSISP';
@@ -12,10 +18,12 @@ import { Question } from 'src/app/common/questions/questions.typings';
   styleUrls: ['./exam-page.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ExamPageComponent {
+export class ExamPageComponent implements OnDestroy {
   public title: string = '';
   public questionAnswerData: Question[] = [];
   public questionsPull: Question[] = [];
+
+  public song = new Audio('assets/music/amazingSong.mp3');
 
   constructor(private router: Router) {
     console.log('router url: ', this.router.url);
@@ -38,6 +46,10 @@ export class ExamPageComponent {
     }
   }
 
+  public ngOnDestroy(): void {
+    this.song.pause();
+  }
+
   public createQuestionsPull(questionsCnt: number): Question[] {
     const arr: Question[] = [];
     for (let i = 0; i < questionsCnt; ++i) {
@@ -54,5 +66,8 @@ export class ExamPageComponent {
 
   public startTesting(): void {
     this.questionsPull = this.createQuestionsPull(20);
+    if (!(this.song.paused && this.song.currentTime > 0 && !this.song.ended)) {
+      this.song.play();
+    }
   }
 }

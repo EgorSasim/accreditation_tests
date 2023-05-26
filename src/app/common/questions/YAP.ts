@@ -18,7 +18,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'множество строк над некоторым алфавитом, удовлетворяющих правилам некоторой грамматики',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'язык программирования, программы на котором выполняются не напрямую процессором, а т.н. «виртуальной машиной»',
@@ -31,7 +31,7 @@ export const YAP: Question[] = [
     answers: [
       {
         text: 'структура данных, содержащая информация о выделенной транслятором лексеме, в т.ч. о классе этой лексемы',
-        isRight: false,
+        isRight: true,
       },
       { text: 'правило подстановки в грамматике', isRight: false },
       {
@@ -53,7 +53,7 @@ export const YAP: Question[] = [
       '3. Если среди int, short int, long int, char и long long int размеры всех типов различны, то по возрастанию размеров четвёртым будет:',
     answers: [
       { text: 'char', isRight: false },
-      { text: 'long int', isRight: false },
+      { text: 'long int', isRight: true },
       { text: 'int', isRight: false },
       { text: 'long long int', isRight: false },
       { text: 'short int', isRight: false },
@@ -64,10 +64,10 @@ export const YAP: Question[] = [
       '4. Выберите конструкцию языка С, которая задаёт другой тип данных по сравнению с остальными:',
     answers: [
       { text: 'long int', isRight: false },
-      { text: 'signed long long', isRight: false },
+      { text: 'signed long long', isRight: true },
       { text: 'signed long', isRight: false },
       { text: 'long', isRight: false },
-      { text: 'igned long int', isRight: false },
+      { text: 'signed long int', isRight: false },
     ],
   },
   {
@@ -84,7 +84,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'запись в операнд значения, которое на 1 меньше его первоначального значения',
-        isRight: false,
+        isRight: true,
       },
       { text: 'вычисление значения операнда', isRight: false },
       {
@@ -99,7 +99,7 @@ export const YAP: Question[] = [
     answers: [
       {
         text: 'функция, возвращающая значение типа float и принимающая обязательные параметры а типа int и b типа double, а также произвольное количество параметров любого типа',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'функция, возвращающая значение типа float и принимающая обязательные параметры а типа int и b типа double, а также произвольное количество параметров типа',
@@ -123,7 +123,7 @@ export const YAP: Question[] = [
       { text: '«запятая» в языке С не может быть операцией', isRight: false },
       { text: 'запись значения в левый операнд', isRight: false },
       { text: 'запись значения в правый операнд', isRight: false },
-      { text: 'значение правого операнда', isRight: false },
+      { text: 'значение правого операнда', isRight: true },
       { text: 'значение левого операнда', isRight: false },
     ],
   },
@@ -133,7 +133,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'char', isRight: false },
       { text: 'long long int', isRight: false },
-      { text: 'long int', isRight: false },
+      { text: 'long int', isRight: true },
       { text: 'short int', isRight: false },
       { text: 'int', isRight: false },
     ],
@@ -154,7 +154,7 @@ export const YAP: Question[] = [
         text: 'постфиксный инкремент в языке С — это оператор, а не операция',
         isRight: false,
       },
-      { text: 'значение операнда', isRight: false },
+      { text: 'значение операнда', isRight: true },
       {
         text: 'увеличение значения операнда на 1 до остальных вычислений',
         isRight: false,
@@ -167,7 +167,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'х=43, у=48', isRight: false },
       { text: 'в коде есть случай неопределённого поведения', isRight: false },
-      { text: 'х=43, у=47', isRight: false },
+      { text: 'х=43, у=47', isRight: true },
       { text: 'х= 42, у=48', isRight: false },
       { text: 'x= 42, у=47', isRight: false },
     ],
@@ -185,7 +185,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'расширяет значение в регистре АХ до 4 байт и записывает его в DХ: АХ',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'расширяет значение в регистре АL до 4 байт и записывает его в DL:АL',
@@ -206,7 +206,7 @@ export const YAP: Question[] = [
       },
       { text: 'выполняет знаковое расширение числа', isRight: false },
       { text: 'копирует значение в регистр ZХ', isRight: false },
-      { text: 'выполняет беззнаковое расширение числа', isRight: false },
+      { text: 'выполняет беззнаковое расширение числа', isRight: true },
       {
         text: 'копирует данные из памяти по адресу DS:ST в память по адресу ЕS:DI',
         isRight: false,
@@ -220,7 +220,7 @@ export const YAP: Question[] = [
       { text: 'Jp/jm', isRight: false },
       { text: 'Jb/jm', isRight: false },
       { text: 'Ja/jb', isRight: false },
-      { text: 'Jg/jl', isRight: false },
+      { text: 'Jg/jl', isRight: true },
       { text: 'Js/jz', isRight: false },
     ],
   },
@@ -230,14 +230,14 @@ export const YAP: Question[] = [
       { text: 'Mul', isRight: false },
       { text: 'Times', isRight: false },
       { text: 'Div', isRight: false },
-      { text: 'Imul', isRight: false },
+      { text: 'Imul', isRight: true },
       { text: 'Mod', isRight: false },
     ],
   },
   {
     question: '15. Инструкция SHL:',
     answers: [
-      { text: 'выполняет логический сдвиг влево', isRight: false },
+      { text: 'выполняет логический сдвиг влево', isRight: true },
       { text: 'выполняет логический сдвиг вправо', isRight: false },
       { text: 'выполняет арифметический сдвиг вправо', isRight: false },
       { text: 'выполняет циклический сдвиг влево', isRight: false },
@@ -256,7 +256,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'устройство, преобразующее графический образ в ОЗУ или памяти самого адаптера в форму, пригодную для вывода на экран',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'программное средство, обеспечивающее кодирование и декодирование видеозаписей',
@@ -279,7 +279,7 @@ export const YAP: Question[] = [
       { text: 'IP', isRight: false },
       { text: 'SP', isRight: false },
       { text: 'CL', isRight: false },
-      { text: 'CX', isRight: false },
+      { text: 'CX', isRight: true },
       { text: 'AX', isRight: false },
     ],
   },
@@ -289,7 +289,7 @@ export const YAP: Question[] = [
     answers: [
       { text: '(E)SP', isRight: false },
       { text: '(E)SI', isRight: false },
-      { text: '(E)AX', isRight: false },
+      { text: '(E)AX', isRight: true },
       { text: '(E)BX', isRight: false },
       { text: '(E)IP', isRight: false },
     ],
@@ -301,7 +301,7 @@ export const YAP: Question[] = [
       { text: 'помещает в стек значение регистра АХ', isRight: false },
       {
         text: 'помещает в стек значения всех регистров общего назначения',
-        isRight: false,
+        isRight: true,
       },
       { text: 'помещает в стек значение регистра FS', isRight: false },
       { text: 'помещает в стек значение регистра SP', isRight: false },
@@ -318,7 +318,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'Сравнение АХ и слова (2 байта) по адресу ES:DI',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Сравнение АЕ и байта по адресу ES:DI', isRight: false },
     ],
@@ -330,7 +330,7 @@ export const YAP: Question[] = [
       { text: 'множество', isRight: false },
       { text: 'производная', isRight: false },
       { text: 'первообразная', isRight: false },
-      { text: 'конечный автомат', isRight: false },
+      { text: 'конечный автомат', isRight: true },
       { text: 'матрица', isRight: false },
     ],
   },
@@ -339,7 +339,7 @@ export const YAP: Question[] = [
       '22. Каким будет результат выполнения следующего фрагмента кода на языке С? (int х = 0; if (х = 0) printf(“then"); else printf(“else");',
     answers: [
       { text: 'Обе ветви оператора if будут проигнорированы', isRight: false },
-      { text: 'Вывод текста «else»', isRight: false },
+      { text: 'Вывод текста «else»', isRight: true },
       { text: 'Вывод текста «then»', isRight: false },
       { text: 'Код содержит случай неопределённого поведения', isRight: false },
       { text: 'Код содержит ошибку и не будет скомпилирован', isRight: false },
@@ -349,7 +349,7 @@ export const YAP: Question[] = [
     question:
       '23. Если среди int, short int, long int, char и long long int размеры всех типов различны, то по убыванию размеров пятым будет:',
     answers: [
-      { text: 'char', isRight: false },
+      { text: 'char', isRight: true },
       { text: 'long int', isRight: false },
       { text: 'int', isRight: false },
       { text: 'long long int', isRight: false },
@@ -366,7 +366,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'значение, которое на 1 больше, чем значение операнда',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'префиксный декремент в языке С — это оператор, а не операция',
@@ -384,7 +384,7 @@ export const YAP: Question[] = [
     answers: [
       { text: '~', isRight: false },
       { text: '&&', isRight: false },
-      { text: '&', isRight: false },
+      { text: '&', isRight: true },
       { text: '&=', isRight: false },
       { text: '|', isRight: false },
     ],
@@ -397,7 +397,7 @@ export const YAP: Question[] = [
       { text: 'Код содержит ошибку и не будет скомпилирован', isRight: false },
       { text: 'Вывод текста «11»', isRight: false },
       { text: 'Код содержит случай неопределенного поведения', isRight: false },
-      { text: 'Вывод текста “1”', isRight: false },
+      { text: 'Вывод текста “1”', isRight: true },
     ],
   },
   {
@@ -407,7 +407,7 @@ export const YAP: Question[] = [
       { text: 'static', isRight: false },
       { text: 'extern', isRight: false },
       { text: 'local', isRight: false },
-      { text: 'register', isRight: false },
+      { text: 'register', isRight: true },
       { text: 'auto', isRight: false },
     ],
   },
@@ -421,7 +421,7 @@ export const YAP: Question[] = [
         isRight: false,
       },
       { text: '1', isRight: false },
-      { text: '3', isRight: false },
+      { text: '3', isRight: true },
       { text: '(3)', isRight: false },
     ],
   },
@@ -430,7 +430,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'split', isRight: false },
       { text: 'del', isRight: false },
-      { text: 'idiv', isRight: false },
+      { text: 'idiv', isRight: true },
       { text: 'div', isRight: false },
       { text: 'mod', isRight: false },
     ],
@@ -444,7 +444,7 @@ export const YAP: Question[] = [
         isRight: false,
       },
       { text: 'устанавливает флаг CF в значение 1', isRight: false },
-      { text: 'устанавливает флаг CF в значение 0', isRight: false },
+      { text: 'устанавливает флаг CF в значение 0', isRight: true },
       { text: 'обнуляет регистр сх', isRight: false },
     ],
   },
@@ -453,7 +453,7 @@ export const YAP: Question[] = [
       'Если перед выполнением в реальном режиме (real-address mode) строковой инструкции с префиксом повторения CX = 0, то:',
     answers: [
       { text: 'инструкция выполнится один раз', isRight: false },
-      { text: 'инструкция выполнится 65536 раз', isRight: false },
+      { text: 'инструкция выполнится 65536 раз', isRight: true },
       { text: 'инструкция выполнится 65535 раз', isRight: false },
       { text: 'инструкция не будет выполнена ни разу', isRight: false },
       { text: 'инструкция будет выполняться бесконечно', isRight: false },
@@ -467,7 +467,7 @@ export const YAP: Question[] = [
       { text: 'or', isRight: false },
       { text: 'mov', isRight: false },
       { text: 'and', isRight: false },
-      { text: 'cmp', isRight: false },
+      { text: 'cmp', isRight: true },
     ],
   },
   {
@@ -478,7 +478,7 @@ export const YAP: Question[] = [
         isRight: false,
       },
       { text: 'выполняет арифметический сдвиг влево.', isRight: false },
-      { text: 'выполняет арифметический сдвиг вправо.', isRight: false },
+      { text: 'выполняет арифметический сдвиг вправо.', isRight: true },
       { text: 'выполняет циклический сдвиг вправо.', isRight: false },
       { text: 'выполняет логический сдвиг влево', isRight: false },
     ],
@@ -487,7 +487,7 @@ export const YAP: Question[] = [
     question:
       'Какая инструкция позволяет копировать значения между операндами равных размеров?',
     answers: [
-      { text: 'mov', isRight: false },
+      { text: 'mov', isRight: true },
       { text: 'sub', isRight: false },
       { text: 'copy', isRight: false },
       { text: 'assign', isRight: false },
@@ -506,7 +506,7 @@ export const YAP: Question[] = [
         text: 'расширяет значения младшего бита АХ и записывает его в младший байт ВХ',
         isRight: false,
       },
-      { text: 'выполняет вычитание с учетом значения флаг CF', isRight: false },
+      { text: 'выполняет вычитание с учетом значения флаг CF', isRight: true },
       {
         text: 'выполняет побитовый сдвиг с увеличением числа в большую сторону',
         isRight: false,
@@ -535,7 +535,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'если IF = 1, обработка программных прерываний не осуществляется',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -545,7 +545,7 @@ export const YAP: Question[] = [
       { text: '||', isRight: false },
       { text: '&', isRight: false },
       { text: '|=', isRight: false },
-      { text: '|', isRight: false },
+      { text: '|', isRight: true },
       { text: '~', isRight: false },
     ],
   },
@@ -557,14 +557,14 @@ export const YAP: Question[] = [
       { text: 'метод введения переменной состояния', isRight: false },
       { text: 'восходящий разбор', isRight: false },
       { text: 'метод рекурсивного спуска', isRight: false },
-      { text: 'предиктивный анализ', isRight: false },
+      { text: 'предиктивный анализ', isRight: true },
     ],
   },
   {
     question: 'Какие из формальных языков - самые простые?',
     answers: [
       { text: 'неконтекстные языки', isRight: false },
-      { text: 'регулярные языки', isRight: false },
+      { text: 'регулярные языки', isRight: true },
       { text: 'контекстно-зависимые языки', isRight: false },
       { text: 'контекстно-свободные языки', isRight: false },
       { text: 'неограниченный языки', isRight: false },
@@ -588,7 +588,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'объявляет двумерный массив arr, в котором элементы первого столбца проинициализированы заданными значениями, а остальные элементы равны 0',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'объявляет двумерный массив arr, в котором элементы первого столбца проинициализированы заданными значениями, а значения остальных элементов не определены',
@@ -600,7 +600,7 @@ export const YAP: Question[] = [
     question:
       'Результатом вычисления операции постфиксного декремента в языке С является:',
     answers: [
-      { text: 'значение операнда', isRight: false },
+      { text: 'значение операнда', isRight: true },
       {
         text: 'постфиксный декремент в языке С - это оператор, а не операция',
         isRight: false,
@@ -625,7 +625,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'class', isRight: false },
       { text: 'struct', isRight: false },
-      { text: 'union', isRight: false },
+      { text: 'union', isRight: true },
       { text: 'record', isRight: false },
       { text: 'absolute', isRight: false },
     ],
@@ -637,7 +637,7 @@ export const YAP: Question[] = [
       { text: '#destroy', isRight: false },
       { text: '#undo', isRight: false },
       { text: '#delete', isRight: false },
-      { text: '#undef', isRight: false },
+      { text: '#undef', isRight: true },
       { text: 'у процессора языка С нет такой возможности', isRight: false },
     ],
   },
@@ -646,7 +646,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'в стандартной библиотеки языка С', isRight: false },
       { text: 'strcmp', isRight: false },
-      { text: 'strcpy', isRight: false },
+      { text: 'strcpy', isRight: true },
       { text: 'strlen', isRight: false },
       { text: 'strmov', isRight: false },
     ],
@@ -659,7 +659,7 @@ export const YAP: Question[] = [
         isRight: false,
       },
       { text: '^', isRight: false },
-      { text: '*', isRight: false },
+      { text: '*', isRight: true },
       { text: '&', isRight: false },
       { text: '@', isRight: false },
     ],
@@ -669,7 +669,7 @@ export const YAP: Question[] = [
       'Функции, машинный код которых подлежит подстановке в точку вызова, называется:',
     answers: [
       { text: 'typedef-функции', isRight: false },
-      { text: 'inline-функции', isRight: false },
+      { text: 'inline-функции', isRight: true },
       { text: 'define-цункции', isRight: false },
       { text: 'volatile-функции', isRight: false },
       { text: 'анонимные-функции', isRight: false },
@@ -685,7 +685,7 @@ export const YAP: Question[] = [
       { text: 'Оба операнда одновременно являются регистрами', isRight: false },
       { text: 'Инструкция mov не может работать с регистрами', isRight: false },
       { text: 'Регистр АХ нельзя изменять напрямую', isRight: false },
-      { text: 'Операнды имеют разные размеры', isRight: false },
+      { text: 'Операнды имеют разные размеры', isRight: true },
     ],
   },
   {
@@ -694,7 +694,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'dx', isRight: false },
       { text: 'ax', isRight: false },
-      { text: 'ex', isRight: false },
+      { text: 'ex', isRight: true },
       { text: 'bx', isRight: false },
       { text: 'cx', isRight: false },
     ],
@@ -706,7 +706,7 @@ export const YAP: Question[] = [
       { text: 'insb/insw', isRight: false },
       { text: 'in', isRight: false },
       { text: 'out', isRight: false },
-      { text: 'int', isRight: false },
+      { text: 'int', isRight: true },
       { text: 'outsb/outsw', isRight: false },
     ],
   },
@@ -716,7 +716,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'ZF', isRight: false },
       { text: 'CF', isRight: false },
-      { text: 'IF', isRight: false },
+      { text: 'IF', isRight: true },
       { text: 'DF', isRight: false },
       { text: 'SF', isRight: false },
     ],
@@ -728,7 +728,7 @@ export const YAP: Question[] = [
       { text: 'DS', isRight: false },
       { text: 'CS', isRight: false },
       { text: 'FS', isRight: false },
-      { text: 'SS', isRight: false },
+      { text: 'SS', isRight: true },
       { text: 'ES', isRight: false },
     ],
   },
@@ -738,7 +738,7 @@ export const YAP: Question[] = [
       { text: '2 операнда', isRight: false },
       { text: '4 операнда', isRight: false },
       { text: 'нет операндов', isRight: false },
-      { text: '1 операнд', isRight: false },
+      { text: '1 операнд', isRight: true },
       { text: '3 операнда', isRight: false },
     ],
   },
@@ -751,7 +751,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'часть программы, в которой под данным идентификатором подразумевается данный элемент программы',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'элемент грамматики, который не может быть раскрыт в более сложную конструкцию',
@@ -769,7 +769,7 @@ export const YAP: Question[] = [
       'Функция стандартной библиотеки языка C для записи произвольного блока данных в ранее открытый файл:',
     answers: [
       { text: 'fstore', isRight: false },
-      { text: 'fwrite', isRight: false },
+      { text: 'fwrite', isRight: true },
       {
         text: 'в стандартной библиотеке языка C нет такой функции',
         isRight: false,
@@ -784,7 +784,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'оптимизация', isRight: false },
       { text: 'генерация кода', isRight: false },
-      { text: 'емантический анализ', isRight: false },
+      { text: 'емантический анализ', isRight: true },
       { text: 'интаксический анализ', isRight: false },
       { text: 'ексический анализ', isRight: false },
     ],
@@ -792,7 +792,7 @@ export const YAP: Question[] = [
   {
     question: 'Логическая операция ИЛИ в языке C обозначается:',
     answers: [
-      { text: '||', isRight: false },
+      { text: '||', isRight: true },
       { text: '|', isRight: false },
       { text: '~', isRight: false },
       { text: '|=', isRight: false },
@@ -803,7 +803,7 @@ export const YAP: Question[] = [
     question:
       'Макрос, который используется в функциях с переменным числом параметров для инициализации работы с «переменными параметрами»:',
     answers: [
-      { text: 'va_start', isRight: false },
+      { text: 'va_start', isRight: true },
       { text: 'va_arg', isRight: false },
       {
         text: 'в языке C не поддерживаются функции с переменным числом параметров',
@@ -819,7 +819,7 @@ export const YAP: Question[] = [
     answers: [
       {
         text: 'запрещает изменение значения этой переменной в тексте программы',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'означает, что переменная должна быть размещена в постоянном запоминающем устройства (ПЗУ)',
@@ -850,14 +850,14 @@ export const YAP: Question[] = [
         text: 'в языке C не поддерживаются функции с переменным числом параметров',
         isRight: false,
       },
-      { text: 'va_arg', isRight: false },
+      { text: 'va_arg', isRight: true },
     ],
   },
   {
     question: 'Минимальный размер типа char в языке C составляет…',
     answers: [
       { text: '16 бит', isRight: false },
-      { text: '8 бит', isRight: false },
+      { text: '8 бит', isRight: true },
       { text: '9 бит', isRight: false },
       { text: '7 бит', isRight: false },
       { text: '15 бит', isRight: false },
@@ -871,7 +871,7 @@ export const YAP: Question[] = [
       { text: 'выражение(тип)', isRight: false },
       { text: 'тип(выражение)', isRight: false },
       { text: 'выражение -> тип', isRight: false },
-      { text: '(тип)выражение', isRight: false },
+      { text: '(тип)выражение', isRight: true },
     ],
   },
   {
@@ -879,7 +879,7 @@ export const YAP: Question[] = [
       'Функция стандартной библиотеки языка C для определения длины строки:',
     answers: [
       { text: 'strcpy', isRight: false },
-      { text: 'strlen', isRight: false },
+      { text: 'strlen', isRight: true },
       { text: 'strcmp', isRight: false },
       { text: 'strmov', isRight: false },
       {
@@ -894,7 +894,7 @@ export const YAP: Question[] = [
       { text: '&', isRight: false },
       { text: '&=', isRight: false },
       { text: '|', isRight: false },
-      { text: '&&', isRight: false },
+      { text: '&&', isRight: true },
       { text: '~', isRight: false },
     ],
   },
@@ -904,7 +904,7 @@ export const YAP: Question[] = [
     answers: [
       { text: '#create', isRight: false },
       { text: 'у препроцессора языка C нет такой возможности', isRight: false },
-      { text: '#define', isRight: false },
+      { text: '#define', isRight: true },
       { text: '#const', isRight: false },
       { text: '#replace', isRight: false },
     ],
@@ -915,7 +915,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'short int', isRight: false },
       { text: 'int', isRight: false },
-      { text: 'long long int', isRight: false },
+      { text: 'long long int', isRight: true },
       { text: 'char', isRight: false },
       { text: 'long int', isRight: false },
     ],
@@ -924,7 +924,7 @@ export const YAP: Question[] = [
     question:
       'Вершиной стека в реальном режиме (real-address mode) считается элемент данных, расположенный по адресу:',
     answers: [
-      { text: 'SS:SP', isRight: false },
+      { text: 'SS:SP', isRight: true },
       { text: 'ES:DI', isRight: false },
       { text: 'EIP', isRight: false },
       { text: 'DS:SI', isRight: false },
@@ -937,7 +937,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'IA-32e Mode', isRight: false },
       { text: 'System Management Mode', isRight: false },
-      { text: 'Real-Address Mode', isRight: false },
+      { text: 'Real-Address Mode', isRight: true },
       { text: 'Virtual-8086 Mode', isRight: false },
       { text: 'Protected Mode', isRight: false },
     ],
@@ -945,7 +945,7 @@ export const YAP: Question[] = [
   {
     question: 'Для помещения значения в стек используется инструкция:',
     answers: [
-      { text: 'push', isRight: false },
+      { text: 'push', isRight: true },
       { text: 'pull', isRight: false },
       { text: 'retf', isRight: false },
       { text: 'pop', isRight: false },
@@ -966,7 +966,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'становится равным 1 в случае переноса из/заёма в старший разряд при сложении вычитании',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'влияет на направление обработки строковых данных',
@@ -981,7 +981,7 @@ export const YAP: Question[] = [
       { text: 'AX', isRight: false },
       { text: 'IP', isRight: false },
       { text: 'SI', isRight: false },
-      { text: 'CX', isRight: false },
+      { text: 'CX', isRight: true },
       { text: 'FLAGS', isRight: false },
     ],
   },
@@ -989,7 +989,7 @@ export const YAP: Question[] = [
     question: 'Префиксы REPE и REPNE в своей работе используют значение флага:',
     answers: [
       { text: 'CF', isRight: false },
-      { text: 'ZF', isRight: false },
+      { text: 'ZF', isRight: true },
       { text: 'SF', isRight: false },
       { text: 'IF', isRight: false },
       { text: 'DF', isRight: false },
@@ -1006,7 +1006,7 @@ export const YAP: Question[] = [
       { text: 'процессор', isRight: false },
       {
         text: 'фрагмент кода (программа, процедура), которой передаётся управление при возникновении прерывания',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'рограммист, который в своей программе использует прерывания',
@@ -1022,7 +1022,7 @@ export const YAP: Question[] = [
       { text: 'Не больше 16 байт', isRight: false },
       { text: 'Не меньше 16 бит', isRight: false },
       { text: 'Не меньше 32 бит', isRight: false },
-      { text: 'Не больше 16 бит', isRight: false },
+      { text: 'Не больше 16 бит', isRight: true },
     ],
   },
   {
@@ -1038,7 +1038,7 @@ export const YAP: Question[] = [
         text: 'обеспечивает возврат из обработчика прерывания',
         isRight: false,
       },
-      { text: 'устанавливает флаг IF в значение 1', isRight: false },
+      { text: 'устанавливает флаг IF в значение 1', isRight: true },
     ],
   },
   {
@@ -1058,7 +1058,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'старшая часть результата заполняется значением знакового бита исходного числа, младшая равна исходному значению',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'старшая часть результата равна исходному значению, младшая заполняется единицами',
@@ -1070,7 +1070,7 @@ export const YAP: Question[] = [
     question: 'Для извлечения значения из стека используется инструкция:',
     answers: [
       { text: 'call', isRight: false },
-      { text: 'pop', isRight: false },
+      { text: 'pop', isRight: true },
       { text: 'pull', isRight: false },
       { text: 'push', isRight: false },
       { text: 'int', isRight: false },
@@ -1081,7 +1081,7 @@ export const YAP: Question[] = [
     answers: [
       { text: '[DS:SI] AX', isRight: false },
       { text: '[ES:DI] AL', isRight: false },
-      { text: '[ES:DI] AX', isRight: false },
+      { text: '[ES:DI] AX', isRight: true },
       { text: 'AX [ES:DI]', isRight: false },
       { text: '[DS:SI] AL', isRight: false },
     ],
@@ -1090,7 +1090,7 @@ export const YAP: Question[] = [
     question:
       'Инструкция, позволяющая вычислить и записать в произвольный регистр эффективный адрес операнда в памяти, называется:',
     answers: [
-      { text: 'lea', isRight: false },
+      { text: 'lea', isRight: true },
       { text: 'adc', isRight: false },
       { text: 'lds', isRight: false },
       { text: 'clc', isRight: false },
@@ -1102,7 +1102,7 @@ export const YAP: Question[] = [
     answers: [
       {
         text: '«растёт» по мере добавления элементов от больших адресов к меньшим',
-        isRight: false,
+        isRight: true,
       },
       { text: 'имеет ограниченный размер — 16 бит', isRight: false },
       { text: 'имеет ограниченный размер — 16 байт', isRight: false },
@@ -1120,7 +1120,7 @@ export const YAP: Question[] = [
     question:
       'Какая из перечисленных инструкций оставит в регистре AX значение, отличное от остальных?',
     answers: [
-      { text: 'or ah, $FF', isRight: false },
+      { text: 'or ah, $FF', isRight: true },
       { text: 'xor ah, ah', isRight: false },
       { text: 'and ah, 0', isRight: false },
       { text: 'mov ah, 0', isRight: false },
@@ -1136,7 +1136,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'выполняет расширенный циклический сдвиг вправо через флаг CF',
-        isRight: false,
+        isRight: true,
       },
       { text: 'выполняет циклический сдвиг вправо.', isRight: false },
       { text: 'выполняет логический сдвиг вправо', isRight: false },
@@ -1155,7 +1155,7 @@ export const YAP: Question[] = [
         text: 'расширяет значение в регистре CL, заполняя старшую часть единицами, и записывает его в CX',
         isRight: false,
       },
-      { text: 'устанавливает флаг CF в значение 1', isRight: false },
+      { text: 'устанавливает флаг CF в значение 1', isRight: true },
       {
         text: 'записывает в регистр CX значение, в котором все биты единичные',
         isRight: false,
@@ -1167,7 +1167,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'Split', isRight: false },
       { text: 'Del', isRight: false },
-      { text: 'Div', isRight: false },
+      { text: 'Div', isRight: true },
       { text: 'Idiv', isRight: false },
       { text: 'mod', isRight: false },
     ],
@@ -1179,7 +1179,7 @@ export const YAP: Question[] = [
       { text: 'компоновщик', isRight: false },
       { text: 'операционная система', isRight: false },
       { text: 'препроцессор', isRight: false },
-      { text: 'интерпретатор', isRight: false },
+      { text: 'интерпретатор', isRight: true },
       { text: 'процессор', isRight: false },
     ],
   },
@@ -1188,7 +1188,7 @@ export const YAP: Question[] = [
       'Этап работы транслятора, заключающийся в построении результирующего представления анализируемой программы на целевом языке:',
     answers: [
       { text: 'семантический анализ', isRight: false },
-      { text: 'генерация кода', isRight: false },
+      { text: 'генерация кода', isRight: true },
       { text: 'лексический анализ', isRight: false },
       { text: 'оптимизация', isRight: false },
       { text: 'синтаксический анализ', isRight: false },
@@ -1204,7 +1204,7 @@ export const YAP: Question[] = [
       },
       { text: 'va_end', isRight: false },
       { text: 'va_arg', isRight: false },
-      { text: 'va_list', isRight: false },
+      { text: 'va_list', isRight: true },
       { text: 'va_start', isRight: false },
     ],
   },
@@ -1212,7 +1212,7 @@ export const YAP: Question[] = [
     question:
       'Символы %X в форматной строке функции printf означают, что очередное значение следует рассматривать и форматировать:',
     answers: [
-      { text: 'как целое 16-чное число без знака', isRight: false },
+      { text: 'как целое 16-чное число без знака', isRight: true },
       { text: 'как вещественное число', isRight: false },
       { text: 'как целое 10-чное число со знаком', isRight: false },
       { text: 'как целое 8-чное число без знака', isRight: false },
@@ -1225,7 +1225,7 @@ export const YAP: Question[] = [
     answers: [
       { text: '#create', isRight: false },
       { text: 'у препроцессора языка C нет такой возможности', isRight: false },
-      { text: '#define', isRight: false },
+      { text: '#define', isRight: true },
       { text: '#macro', isRight: false },
       { text: '#macros', isRight: false },
     ],
@@ -1245,7 +1245,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'запись в операнд значения, которое на 1 больше его первоначального значения',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'увеличение значения операнда на 1 до остальных вычислений',
@@ -1257,7 +1257,7 @@ export const YAP: Question[] = [
     question: 'Функция стандартной библиотеки языка С для сравнения строк:',
     answers: [
       { text: 'strlen', isRight: false },
-      { text: 'strcmp', isRight: false },
+      { text: 'strcmp', isRight: true },
       {
         text: 'в стандартной библиотеке языка С нет такой функции',
         isRight: false,
@@ -1276,7 +1276,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'уменьшение значения операнда на 1 до остальных вычислений',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'запись в операнд значения, которое на 1 меньше его первоначального значения',
@@ -1296,7 +1296,7 @@ export const YAP: Question[] = [
       { text: 'ccall/cdecl', isRight: false },
       { text: 'pascal', isRight: false },
       { text: 'fastcall', isRight: false },
-      { text: 'stdcall', isRight: false },
+      { text: 'stdcall', isRight: true },
       { text: 'comcall/safecall', isRight: false },
     ],
   },
@@ -1309,7 +1309,7 @@ export const YAP: Question[] = [
       },
       { text: 'копирует значение из регистра в вершину стека', isRight: false },
       { text: 'копирует значение в регистр SX', isRight: false },
-      { text: 'выполняет знаковое расширение числа', isRight: false },
+      { text: 'выполняет знаковое расширение числа', isRight: true },
       { text: 'выполняет беззнаковое расширение числа', isRight: false },
     ],
   },
@@ -1317,7 +1317,7 @@ export const YAP: Question[] = [
     question:
       'Чтобы FASM создал СОМ-приложение для MS-DOS, нужно в тексте программы написать:',
     answers: [
-      { text: 'org 100h', isRight: false },
+      { text: 'org 100h', isRight: true },
       { text: 'entry СОМ', isRight: false },
       { text: 'format МZ', isRight: false },
       { text: 'section', isRight: false },
@@ -1329,7 +1329,7 @@ export const YAP: Question[] = [
       'Этап выполнения инструкции процессором, на котором происходит её считывание из памяти, называется',
     answers: [
       { text: 'Read', isRight: false },
-      { text: 'Fetch', isRight: false },
+      { text: 'Fetch', isRight: true },
       { text: 'Decode', isRight: false },
       { text: 'Execute', isRight: false },
       { text: 'Write-Back', isRight: false },
@@ -1340,7 +1340,7 @@ export const YAP: Question[] = [
     answers: [
       {
         text: 'выполняет расширенный циклический сдвиг влево через флаг СF',
-        isRight: false,
+        isRight: true,
       },
       { text: 'выполняет арифметический сдвиг влево', isRight: false },
       { text: 'выполняет циклический сдвиг влево', isRight: false },
@@ -1358,7 +1358,7 @@ export const YAP: Question[] = [
       { text: 'прототипирование', isRight: false },
       { text: 'соглашение об именовании', isRight: false },
       { text: 'сборка', isRight: false },
-      { text: 'декорирование имени', isRight: false },
+      { text: 'декорирование имени', isRight: true },
       { text: 'объявление функции', isRight: false },
     ],
   },
@@ -1366,7 +1366,7 @@ export const YAP: Question[] = [
     question:
       'Нисходящий метод синтаксического анализа, заключающийся в переборе возможных продукций для каждого из нетерминалов:',
     answers: [
-      { text: 'метод рекурсивного спуска', isRight: false },
+      { text: 'метод рекурсивного спуска', isRight: true },
       { text: 'восходящий разбор', isRight: false },
       { text: 'предиктивный анализ', isRight: false },
       { text: 'левая факторизация', isRight: false },
@@ -1376,7 +1376,7 @@ export const YAP: Question[] = [
   {
     question: 'Инструкция SHR:',
     answers: [
-      { text: 'выполняет логический сдвиг вправо', isRight: false },
+      { text: 'выполняет логический сдвиг вправо', isRight: true },
       {
         text: 'выполняет расширенный циклический сдвиг вправо через флаг CF',
         isRight: false,
@@ -1393,7 +1393,7 @@ export const YAP: Question[] = [
       { text: 'нажатие клавиши на клавиатуре', isRight: false },
       { text: 'истечение интервала таймера', isRight: false },
       { text: 'перемещение мыши', isRight: false },
-      { text: 'выполнение инструкции int', isRight: false },
+      { text: 'выполнение инструкции int', isRight: true },
       { text: 'щелчок кнопкой мыши', isRight: false },
     ],
   },
@@ -1407,7 +1407,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'использовать при задании эффективного адреса регистры AX, CX, DX или SP, а также одновременно два регистра из пары BX/BP или SI/DI',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'использовать при задании эффективного адреса больше одного регистра общего назначения',
@@ -1428,7 +1428,7 @@ export const YAP: Question[] = [
       'Выберите правильный пример объявления переменной-указателя на языке C:',
     answers: [
       { text: 'pointer x;', isRight: false },
-      { text: 'float *x;', isRight: false },
+      { text: 'float *x;', isRight: true },
       { text: 'float x*;', isRight: false },
       { text: 'float x&;', isRight: false },
       { text: 'float &x;', isRight: false },
@@ -1456,7 +1456,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'запрещает оптимизацию компилятором доступа к этой программе, приводит к тому, что обращение всегда происходит в память',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -1465,7 +1465,7 @@ export const YAP: Question[] = [
       'Если среди int, short int, long int, char и long long int размеры всех типов различны, то по возрастанию размеров третьим будет:',
     answers: [
       { text: 'char', isRight: false },
-      { text: 'int', isRight: false },
+      { text: 'int', isRight: true },
       { text: 'long int', isRight: false },
       { text: 'long long int', isRight: false },
       { text: 'short int', isRight: false },
@@ -1475,7 +1475,7 @@ export const YAP: Question[] = [
     question:
       'Какого из перечисленных способов задания целочисленных типов данных не предусмотрено в языке C?',
     answers: [
-      { text: 'short short int', isRight: false },
+      { text: 'short short int', isRight: true },
       { text: 'unsigned char', isRight: false },
       { text: 'long long int', isRight: false },
       { text: 'signed long int', isRight: false },
@@ -1487,7 +1487,7 @@ export const YAP: Question[] = [
     answers: [
       {
         text: 'область памяти размером 64 КБ, начинающаяся с физического адреса кратного 16 байтам',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'область памяти размером 64 байта, начинающаяся с физического адреса кратного 16 КБайтам',
@@ -1515,14 +1515,14 @@ export const YAP: Question[] = [
       { text: 'x = 42, y = 98;', isRight: false },
       { text: 'x = 0, y = 0;', isRight: false },
       { text: 'x = -42, y= -98;', isRight: false },
-      { text: 'в коде есть случай неопределенного поведения', isRight: false },
+      { text: 'в коде есть случай неопределенного поведения', isRight: true },
     ],
   },
   {
     question:
       'Каким будет результат выполнения следующего фрагмента кода на языке С? (int x = 0; if (0 == x) printf(“then”); else printf(“else”))',
     answers: [
-      { text: 'вывод текста then', isRight: false },
+      { text: 'вывод текста then', isRight: true },
       { text: 'вывод текста else', isRight: false },
       { text: 'обе ветви оператора if будут проигнорированы', isRight: false },
       { text: 'код содержит случай неопределенного поведения', isRight: false },
@@ -1537,7 +1537,7 @@ export const YAP: Question[] = [
         text: 'в стандартной библиотеке языка С нет такой функции',
         isRight: false,
       },
-      { text: 'fread', isRight: false },
+      { text: 'fread', isRight: true },
       { text: 'fblock', isRight: false },
       { text: 'fget', isRight: false },
       { text: 'fload', isRight: false },
@@ -1558,7 +1558,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'вычисляет эффективный адрес, не обращаясь к операнду в памяти, что позволяет использовать ее для выполнения простых арифметических действий, не связанных с адресами',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -1574,7 +1574,7 @@ export const YAP: Question[] = [
         isRight: false,
       },
       { text: 'выполняет сложение комплексных чисел', isRight: false },
-      { text: 'выполняет сложение с учетом значения флага CF', isRight: false },
+      { text: 'выполняет сложение с учетом значения флага CF', isRight: true },
       {
         text: 'расширяет знаковое значение в регистре CX и записывает его в DX:AX',
         isRight: false,
@@ -1603,7 +1603,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'для выполнения арифметических действий над вещественными числами используются те же инструкции (ADD, SUB, MUL, DIV), что и над целочисленными',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -1614,7 +1614,7 @@ export const YAP: Question[] = [
         text: 'выполняет расширенный циклический сдвиг влево через флаг CF',
         isRight: false,
       },
-      { text: 'выполняет циклический сдвиг влево', isRight: false },
+      { text: 'выполняет циклический сдвиг влево', isRight: true },
       { text: 'выполняет арифметический сдвиг влево', isRight: false },
       { text: 'выполняет логический сдвиг влево', isRight: false },
       { text: 'выполняет циклический сдвиг вправо', isRight: false },
@@ -1625,7 +1625,7 @@ export const YAP: Question[] = [
       'Как называется регистр программного счетчика(указатель инструкций) в процессорах архитектуры IA-32?',
     answers: [
       { text: '(E)DI', isRight: false },
-      { text: '(E)IP', isRight: false },
+      { text: '(E)IP', isRight: true },
       { text: '(E)CX', isRight: false },
       { text: 'E(SP)', isRight: false },
       { text: 'E(SI)', isRight: false },
@@ -1640,7 +1640,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'извлекает из стека два значения, помещая их в регистры CS и IP, а также извлекает дополнительно столько байт, сколько задано необязательным операндом',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'извлекает из стека столько байт, сколько задано обязательным операндом',
@@ -1662,7 +1662,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'ccall/cdecl', isRight: false },
       { text: 'fastcall', isRight: false },
-      { text: 'pascal', isRight: false },
+      { text: 'pascal', isRight: true },
       { text: 'stdcall', isRight: false },
       { text: 'comcall/safecall', isRight: false },
     ],
@@ -1671,7 +1671,7 @@ export const YAP: Question[] = [
     question: 'Основная операция, выполняемая инструкцией STOSB:',
     answers: [
       { text: '[ES:DI] AX', isRight: false },
-      { text: '[ES:DI] AL', isRight: false },
+      { text: '[ES:DI] AL', isRight: true },
       { text: '[DS:SI] AX', isRight: false },
       { text: '[DS:SI] AL', isRight: false },
       { text: 'AL [ES:DI]', isRight: false },
@@ -1684,7 +1684,7 @@ export const YAP: Question[] = [
       { text: '#', isRight: false },
       { text: '/', isRight: false },
       { text: '!', isRight: false },
-      { text: ';', isRight: false },
+      { text: ';', isRight: true },
       { text: '?', isRight: false },
     ],
   },
@@ -1698,7 +1698,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'в реальном режиме можно использовать любые инструкции с любыми размерами операндов, а защищённый режим ограничен только 8-битными операндами и нужен для совместимости со старыми процессорами',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'в реальном режиме расположение сегментов заранее предопределено и не может быть изменено, а в защищённом режиме расположение сегментов выбирается операционной системой',
@@ -1720,7 +1720,7 @@ export const YAP: Question[] = [
     answers: [
       {
         text: 'увеличивают, если DF = 0, уменьшают, если DF = 1',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'увеличивают, если DF = 1, уменьшают, если DF = 0',
@@ -1737,7 +1737,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'SP', isRight: false },
       { text: 'CX', isRight: false },
-      { text: 'CL', isRight: false },
+      { text: 'CL', isRight: true },
       { text: 'CF', isRight: false },
       { text: 'CH', isRight: false },
     ],
@@ -1755,7 +1755,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'влияет на направление обработки строковых данных',
-        isRight: false,
+        isRight: true,
       },
       { text: 'равен 1, если CX = 0, и наоборот', isRight: false },
       {
@@ -1767,7 +1767,7 @@ export const YAP: Question[] = [
   {
     question: 'Класс хранения в языке С, применяемый для объявления типов',
     answers: [
-      { text: 'typedef', isRight: false },
+      { text: 'typedef', isRight: true },
       { text: 'maketype', isRight: false },
       { text: 'autotype', isRight: false },
       { text: 'define', isRight: false },
@@ -1793,7 +1793,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'записывает в переменную x расстояние (в элементах типа int) между элементами массива a с индексами 1 и 3',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -1804,7 +1804,7 @@ export const YAP: Question[] = [
       { text: 'проект', isRight: false },
       { text: 'аргумент', isRight: false },
       { text: 'соглашение вызова', isRight: false },
-      { text: 'прототип', isRight: false },
+      { text: 'прототип', isRight: true },
       { text: 'пролог', isRight: false },
     ],
   },
@@ -1813,7 +1813,7 @@ export const YAP: Question[] = [
     answers: [
       { text: '|=', isRight: false },
       { text: '|', isRight: false },
-      { text: '^', isRight: false },
+      { text: '^', isRight: true },
       { text: '~', isRight: false },
       { text: '&', isRight: false },
     ],
@@ -1824,7 +1824,7 @@ export const YAP: Question[] = [
     answers: [
       {
         text: 'не выведет на экран ничего, т.к. условие в операторе if будет ложным',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'может вывести или не вывести сообщение «Yes» в зависимости от значений элементов a[0] и a[3]',
@@ -1845,7 +1845,7 @@ export const YAP: Question[] = [
     question:
       'Директива препроцессора языка C для включения в исходный код программы содержимого другого файла',
     answers: [
-      { text: '#include', isRight: false },
+      { text: '#include', isRight: true },
       { text: 'у препроцессора языка C нет такой возможности', isRight: false },
       { text: '#append', isRight: false },
       { text: '#line', isRight: false },
@@ -1862,7 +1862,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'представляет собой массив, элементы которого задают номера цветов пикселей',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'представляет собой массив, элементы которого задают геометрические фигуры, из которых состоит изображение',
@@ -1885,7 +1885,7 @@ export const YAP: Question[] = [
       { text: 'and ax, ax', isRight: false },
       { text: 'cmp ax, ax', isRight: false },
       { text: 'test ax, ax', isRight: false },
-      { text: 'xchg ax, ax', isRight: false },
+      { text: 'xchg ax, ax', isRight: true },
       { text: 'or ax, ax', isRight: false },
     ],
   },
@@ -1894,7 +1894,7 @@ export const YAP: Question[] = [
       'Функция стандартной библиотеки языка C для поиска первого вхождения заданного символа:',
     answers: [
       { text: 'strcmp', isRight: false },
-      { text: 'strchr', isRight: false },
+      { text: 'strchr', isRight: true },
       {
         text: 'в стандартной библиотеке языка C нет такой функции',
         isRight: false,
@@ -1922,7 +1922,7 @@ export const YAP: Question[] = [
       { text: 'значение операнда', isRight: false },
       {
         text: 'значение, которое на 1 меньше, чем значение операнда',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -1934,7 +1934,7 @@ export const YAP: Question[] = [
       { text: '@', isRight: false },
       { text: '#', isRight: false },
       { text: '&', isRight: false },
-      { text: '%', isRight: false },
+      { text: '%', isRight: true },
     ],
   },
   {
@@ -1944,7 +1944,7 @@ export const YAP: Question[] = [
       { text: 'версию операционной системы и её точку входа', isRight: false },
       {
         text: 'параметры, переданные программе при запуске через командную строку',
-        isRight: false,
+        isRight: true,
       },
       { text: 'параметры окна программы', isRight: false },
       { text: 'у функции main() не может быть параметров', isRight: false },
@@ -1958,7 +1958,7 @@ export const YAP: Question[] = [
     question:
       'Каким будет результат выполнения следующего фрагмента кода на языке C? (int x = 93; if (x = 39) printf("then"); else printf("else");)',
     answers: [
-      { text: 'Вывод текста «then»', isRight: false },
+      { text: 'Вывод текста «then»', isRight: true },
       { text: 'Код содержит ошибку и не будет скомпилирован', isRight: false },
       { text: 'Вывод текста «else»', isRight: false },
       { text: 'Код содержит случай неопределённого поведения', isRight: false },
@@ -1969,7 +1969,7 @@ export const YAP: Question[] = [
     question:
       'В языке C для обозначения типа, состоящего из полей различных типов, располагающихся последовательно, применяется ключевое слово:',
     answers: [
-      { text: 'struct', isRight: false },
+      { text: 'struct', isRight: true },
       { text: 'class', isRight: false },
       { text: 'специальное ключевое слово не требуется', isRight: false },
       { text: 'array', isRight: false },
@@ -1984,7 +1984,7 @@ export const YAP: Question[] = [
       { text: 'как целое 16-чное число без знака', isRight: false },
       { text: 'как вещественное число', isRight: false },
       { text: 'как целое 10-чное число со знаком', isRight: false },
-      { text: 'как символьную величину', isRight: false },
+      { text: 'как символьную величину', isRight: true },
     ],
   },
   {
@@ -1995,14 +1995,14 @@ export const YAP: Question[] = [
       { text: 'синтаксический анализ', isRight: false },
       { text: 'генерация кода', isRight: false },
       { text: 'семантический анализ', isRight: false },
-      { text: 'лексический анализ', isRight: false },
+      { text: 'лексический анализ', isRight: true },
     ],
   },
   {
     question: 'Какой тип в языке C имеет символьный литерал?',
     answers: [
       { text: 'long', isRight: false },
-      { text: 'char', isRight: false },
+      { text: 'char', isRight: true },
       { text: 'wchar или wchar_t', isRight: false },
       { text: 'int', isRight: false },
       { text: 'short int', isRight: false },
@@ -2029,7 +2029,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'извлекает из стека адрес возврата из процедуры и передаёт управление по этому адресу',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -2040,7 +2040,7 @@ export const YAP: Question[] = [
       { text: 'AL [DS:SI]', isRight: false },
       { text: 'AL [ES:DI]', isRight: false },
       { text: '[ES:DI] AX', isRight: false },
-      { text: 'AX [DS:SI]', isRight: false },
+      { text: 'AX [DS:SI]', isRight: true },
     ],
   },
   {
@@ -2051,7 +2051,7 @@ export const YAP: Question[] = [
       { text: 'mov ah, 0', isRight: false },
       { text: 'sub ah, ah', isRight: false },
       { text: 'xor ah, ah', isRight: false },
-      { text: 'cbw', isRight: false },
+      { text: 'cbw', isRight: true },
     ],
   },
   {
@@ -2060,7 +2060,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'Операнд в памяти', isRight: false },
       { text: 'Константное значение (immediate)', isRight: false },
-      { text: 'Регистр', isRight: false },
+      { text: 'Регистр', isRight: true },
       { text: 'Функция', isRight: false },
       { text: 'Оператор', isRight: false },
     ],
@@ -2070,7 +2070,7 @@ export const YAP: Question[] = [
     answers: [
       {
         text: 'включает/отключает обработку аппаратных прерываний',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'влияет на преобразование чисел с расширением (увеличением разрядности)',
@@ -2102,7 +2102,7 @@ export const YAP: Question[] = [
       { text: 'вычисление значения операнда', isRight: false },
       {
         text: 'запись в операнд значения, которое на 1 больше его первоначального значения',
-        isRight: false,
+        isRight: true,
       },
       { text: 'missing question', isRight: false },
     ],
@@ -2114,7 +2114,7 @@ export const YAP: Question[] = [
       { text: 'неоднозначность', isRight: false },
       { text: 'левое порождение', isRight: false },
       { text: 'левая рекурсия', isRight: false },
-      { text: 'левая факторизация', isRight: false },
+      { text: 'левая факторизация', isRight: true },
       { text: 'левая ассоциативность', isRight: false },
     ],
   },
@@ -2122,7 +2122,7 @@ export const YAP: Question[] = [
     question:
       'Какая из перечисленных инструкций НЕЯВНО изменяет значения ровно двух регистров общего назначения?',
     answers: [
-      { text: 'movsb', isRight: false },
+      { text: 'movsb', isRight: true },
       { text: 'loop', isRight: false },
       { text: 'iret', isRight: false },
       { text: 'Push', isRight: false },
@@ -2135,7 +2135,7 @@ export const YAP: Question[] = [
       { text: 'устанавливает флаг CF в значение 0', isRight: false },
       { text: 'инвертирует значение регистра CX', isRight: false },
       { text: 'инвертирует значение регистра CL', isRight: false },
-      { text: 'инвертирует значение флага CF', isRight: false },
+      { text: 'инвертирует значение флага CF', isRight: true },
       { text: 'устанавливает флаг CF в значение 1', isRight: false },
     ],
   },
@@ -2145,7 +2145,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'ES', isRight: false },
       { text: 'SS', isRight: false },
-      { text: 'CS', isRight: false },
+      { text: 'CS', isRight: true },
       { text: 'DS', isRight: false },
       { text: 'FS', isRight: false },
     ],
@@ -2172,7 +2172,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'обработчик прерывания должен записать в регистр AX код ошибки или 0, если обработка прошла успешно',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -2181,7 +2181,7 @@ export const YAP: Question[] = [
       'Директива DW позволяет задавать набор данных, каждый элемент которого имеет размер:',
     answers: [
       { text: '8 бит', isRight: false },
-      { text: '2 байта', isRight: false },
+      { text: '2 байта', isRight: true },
       { text: '1 байт', isRight: false },
       { text: '2 бита', isRight: false },
       { text: '4 байта.', isRight: false },
@@ -2194,7 +2194,7 @@ export const YAP: Question[] = [
       { text: 'как целое 8-чное число без знака', isRight: false },
       { text: 'как целое 16-чное число без знака', isRight: false },
       { text: 'как вещественное число', isRight: false },
-      { text: 'как целое 10-чное число со знаком', isRight: false },
+      { text: 'как целое 10-чное число со знаком', isRight: true },
       { text: 'как символьную величину', isRight: false },
     ],
   },
@@ -2206,7 +2206,7 @@ export const YAP: Question[] = [
         text: 'в стандартной библиотеке языка C нет такой функции',
         isRight: false,
       },
-      { text: 'fopen', isRight: false },
+      { text: 'fopen', isRight: true },
       { text: 'fstart', isRight: false },
       { text: 'fload', isRight: false },
     ],
@@ -2218,7 +2218,7 @@ export const YAP: Question[] = [
       { text: 'short int', isRight: false },
       { text: 'long long int', isRight: false },
       { text: 'int', isRight: false },
-      { text: 'char', isRight: false },
+      { text: 'char', isRight: true },
       { text: 'long int', isRight: false },
     ],
   },
@@ -2236,7 +2236,7 @@ export const YAP: Question[] = [
       { text: 'отсутствует', isRight: false },
       {
         text: 'сводится к тому, что операнды «менее вместительных» типов приводятся к «более вместительным» типам',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'сводится к тому, что знаковые числа приводятся к беззнаковым',
@@ -2252,7 +2252,7 @@ export const YAP: Question[] = [
       { text: 'long int', isRight: false },
       { text: 'int', isRight: false },
       { text: 'long long int', isRight: false },
-      { text: 'short int', isRight: false },
+      { text: 'short int', isRight: true },
     ],
   },
   {
@@ -2261,7 +2261,7 @@ export const YAP: Question[] = [
       { text: '!=', isRight: false },
       { text: '^', isRight: false },
       { text: '!', isRight: false },
-      { text: '~', isRight: false },
+      { text: '~', isRight: true },
       { text: '=~', isRight: false },
     ],
   },
@@ -2278,7 +2278,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'извлекает значение с вершины стека в регистр FLAGS',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'извлекает значения всех регистров общего назначения с вершины стека',
@@ -2294,7 +2294,7 @@ export const YAP: Question[] = [
     question:
       'При сравнениях больше/меньше для беззнаковых чисел используются инструкции условного перехода:',
     answers: [
-      { text: 'ja/jb', isRight: false },
+      { text: 'ja/jb', isRight: true },
       { text: 'jg/jl', isRight: false },
       { text: 'jp/jm', isRight: false },
       { text: 'js/jz', isRight: false },
@@ -2307,7 +2307,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'cmpsb', isRight: false },
       { text: 'scasb', isRight: false },
-      { text: 'movsw', isRight: false },
+      { text: 'movsw', isRight: true },
       { text: 'cmpsw', isRight: false },
       { text: 'scasw', isRight: false },
     ],
@@ -2326,7 +2326,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'конвейерная архитектура повышает надёжность процессора за счёт замедления его работы',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'при работе конвейера могут возникать конфликты по данным, которые снижают эффективность работы конвейера',
@@ -2341,7 +2341,7 @@ export const YAP: Question[] = [
   {
     question: 'Язык(и) ассемблера относят к:',
     answers: [
-      { text: 'языкам низкого уровня', isRight: false },
+      { text: 'языкам низкого уровня', isRight: true },
       { text: 'языкам разметки', isRight: false },
       { text: 'объектно-ориентированным языкам', isRight: false },
       { text: 'языкам 4-го поколения', isRight: false },
@@ -2352,7 +2352,7 @@ export const YAP: Question[] = [
     question: 'Какая из перечисленных инструкций эквивалентна инструкции cbw?',
     answers: [
       { text: 'movzx ax, al', isRight: false },
-      { text: 'movsx ax, al', isRight: false },
+      { text: 'movsx ax, al', isRight: true },
       { text: 'or ah, -1', isRight: false },
       { text: 'mov ah, $FF', isRight: false },
       { text: 'xor ah, ah', isRight: false },
@@ -2362,7 +2362,7 @@ export const YAP: Question[] = [
     question:
       '.Каким будет результат выполнения следующего фрагмента кода на языке C? (x = 10; y = x++; )',
     answers: [
-      { text: 'x = 11, y = 10', isRight: false },
+      { text: 'x = 11, y = 10', isRight: true },
       { text: 'x = 11, y = 11', isRight: false },
       { text: 'x = 10, y = 11', isRight: false },
       { text: 'в коде есть случай неопределённого поведения', isRight: false },
@@ -2374,7 +2374,7 @@ export const YAP: Question[] = [
     answers: [
       {
         text: 'структура данных, представляющая в памяти транслятора структуру анализируемой программы в соответствии с правилами грамматики',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'структура данных, представляющая в памяти транслятора структуру анализируемой программы в удобной для дальнейшей обработки форме, не связанной напрямую с правилами грамматики',
@@ -2412,7 +2412,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'В стандарте языка C определены минимальные диапазоны значений для целочисленных типов данных',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -2422,7 +2422,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'препроцессор', isRight: false },
       { text: 'процессор', isRight: false },
-      { text: 'компилятор', isRight: false },
+      { text: 'компилятор', isRight: true },
       { text: 'операционная система', isRight: false },
       { text: 'компоновщик', isRight: false },
     ],
@@ -2437,7 +2437,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'код результата выполнения программы (0 — успешно, иначе — ошибка)',
-        isRight: false,
+        isRight: true,
       },
       { text: 'функция main() не может возвращать значение', isRight: false },
       {
@@ -2456,7 +2456,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'va_list', isRight: false },
       { text: 'va_start', isRight: false },
-      { text: 'va_end', isRight: false },
+      { text: 'va_end', isRight: true },
       { text: 'va_arg', isRight: false },
       {
         text: 'в языке C не поддерживаются функции с переменным числом параметров',
@@ -2471,7 +2471,7 @@ export const YAP: Question[] = [
       { text: 'char', isRight: false },
       { text: 'short int', isRight: false },
       { text: 'long int', isRight: false },
-      { text: 'int', isRight: false },
+      { text: 'int', isRight: true },
       { text: 'long long int', isRight: false },
     ],
   },
@@ -2481,7 +2481,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'lodsb', isRight: false },
       { text: 'stosw', isRight: false },
-      { text: 'scasw', isRight: false },
+      { text: 'scasw', isRight: true },
       { text: 'lodsw', isRight: false },
       { text: 'movsb', isRight: false },
     ],
@@ -2496,7 +2496,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'инициируемый определённым образом процесс, временно переключающий процессор на выполнение другой программы с последующим возобновлением выполнения прерванной программы',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'вызов процедуры/функции с помощью инструкции CALL',
@@ -2510,7 +2510,7 @@ export const YAP: Question[] = [
       'Для операндов в памяти в архитектуре IA-32 по умолчанию номером сегмента считается значение в регистре:',
     answers: [
       { text: 'IP', isRight: false },
-      { text: 'DS', isRight: false },
+      { text: 'DS', isRight: true },
       { text: 'ES', isRight: false },
       { text: 'SS', isRight: false },
       { text: 'CS', isRight: false },
@@ -2520,7 +2520,7 @@ export const YAP: Question[] = [
     question:
       'Какое из перечисленных соглашений вызова предполагает передачу всех параметров через стек с их удалением из стека вызывающей процедурой?',
     answers: [
-      { text: 'ccall/cdecl', isRight: false },
+      { text: 'ccall/cdecl', isRight: true },
       { text: 'stdcall', isRight: false },
       { text: 'fastcall', isRight: false },
       { text: 'comcall/safecall', isRight: false },
@@ -2540,7 +2540,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'множество состояний конечного автомата (НКА), достижимых из заданного посредством 0 или более ε-переходов',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'ситуация в работе синтаксического анализатора, когда возникает бесконечная рекурсия',
@@ -2557,7 +2557,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'strcpy', isRight: false },
       { text: 'stradd', isRight: false },
-      { text: 'strcat', isRight: false },
+      { text: 'strcat', isRight: true },
       {
         text: 'в стандартной библиотеке языка C нет такой функции',
         isRight: false,
@@ -2575,7 +2575,7 @@ export const YAP: Question[] = [
       { text: 'объект, имеющий свойство length', isRight: false },
       {
         text: 'массив символов, признаком конца строки является символ с кодом 0',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'массив символов, размеры строки и количество ссылок на неё задаются перед началом самих строковых данных',
@@ -2598,7 +2598,7 @@ export const YAP: Question[] = [
         text: 'стандартной библиотекой языка C не поддерживается динамическое выделение памяти',
         isRight: false,
       },
-      { text: 'malloc', isRight: false },
+      { text: 'malloc', isRight: true },
     ],
   },
   {
@@ -2614,7 +2614,7 @@ export const YAP: Question[] = [
         text: 'правила удаления параметров из стека (в случае передачи параметров через стек)',
         isRight: false,
       },
-      { text: 'правила выбора имени для процедуры/функции', isRight: false },
+      { text: 'правила выбора имени для процедуры/функции', isRight: true },
     ],
   },
   {
@@ -2622,7 +2622,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'ror', isRight: false },
       { text: 'and', isRight: false },
-      { text: 'sub', isRight: false },
+      { text: 'sub', isRight: true },
       { text: 'int', isRight: false },
       { text: 'mul', isRight: false },
     ],
@@ -2633,7 +2633,7 @@ export const YAP: Question[] = [
     answers: [
       { text: '(E)SI', isRight: false },
       { text: '(E)SP', isRight: false },
-      { text: '(E)IP', isRight: false },
+      { text: '(E)IP', isRight: true },
       { text: '(E)DI', isRight: false },
       { text: '(E)CX', isRight: false },
     ],
@@ -2642,7 +2642,7 @@ export const YAP: Question[] = [
     question:
       'Прерывания для какой из перечисленных ситуаций НЕ будут обрабатываться, если IF = 0:',
     answers: [
-      { text: 'нажатие клавиши на клавиатуре', isRight: false },
+      { text: 'нажатие клавиши на клавиатуре', isRight: true },
       { text: 'выполнение инструкции INT', isRight: false },
       {
         text: 'достижение точки останова (INT3) при отладке/выполнении программы',
@@ -2655,7 +2655,7 @@ export const YAP: Question[] = [
   {
     question: 'При каждом выполнении инструкция LOOP:',
     answers: [
-      { text: 'уменьшает значение регистра-счётчика', isRight: false },
+      { text: 'уменьшает значение регистра-счётчика', isRight: true },
       { text: 'увеличивает значение регистра-счётчика', isRight: false },
       { text: 'увеличивает значение регистра SI', isRight: false },
       {
@@ -2674,7 +2674,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'смещение операнда в памяти, которое фактически используется для доступа к нему и может быть задано в инструкции своим значением или выражением, содержащим простые арифметические операции над регистрами и константами',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'адрес выполняющегося в данный момент обработчика прерывания',
@@ -2690,7 +2690,7 @@ export const YAP: Question[] = [
   {
     question: 'Операция взятия адреса в языке C обозначается:',
     answers: [
-      { text: '&', isRight: false },
+      { text: '&', isRight: true },
       { text: '@', isRight: false },
       { text: '*', isRight: false },
       { text: '^', isRight: false },
@@ -2706,7 +2706,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'strcpy', isRight: false },
       { text: 'stralloc', isRight: false },
-      { text: 'strdup', isRight: false },
+      { text: 'strdup', isRight: true },
       {
         text: 'в стандартной библиотеке языка C нет такой функции',
         isRight: false,
@@ -2722,13 +2722,13 @@ export const YAP: Question[] = [
       { text: 'global', isRight: false },
       { text: 'register', isRight: false },
       { text: 'auto', isRight: false },
-      { text: 'static', isRight: false },
+      { text: 'static', isRight: true },
     ],
   },
   {
     question: 'Инструкция для умножения беззнаковых чисел называется:',
     answers: [
-      { text: 'Mul', isRight: false },
+      { text: 'Mul', isRight: true },
       { text: 'Times', isRight: false },
       { text: 'Div', isRight: false },
       { text: 'Imul', isRight: false },
@@ -2742,7 +2742,7 @@ export const YAP: Question[] = [
       { text: '4Cd', isRight: false },
       { text: '4Cb', isRight: false },
       { text: '4Co', isRight: false },
-      { text: '4Ch', isRight: false },
+      { text: '4Ch', isRight: true },
       { text: '4Cx', isRight: false },
     ],
   },
@@ -2750,7 +2750,7 @@ export const YAP: Question[] = [
     question: 'Инструкция CLD:',
     answers: [
       { text: 'обнуляет регистр DX', isRight: false },
-      { text: 'устанавливает флаг DF в значение 0', isRight: false },
+      { text: 'устанавливает флаг DF в значение 0', isRight: true },
       {
         text: 'расширяет значение в регистре DL и записывает его в CX',
         isRight: false,
@@ -2767,7 +2767,7 @@ export const YAP: Question[] = [
       { text: 'DF', isRight: false },
       { text: 'IF', isRight: false },
       { text: 'CF', isRight: false },
-      { text: 'ZF', isRight: false },
+      { text: 'ZF', isRight: true },
     ],
   },
   {
@@ -2779,7 +2779,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'структура данных, представляющая в памяти транслятора структуру анализируемой программы в удобной для дальнейшей обработки форме, не связанной напрямую с правилами грамматики',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'структура данных, содержащая информацию о выделенной транслятором лексеме, в т.ч. о классе этой лексемы',
@@ -2800,7 +2800,7 @@ export const YAP: Question[] = [
       'Функция стандартной библиотеки языка C для принудительной записи накопленных в файловом буфере данных:',
     answers: [
       { text: 'fstore', isRight: false },
-      { text: 'fflush', isRight: false },
+      { text: 'fflush', isRight: true },
       { text: 'fsave', isRight: false },
       {
         text: 'в стандартной библиотеке языка C нет такой функции',
@@ -2816,7 +2816,7 @@ export const YAP: Question[] = [
       { text: 'int a[] = {5, 8};', isRight: false },
       { text: 'int a[5; 8];', isRight: false },
       { text: 'int a[5] of int[8];', isRight: false },
-      { text: 'int a[5][8];', isRight: false },
+      { text: 'int a[5][8];', isRight: true },
       { text: 'int a[5, 8];', isRight: false },
     ],
   },
@@ -2824,7 +2824,7 @@ export const YAP: Question[] = [
     question:
       'Функция стандартной библиотеки языка C для освобождения ранее выделенного блока динамической памяти:',
     answers: [
-      { text: 'free', isRight: false },
+      { text: 'free', isRight: true },
       { text: 'delete', isRight: false },
       { text: 'dispose', isRight: false },
       {
@@ -2838,7 +2838,7 @@ export const YAP: Question[] = [
     question:
       'Какая из перечисленных инструкций не оказывает никакого влияния ни на какие регистры процессора?',
     answers: [
-      { text: 'mov cx, cx', isRight: false },
+      { text: 'mov cx, cx', isRight: true },
       { text: 'and cx, cx', isRight: false },
       { text: 'or cx, 0', isRight: false },
       { text: 'test cx, 0', isRight: false },
@@ -2851,7 +2851,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'как целое 16-чное число без знака', isRight: false },
       { text: 'как символьную величину', isRight: false },
-      { text: 'как вещественное число', isRight: false },
+      { text: 'как вещественное число', isRight: true },
       { text: 'как целое 10-чное число со знаком', isRight: false },
       { text: 'как целое 8-чное число без знака', isRight: false },
     ],
@@ -2861,7 +2861,7 @@ export const YAP: Question[] = [
       'Если среди int, short int, long int, char и long long int размеры всех типов различны, то по убыванию размеров первым будет:',
     answers: [
       { text: 'long int', isRight: false },
-      { text: 'long long int', isRight: false },
+      { text: 'long long int', isRight: true },
       { text: 'int', isRight: false },
       { text: 'short int', isRight: false },
       { text: 'char', isRight: false },
@@ -2874,7 +2874,7 @@ export const YAP: Question[] = [
       { text: '[ES:DI] AL', isRight: false },
       { text: 'AX [ES:DI]', isRight: false },
       { text: 'AX [DS:SI]', isRight: false },
-      { text: 'AL [DS:SI]', isRight: false },
+      { text: 'AL [DS:SI]', isRight: true },
     ],
   },
   {
@@ -2890,7 +2890,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'помещает в стек адрес следующей инструкции и передаёт управление инструкции, заданной меткой',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'помещает в стек свой адрес и передаёт управление инструкции, заданной меткой',
@@ -2910,14 +2910,14 @@ export const YAP: Question[] = [
       { text: 'xor', isRight: false },
       { text: 'sbb', isRight: false },
       { text: 'not', isRight: false },
-      { text: 'test', isRight: false },
+      { text: 'test', isRight: true },
     ],
   },
   {
     question: 'Основная операция, выполняемая инструкцией MOVSW:',
     answers: [
       { text: '[ES:DI] [DS:SI], 1 байт', isRight: false },
-      { text: '[ES:DI] [DS:SI], 2 байта', isRight: false },
+      { text: '[ES:DI] [DS:SI], 2 байта', isRight: true },
       { text: '[ES:DI] [CS:IP], 2 байта', isRight: false },
       { text: '[DS:SI] [ES:DI], 2 байта', isRight: false },
       { text: '[DS:SI] [ES:DI], 1 байт', isRight: false },
@@ -2928,7 +2928,7 @@ export const YAP: Question[] = [
       'Функция стандартной библиотеки языка C для закрытия ранее открытых файлов:',
     answers: [
       { text: 'funload', isRight: false },
-      { text: 'fclose', isRight: false },
+      { text: 'fclose', isRight: true },
       { text: 'freset', isRight: false },
       {
         text: 'в стандартной библиотеке языка C нет такой функции',
@@ -2940,7 +2940,7 @@ export const YAP: Question[] = [
   {
     question: 'Инструкция CLI:',
     answers: [
-      { text: 'устанавливает флаг IF в значение 0', isRight: false },
+      { text: 'устанавливает флаг IF в значение 0', isRight: true },
       { text: 'инвертирует значение регистра CL', isRight: false },
       { text: 'устанавливает флаг IF в значение 1', isRight: false },
       { text: 'вызывает прерывание', isRight: false },
@@ -2955,7 +2955,7 @@ export const YAP: Question[] = [
       'Результат работы инструкции SHL аналогичен результату работы инструкции:',
     answers: [
       { text: 'rol', isRight: false },
-      { text: 'sal', isRight: false },
+      { text: 'sal', isRight: true },
       { text: 'clc', isRight: false },
       { text: 'rcl', isRight: false },
       { text: 'stc', isRight: false },
@@ -2966,7 +2966,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'выполняет арифметический сдвиг вправо', isRight: false },
       { text: 'выполняет логический сдвиг вправо', isRight: false },
-      { text: 'выполняет арифметический сдвиг влево', isRight: false },
+      { text: 'выполняет арифметический сдвиг влево', isRight: true },
       { text: 'выполняет циклический сдвиг влево', isRight: false },
       {
         text: 'выполняет расширенный циклический сдвиг влево через флаг CF',
@@ -2980,7 +2980,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'test', isRight: false },
       { text: 'xor', isRight: false },
-      { text: 'xchg', isRight: false },
+      { text: 'xchg', isRight: true },
       { text: 'cmp', isRight: false },
       { text: 'and', isRight: false },
     ],
@@ -2992,7 +2992,7 @@ export const YAP: Question[] = [
       { text: 'x = 42, y = 47', isRight: false },
       { text: 'x = 43, y = 47', isRight: false },
       { text: 'x = 42, y = 48', isRight: false },
-      { text: 'x = 43, y = 48', isRight: false },
+      { text: 'x = 43, y = 48', isRight: true },
       { text: 'в коде есть случай неопределённого поведения', isRight: false },
     ],
   },
@@ -3005,7 +3005,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'старшая часть результата заполняется нулями, младшая равна исходному значению',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'старшая часть результата равна исходному значению, младшая заполняется единицами',
@@ -3025,7 +3025,7 @@ export const YAP: Question[] = [
     question:
       'Какая из перечисленных инструкций оставит в регистре AX значение, отличное от остальных?',
     answers: [
-      { text: 'and ax, ax', isRight: false },
+      { text: 'and ax, ax', isRight: true },
       { text: 'mov ax, 0', isRight: false },
       { text: 'xor ax, ax', isRight: false },
       { text: 'and ax, 0', isRight: false },
@@ -3036,7 +3036,7 @@ export const YAP: Question[] = [
     question: 'Основная операция, выполняемая инструкцией CMPSB:',
     answers: [
       { text: 'Сравнение байтов по адресам CS:IP и SS:SP', isRight: false },
-      { text: 'Сравнение байтов по адресам DS:SI и ES:DI', isRight: false },
+      { text: 'Сравнение байтов по адресам DS:SI и ES:DI', isRight: true },
       {
         text: 'Сравнение слов (2 байта) по адресам DS:SI и ES:DI',
         isRight: false,
@@ -3055,7 +3055,7 @@ export const YAP: Question[] = [
       { text: 'rcl', isRight: false },
       { text: 'cbw', isRight: false },
       { text: 'sub', isRight: false },
-      { text: 'and', isRight: false },
+      { text: 'and', isRight: true },
     ],
   },
   {
@@ -3065,14 +3065,14 @@ export const YAP: Question[] = [
       { text: 'jb', isRight: false },
       { text: 'jc', isRight: false },
       { text: 'ja', isRight: false },
-      { text: 'jz', isRight: false },
+      { text: 'jz', isRight: true },
     ],
   },
   {
     question:
       'Имеется следующий фрагмент кода на языке C: (int arr[5] = {3, 5, 8, 13};) Значение элемента arr[4] будет:',
     answers: [
-      { text: '0', isRight: false },
+      { text: '0', isRight: true },
       { text: '14', isRight: false },
       { text: 'не определено', isRight: false },
       {
@@ -3088,7 +3088,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'ZF', isRight: false },
       { text: 'IF', isRight: false },
-      { text: 'DF', isRight: false },
+      { text: 'DF', isRight: true },
       { text: 'CF', isRight: false },
       { text: 'SF', isRight: false },
     ],
@@ -3098,7 +3098,7 @@ export const YAP: Question[] = [
       'Этап работы транслятора, заключающийся в замене внутреннего представления анализируемой программы эквивалентным, но имеющим лучшие характеристики:',
     answers: [
       { text: 'лексический анализ', isRight: false },
-      { text: 'оптимизация', isRight: false },
+      { text: 'оптимизация', isRight: true },
       { text: 'синтаксический анализ', isRight: false },
       { text: 'семантический анализ', isRight: false },
       { text: 'генерация кода', isRight: false },
@@ -3113,7 +3113,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'извлекает значение всех регистров общего назначения с вершины стека',
-        isRight: false,
+        isRight: true,
       },
       { text: 'извлекает с вершины стека в регистр AX', isRight: false },
       {
@@ -3135,7 +3135,7 @@ export const YAP: Question[] = [
         isRight: false,
       },
       { text: 'AH', isRight: false },
-      { text: 'AL', isRight: false },
+      { text: 'AL', isRight: true },
       { text: 'RAX', isRight: false },
     ],
   },
@@ -3147,7 +3147,7 @@ export const YAP: Question[] = [
       { text: 'в стек помещается значение регистра CS', isRight: false },
       { text: 'в стек помещается значение регистра FLAGS', isRight: false },
       { text: 'в стек помещается значение регистра IP', isRight: false },
-      { text: 'регистр СХ обнуляется', isRight: false },
+      { text: 'регистр СХ обнуляется', isRight: true },
     ],
   },
   {
@@ -3155,7 +3155,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'блоком begin...end.', isRight: false },
       { text: 'в программах на языке C нет точек входа', isRight: false },
-      { text: 'функцией с именем main', isRight: false },
+      { text: 'функцией с именем main', isRight: true },
       { text: 'блоком операторов в фигурных скобках', isRight: false },
       { text: 'функцией с именем start', isRight: false },
     ],
@@ -3166,7 +3166,7 @@ export const YAP: Question[] = [
       { text: '16 байт', isRight: false },
       { text: '16 КБ', isRight: false },
       { text: '640 КБ', isRight: false },
-      { text: '64 КБ', isRight: false },
+      { text: '64 КБ', isRight: true },
       { text: '1 МБ', isRight: false },
     ],
   },
@@ -3178,7 +3178,7 @@ export const YAP: Question[] = [
       { text: 'double* x, y;', isRight: false },
       { text: 'double& x, y;', isRight: false },
       { text: 'double &x, &y;', isRight: false },
-      { text: 'double *x, *y;', isRight: false },
+      { text: 'double *x, *y;', isRight: true },
     ],
   },
   {
@@ -3199,7 +3199,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'объявляет двумерный массив arr, в котором три строки проинициализированы заданными значениями, а элементы четвёртой строки содержат нулевые значения',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'объявляет двумерный массив arr, в котором три столбца проинициализированы заданными значениями, а элементы четвёртого столбца содержат нулевые значения',
@@ -3216,7 +3216,7 @@ export const YAP: Question[] = [
         isRight: false,
       },
       { text: 'fposget', isRight: false },
-      { text: 'ftell', isRight: false },
+      { text: 'ftell', isRight: true },
       { text: 'freadpos', isRight: false },
       { text: 'filepos', isRight: false },
     ],
@@ -3227,7 +3227,7 @@ export const YAP: Question[] = [
     answers: [
       {
         text: 'объявляет одномерный массив arr из 3 элементов и инициализирует их значениями 1, 3 и 5',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'объявляет переменную-указатель и помещает в неё адрес области памяти, где будут записаны числа, указанные в фигурных скобках',
@@ -3257,7 +3257,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'записывает в переменную р адрес элемента массива а с индексом 3',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'записывает в переменную р адрес элемента массива а с индексом 2',
@@ -3291,7 +3291,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'расширяет значение в регистре AL до 2 байт и записывает его в AX',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -3305,7 +3305,7 @@ export const YAP: Question[] = [
       { text: 'правило подстановки в грамматике', isRight: false },
       {
         text: 'элемент грамматики, который не может быть раскрыт в более сложную конструкцию',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'структура данных, представляющая в памяти транслятора структуру анализируемой программы',
@@ -3332,7 +3332,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'У инструкции не может быть больше одного явно заданного операнда в памяти',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Адрес операнда в памяти должен быть кратен 128',
@@ -3345,7 +3345,7 @@ export const YAP: Question[] = [
     answers: [
       {
         text: 'возвращает управление прерванной программе путём восстановления из стека значений регистров FLAGS, CS и IP',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'возвращает управление прерванной программу путём восстановления из стека значения регистра FLAGS',
@@ -3367,7 +3367,7 @@ export const YAP: Question[] = [
     answers: [
       {
         text: 'обычно содержит 1, если последний вычисленный результат равен 0, и наоборот',
-        isRight: false,
+        isRight: true,
       },
       { text: 'равен 1, если СХ = 0, и наоборот', isRight: false },
       {
@@ -3389,7 +3389,7 @@ export const YAP: Question[] = [
       'Имеется следующий фрагмент кода на языке C: (int arr[5] = {}; Значение элемента arr[4] будет:)',
     answers: [
       { text: '4', isRight: false },
-      { text: '0', isRight: false },
+      { text: '0', isRight: true },
       {
         text: 'программа с таким фрагментом кода не будет скомпилирована',
         isRight: false,
@@ -3402,7 +3402,7 @@ export const YAP: Question[] = [
     question:
       'Инструкция LООР для подсчёта количества оставшихся итераций использует регистр:',
     answers: [
-      { text: 'CX', isRight: false },
+      { text: 'CX', isRight: true },
       { text: 'IP', isRight: false },
       { text: 'AX', isRight: false },
       { text: 'SI', isRight: false },
@@ -3413,20 +3413,20 @@ export const YAP: Question[] = [
     question:
       'Функция стандартной библиотеки языка С для поиска первого вхождения заданного символа:',
     answers: [
-      { text: '﻿﻿strchr', isRight: false },
-      { text: '﻿﻿strfind', isRight: false },
+      { text: 'strchr', isRight: true },
+      { text: 'strfind', isRight: false },
       {
-        text: '﻿в стандартной библиотеке языка С нет такой функции',
+        text: 'в стандартной библиотеке языка С нет такой функции',
         isRight: false,
       },
-      { text: '﻿﻿strsearch', isRight: false },
+      { text: 'strsearch', isRight: false },
       { text: 'strcmp', isRight: false },
     ],
   },
   {
     question: 'Основная операция, выполняемая инструкцией MOVSB:',
     answers: [
-      { text: '[ES:DI] [DS:SI], 1 байт', isRight: false },
+      { text: '[ES:DI] [DS:SI], 1 байт', isRight: true },
       { text: '[ES:DI] [DS:SI], 2 байта', isRight: false },
       { text: '[DS:SI] [ES:DI], 2 байта', isRight: false },
       { text: '[ES:DI] [CS:IP], 2 байта', isRight: false },
@@ -3439,7 +3439,7 @@ export const YAP: Question[] = [
     answers: [
       {
         text: 'должны быть адресами областей памяти, в которые должны записываться вводимые значения',
-        isRight: false,
+        isRight: true,
       },
       { text: 'должны быть массивами', isRight: false },
       {
@@ -3454,7 +3454,7 @@ export const YAP: Question[] = [
     question:
       'Какая из перечисленных инструкций не является инструкцией перехода (не может использоваться для передачи управления другой части программы)?',
     answers: [
-      { text: 'nop', isRight: false },
+      { text: 'nop', isRight: true },
       { text: 'jmp', isRight: false },
       { text: 'loop', isRight: false },
       { text: 'call', isRight: false },
@@ -3468,7 +3468,7 @@ export const YAP: Question[] = [
       { text: '!=', isRight: false },
       { text: '=~', isRight: false },
       { text: '~', isRight: false },
-      { text: '!', isRight: false },
+      { text: '!', isRight: true },
     ],
   },
   {
@@ -3487,7 +3487,7 @@ export const YAP: Question[] = [
         text: 'записывает в регистр DL значение, в котором все биты единичные',
         isRight: false,
       },
-      { text: 'устанавливает флаг DF в значение 1', isRight: false },
+      { text: 'устанавливает флаг DF в значение 1', isRight: true },
     ],
   },
   {
@@ -3498,7 +3498,7 @@ export const YAP: Question[] = [
       { text: 'CF', isRight: false },
       { text: 'DF', isRight: false },
       { text: 'ZF', isRight: false },
-      { text: 'SF', isRight: false },
+      { text: 'SF', isRight: true },
     ],
   },
   {
@@ -3506,7 +3506,7 @@ export const YAP: Question[] = [
       'В языке C для обозначения типа, состоящего из полей различных типов, начинающихся с одного и того же места в памяти, применяется ключевое слово:',
     answers: [
       { text: 'struct', isRight: false },
-      { text: 'union', isRight: false },
+      { text: 'union', isRight: true },
       { text: 'class', isRight: false },
       { text: 'absolute', isRight: false },
       { text: 'record', isRight: false },
@@ -3516,7 +3516,7 @@ export const YAP: Question[] = [
     question: 'Директива препроцессора языка C для объявления макросов:',
     answers: [
       { text: 'у препроцессора языка C нет такой возможности', isRight: false },
-      { text: '#define', isRight: false },
+      { text: '#define', isRight: true },
       { text: '#macros', isRight: false },
       { text: '#macro', isRight: false },
       { text: '#create', isRight: false },
@@ -3527,7 +3527,7 @@ export const YAP: Question[] = [
     answers: [
       {
         text: 'расположены с наложением друг на друга, начинаясь каждые 16 байт',
-        isRight: false,
+        isRight: true,
       },
       { text: 'начинаются с физического адреса $A000', isRight: false },
       { text: 'расположены непосредственно друг за другом', isRight: false },
@@ -3546,7 +3546,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'помещает в стек значение регистра AX', isRight: false },
       { text: 'помещает в стек значение регистра FS', isRight: false },
-      { text: 'помещает в стек значение регистра FLAGS [3]', isRight: false },
+      { text: 'помещает в стек значение регистра FLAGS [3]', isRight: true },
       { text: 'помещает в стек значение регистра SP', isRight: false },
       {
         text: 'помещает в стек значения всех регистров общего назначения',
@@ -3558,7 +3558,7 @@ export const YAP: Question[] = [
     question:
       'Какая из перечисленных инструкций НЕ использует никаких регистров общего назначения НЕЯВНО?',
     answers: [
-      { text: 'shl', isRight: false },
+      { text: 'shl', isRight: true },
       { text: 'stosw', isRight: false },
       { text: 'loop', isRight: false },
       { text: 'idiv', isRight: false },
@@ -3576,7 +3576,7 @@ export const YAP: Question[] = [
       { text: 'код символа, отображаемого в знакоместе', isRight: false },
       {
         text: 'информация о расположении знакоместа на экране // попробуйте этот варик',
-        isRight: false,
+        isRight: true,
       },
       { text: 'цвет фона знакоместа', isRight: false },
       { text: 'цвет символа, отображаемого в знакоместе', isRight: false },
@@ -3589,7 +3589,7 @@ export const YAP: Question[] = [
       { text: 'DS', isRight: false },
       { text: 'SS', isRight: false },
       { text: 'FS', isRight: false },
-      { text: 'CS', isRight: false },
+      { text: 'CS', isRight: true },
       { text: 'ES', isRight: false },
     ],
   },
@@ -3601,7 +3601,7 @@ export const YAP: Question[] = [
       { text: 'inv', isRight: false },
       { text: 'min', isRight: false },
       { text: 'sgn', isRight: false },
-      { text: 'neg', isRight: false },
+      { text: 'neg', isRight: true },
     ],
   },
   {
@@ -3611,7 +3611,7 @@ export const YAP: Question[] = [
       { text: 'метка', isRight: false },
       { text: 'инструкция', isRight: false },
       { text: 'название регистра', isRight: false },
-      { text: 'префикс', isRight: false },
+      { text: 'префикс', isRight: true },
     ],
   },
   {
@@ -3624,14 +3624,14 @@ export const YAP: Question[] = [
         text: 'присваивание в языке C — это оператор, а не операция',
         isRight: false,
       },
-      { text: 'запись значения в левый операнд', isRight: false },
+      { text: 'запись значения в левый операнд', isRight: true },
     ],
   },
   {
     question:
       'Какого сегментного регистра нет у процессоров архитектуры IA-32?',
     answers: [
-      { text: 'KS', isRight: false },
+      { text: 'KS', isRight: true },
       { text: 'DS', isRight: false },
       { text: 'SS', isRight: false },
       { text: 'CS', isRight: false },
@@ -3642,7 +3642,7 @@ export const YAP: Question[] = [
     question: 'Операция «не равно» в языке C обозначается:',
     answers: [
       { text: '~=', isRight: false },
-      { text: '!=', isRight: false },
+      { text: '!=', isRight: true },
       { text: '=~', isRight: false },
       { text: '!', isRight: false },
       { text: '==', isRight: false },
@@ -3655,7 +3655,7 @@ export const YAP: Question[] = [
       { text: 'выполняет арифметический сдвиг вправо', isRight: false },
       {
         text: 'выполняет расширенный циклический сдвиг вправо через флаг CF',
-        isRight: false,
+        isRight: true,
       },
       { text: 'выполняет циклический сдвиг вправо', isRight: false },
       {
@@ -3670,7 +3670,7 @@ export const YAP: Question[] = [
     answers: [
       { text: '16 бит', isRight: false },
       { text: '2 байта', isRight: false },
-      { text: '1 байт', isRight: false },
+      { text: '1 байт', isRight: true },
       { text: '1 бит', isRight: false },
       { text: '4 байта', isRight: false },
     ],
@@ -3682,7 +3682,7 @@ export const YAP: Question[] = [
       { text: 'Сравнение байтов по адресам CS:IP и SS:SP', isRight: false },
       {
         text: 'Сравнение слов (2 байта) по адресам DS:SI и ES:DI [4]',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Сравнение слов (2 байта) по адресам ES:SI и DS:DI',
@@ -3696,7 +3696,7 @@ export const YAP: Question[] = [
       'Каким будет результат выполнения следующего фрагмента кода на языке C? (int x; int y = (x = 3, 3 * x);)',
     answers: [
       { text: 'Значение x не определено, y = 9', isRight: false },
-      { text: 'x = 3, y = 9', isRight: false },
+      { text: 'x = 3, y = 9', isRight: true },
       { text: 'x = 3, y = 3', isRight: false },
       { text: 'Код содержит случай неопределённого поведения', isRight: false },
       { text: 'x = 3, значение y не определено', isRight: false },
@@ -3706,7 +3706,7 @@ export const YAP: Question[] = [
     question:
       'Этап работы транслятора, заключающийся в определении структуры анализируемой программы, взаимосвязей между отдельными образующими её лексемами:',
     answers: [
-      { text: 'синтаксический анализ', isRight: false },
+      { text: 'синтаксический анализ', isRight: true },
       { text: 'семантический анализ', isRight: false },
       { text: 'оптимизация', isRight: false },
       { text: 'генерация кода', isRight: false },
@@ -3719,7 +3719,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'Write-Back', isRight: false },
       { text: 'Read', isRight: false },
-      { text: 'Decode', isRight: false },
+      { text: 'Decode', isRight: true },
       { text: 'Execute', isRight: false },
       { text: 'Fetch', isRight: false },
     ],
@@ -3728,7 +3728,7 @@ export const YAP: Question[] = [
     question:
       'Функция стандартной библиотеки языка C для изменения текущей позиции в открытом файле:',
     answers: [
-      { text: 'fseek', isRight: false },
+      { text: 'fseek', isRight: true },
       { text: 'fmove', isRight: false },
       {
         text: 'в стандартной библиотеке языка C нет такой функции',
@@ -3745,13 +3745,13 @@ export const YAP: Question[] = [
       { text: 'mov ah, $09', isRight: false },
       { text: 'stosw', isRight: false },
       { text: 'push fs', isRight: false },
-      { text: 'int 21h', isRight: false },
+      { text: 'int 21h', isRight: true },
     ],
   },
   {
     question: 'Основная операция, выполняемая инструкцией SCASB:',
     answers: [
-      { text: 'Сравнение AL и байта по адресу ES:DI', isRight: false },
+      { text: 'Сравнение AL и байта по адресу ES:DI', isRight: true },
       { text: 'Рисование на экране', isRight: false },
       {
         text: 'Сравнение AX и слова (2 байта) по адресу DS:SI',
@@ -3772,7 +3772,7 @@ export const YAP: Question[] = [
       { text: 'IF', isRight: false },
       { text: 'DF', isRight: false },
       { text: 'ZF', isRight: false },
-      { text: 'CF', isRight: false },
+      { text: 'CF', isRight: true },
     ],
   },
   {
@@ -3786,7 +3786,7 @@ export const YAP: Question[] = [
       },
       { text: 'запись значения в левый операнд', isRight: false },
       { text: 'запись значения в правый операнд', isRight: false },
-      { text: 'значение правого операнда', isRight: false },
+      { text: 'значение правого операнда', isRight: true },
     ],
   },
   {
@@ -3796,7 +3796,7 @@ export const YAP: Question[] = [
       { text: 'object', isRight: false },
       { text: 'class', isRight: false },
       { text: 'специальное ключевое слово не требуется', isRight: false },
-      { text: 'enum', isRight: false },
+      { text: 'enum', isRight: true },
       { text: 'array', isRight: false },
     ],
   },
@@ -3804,7 +3804,7 @@ export const YAP: Question[] = [
     question:
       'Выберите НЕправильное утверждение о таблице векторов прерываний в реальном режиме (real-address mode):',
     answers: [
-      { text: 'не может быть изменена программно', isRight: false },
+      { text: 'не может быть изменена программно', isRight: true },
       { text: 'расположена по адресу $0000:$0000', isRight: false },
       {
         text: 'представляет собой массив адресов (указателей)',
@@ -3821,7 +3821,7 @@ export const YAP: Question[] = [
     question:
       'При задании 16-битного смещения для операнда в памяти в реальном режиме (real-address mode) НЕЛЬЗЯ использовать регистр:',
     answers: [
-      { text: 'SP', isRight: false },
+      { text: 'SP', isRight: true },
       { text: 'BX', isRight: false },
       { text: 'BP', isRight: false },
       { text: 'DI', isRight: false },
@@ -3833,7 +3833,7 @@ export const YAP: Question[] = [
       'Инструкции условного перехода выполняют или не выполняют переход в зависимости от:',
     answers: [
       { text: 'количества ядер в процессоре', isRight: false },
-      { text: 'значений флагов', isRight: false },
+      { text: 'значений флагов', isRight: true },
       { text: 'расположения метки по отношению к инструкции', isRight: false },
       { text: 'значения регистра AX', isRight: false },
       { text: 'режима работы процессора', isRight: false },
@@ -3848,7 +3848,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'номера сегмента (16 бит) и смещения (16 бит) искомых данных относительно начала этого сегмента',
-        isRight: false,
+        isRight: true,
       },
       {
         text: '32 битного числа, задающего расстояние от начала оперативной памяти до искомых данных',
@@ -3872,7 +3872,7 @@ export const YAP: Question[] = [
       { text: '(3)', isRight: false },
       { text: '1', isRight: false },
       { text: 'NaN', isRight: false },
-      { text: '3', isRight: false },
+      { text: '3', isRight: true },
     ],
   },
   {
@@ -3880,7 +3880,7 @@ export const YAP: Question[] = [
       'Если среди int, short int, long int, char и long long int размеры всех типов различны, то по возрастанию размеров вторым будет:',
     answers: [
       { text: 'long long int', isRight: false },
-      { text: 'short int', isRight: false },
+      { text: 'short int', isRight: true },
       { text: 'long int', isRight: false },
       { text: 'char', isRight: false },
       { text: 'int', isRight: false },
@@ -3901,7 +3901,7 @@ export const YAP: Question[] = [
         text: 'элемент грамматики, который не может быть раскрыт в более сложную конструкцию',
         isRight: false,
       },
-      { text: 'правило подстановки в грамматике', isRight: false },
+      { text: 'правило подстановки в грамматике', isRight: true },
       {
         text: 'структура данных, содержащая информацию о выделенной транслятором лексеме, в т.ч. о классе этой лексемы',
         isRight: false,
@@ -3926,14 +3926,14 @@ export const YAP: Question[] = [
       { text: 'действие, выполняемое инструкциями SHL и SHR', isRight: false },
       {
         text: 'часть адреса, равная количеству байт от начала некоторого сегмента до начала данных по этому адресу',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
   {
     question: 'Стек в архитектуре IA-32:',
     answers: [
-      { text: 'расположен в оперативной памяти', isRight: false },
+      { text: 'расположен в оперативной памяти', isRight: true },
       { text: 'расположен на диске', isRight: false },
       { text: 'расположен в ПЗУ', isRight: false },
       { text: 'расположен внутри процессора', isRight: false },
@@ -3960,7 +3960,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'задаёт количество байт, которые дополнительно должны быть извлечены из стека после извлечения адреса возврата',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'задаёт количество элементов, которые дополнительно должны быть извлечены из стека перед извлечением адреса возврата',
@@ -3973,7 +3973,7 @@ export const YAP: Question[] = [
       'Класс хранения в языке С, применяемый по умолчанию для локальных переменных:',
     answers: [
       { text: 'static', isRight: false },
-      { text: 'auto', isRight: false },
+      { text: 'auto', isRight: true },
       { text: 'extern', isRight: false },
       { text: 'local', isRight: false },
       { text: 'register', isRight: false },
@@ -3989,7 +3989,7 @@ export const YAP: Question[] = [
         isRight: false,
       },
       { text: 'malloc', isRight: false },
-      { text: 'realloc', isRight: false },
+      { text: 'realloc', isRight: true },
       { text: 'calloc', isRight: false },
     ],
   },
@@ -4003,7 +4003,7 @@ export const YAP: Question[] = [
         text: 'выполняет расширенный циклический сдвиг вправо через флаг CF',
         isRight: false,
       },
-      { text: 'выполняет циклический сдвиг вправо', isRight: false },
+      { text: 'выполняет циклический сдвиг вправо', isRight: true },
     ],
   },
   {
@@ -4011,7 +4011,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'Нет операндов', isRight: false },
       { text: '3 операнда', isRight: false },
-      { text: '1 операнд', isRight: false },
+      { text: '1 операнд', isRight: true },
       { text: '4 операнда', isRight: false },
       { text: '2 операнда', isRight: false },
     ],
@@ -4027,7 +4027,7 @@ export const YAP: Question[] = [
       },
       { text: 'предсказание переходов', isRight: false },
       { text: 'спекулятивное выполнение инструкций', isRight: false },
-      { text: 'загрузка и выполнение программы в облаке', isRight: false },
+      { text: 'загрузка и выполнение программы в облаке', isRight: true },
     ],
   },
   {
@@ -4035,7 +4035,7 @@ export const YAP: Question[] = [
       'В инструкциях, реализующих побитовые сдвиги, количество разрядов для сдвига может быть задано регистром',
     answers: [
       { text: 'CX', isRight: false },
-      { text: 'CL', isRight: false },
+      { text: 'CL', isRight: true },
       { text: 'SP', isRight: false },
       { text: 'CH', isRight: false },
       { text: 'CF', isRight: false },
@@ -4048,7 +4048,7 @@ export const YAP: Question[] = [
       { text: 'Text', isRight: false },
       { text: 'FILE', isRight: false },
       { text: 'FILE', isRight: false },
-      { text: 'FILE *', isRight: false },
+      { text: 'FILE *', isRight: true },
       { text: 'file of', isRight: false },
     ],
   },
@@ -4066,7 +4066,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'необходимостью передавать параметры через стек',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'необходимостью сохранять в стек значение регистра FLAGS',
@@ -4081,7 +4081,7 @@ export const YAP: Question[] = [
       { text: 'SS:SP', isRight: false },
       { text: 'ES:DI', isRight: false },
       { text: 'DS:SI', isRight: false },
-      { text: 'CS:IP', isRight: false },
+      { text: 'CS:IP', isRight: true },
       { text: 'EIP', isRight: false },
     ],
   },
@@ -4091,7 +4091,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'int a[5, 8];', isRight: false },
       { text: 'int a = {5, 8};', isRight: false },
-      { text: 'int a[5][8];', isRight: false },
+      { text: 'int a[5][8];', isRight: true },
       { text: 'int a[5] of int[8];', isRight: false },
       { text: 'int a[5; 8];', isRight: false },
     ],
@@ -4103,7 +4103,7 @@ export const YAP: Question[] = [
       { text: 'stdcall', isRight: false },
       { text: 'pascal', isRight: false },
       { text: 'ccall/cdecl', isRight: false },
-      { text: 'fastcall', isRight: false },
+      { text: 'fastcall', isRight: true },
       { text: 'comcall/safecall', isRight: false },
     ],
   },
@@ -4114,7 +4114,7 @@ export const YAP: Question[] = [
       { text: 'как целое 8-чное число без знака', isRight: false },
       { text: 'как целое 10-чное число со знаком', isRight: false },
       { text: 'как вещественное число', isRight: false },
-      { text: 'как символьную величину', isRight: false },
+      { text: 'как символьную величину', isRight: true },
       { text: 'как целое 16-чное число без знака', isRight: false },
     ],
   },
@@ -4125,7 +4125,7 @@ export const YAP: Question[] = [
       { text: 'Не будет выведено ничего', isRight: false },
       { text: 'Код содержит ошибку и не будет скомпилирован', isRight: false },
       { text: 'Код содержит случай неопределённого поведения', isRight: false },
-      { text: 'ВЫВОД текста «11»', isRight: false },
+      { text: 'ВЫВОД текста «11»', isRight: true },
       { text: 'ВЫВОД текста «1»', isRight: false },
     ],
   },
@@ -4136,7 +4136,7 @@ export const YAP: Question[] = [
       { text: 'mov ah, $FF', isRight: false },
       { text: 'movzx ax,al', isRight: false },
       { text: 'xor ah,ah', isRight: false },
-      { text: 'movsx ax,al', isRight: false },
+      { text: 'movsx ax,al', isRight: true },
     ],
   },
   {
@@ -4146,7 +4146,7 @@ export const YAP: Question[] = [
       { text: 'первообразная', isRight: false },
       { text: 'производная', isRight: false },
       { text: 'множество', isRight: false },
-      { text: 'конечный автомат', isRight: false },
+      { text: 'конечный автомат', isRight: true },
       { text: 'матрица', isRight: false },
     ],
   },
@@ -4156,7 +4156,7 @@ export const YAP: Question[] = [
     answers: [
       { text: 'x = 10, y = 11', isRight: false },
       { text: 'x = 11, y = 10', isRight: false },
-      { text: 'x = 11, y = 11', isRight: false },
+      { text: 'x = 11, y = 11', isRight: true },
       { text: 'x = 10, y = 10', isRight: false },
       { text: 'В коде есть случай неопределённого поведения', isRight: false },
     ],
@@ -4166,7 +4166,7 @@ export const YAP: Question[] = [
       'Каким будет результат выполнения следующего фрагмента кода на языке C? (int x = 0; if (0 = x) printf("then"); else printf("else");)',
     answers: [
       { text: 'Код содержит случай неопределённого поведения', isRight: false },
-      { text: 'Код содержит ошибку и не будет скомпилирован', isRight: false },
+      { text: 'Код содержит ошибку и не будет скомпилирован', isRight: true },
       { text: 'Вывод текста «then»', isRight: false },
       { text: 'Обе ветви оператора if будут проигнорированы', isRight: false },
       { text: 'Вывод текста «else»', isRight: false },
@@ -4187,7 +4187,7 @@ export const YAP: Question[] = [
       },
       {
         text: 'выполняет расширенный циклический сдвиг влево через флаг CF',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
