@@ -80,7 +80,7 @@ export const OSISP: Question[] = [
       { text: 'архивирование диска', isRight: false },
       { text: 'показывает текущую метку тома или диска', isRight: false },
       {
-        text: 'создает, изменяет или удаляет метку тома или диска(+)',
+        text: 'создает, изменяет или удаляет метку тома или диска',
         isRight: true,
       },
       { text: 'деактивация диска', isRight: false },
@@ -291,7 +291,7 @@ export const OSISP: Question[] = [
       'Какая DLL-библиотека предоставляет программный интерфейс доступа к аппаратуре из драйверов операционной системы Windows?',
     answers: [
       { text: 'NtDll.dll', isRight: false },
-      { text: 'Hal.dll (+)', isRight: true },
+      { text: 'Hal.dll ', isRight: true },
       { text: 'Kernel32.dll', isRight: false },
       { text: 'Advapi32.dll', isRight: false },
       { text: 'Win32k.sys', isRight: false },
@@ -337,7 +337,7 @@ export const OSISP: Question[] = [
     question: 'Пользователь root - это',
     answers: [
       {
-        text: 'единственная учётная запись, принадлежащая администратору системы(Никита тестом) (+)',
+        text: 'единственная учётная запись, принадлежащая администратору системы(Никита тестом) ',
         isRight: true,
       },
       {
@@ -539,7 +539,7 @@ export const OSISP: Question[] = [
       'Какие программы предназначены для обслуживания конкретных периферийных устройств?',
     answers: [
       { text: 'библиотеки', isRight: false },
-      { text: 'драйверы (+)', isRight: true },
+      { text: 'драйверы ', isRight: true },
       { text: 'оболочки', isRight: false },
       { text: 'утилиты', isRight: false },
       { text: 'программы', isRight: false },
@@ -819,7 +819,7 @@ export const OSISP: Question[] = [
       { text: 'готовность', isRight: false },
       { text: 'передача', isRight: false },
       { text: 'выполнение', isRight: false },
-      { text: 'синхронизация(+)', isRight: true },
+      { text: 'синхронизация', isRight: true },
     ],
   },
   {
@@ -1057,7 +1057,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'Процедура SendMessage вызывает оконную процедуру для немедленной обработки сообщения, а процедура PostMessage ставит сообщение в очередь текущему потоку',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -1067,7 +1067,7 @@ export const OSISP: Question[] = [
     answers: [
       {
         text: 'Установить ограниченный набор цветов, которыми можно рисовать в контекст устройства',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Смешивать цвета в контексте устройства', isRight: false },
       {
@@ -1090,7 +1090,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'драйверами', isRight: false },
       { text: 'программами сопровождения', isRight: false },
-      { text: 'утилитами', isRight: false },
+      { text: 'утилитами', isRight: true },
       { text: 'библиотечными программами', isRight: false },
       { text: 'модулями ядра', isRight: false },
     ],
@@ -1102,7 +1102,7 @@ export const OSISP: Question[] = [
       { text: 'флаги', isRight: false },
       { text: 'режим работы процессора', isRight: false },
       { text: 'указатель на закрытые файлы', isRight: false },
-      { text: 'данные о родственных процессах', isRight: false },
+      { text: 'данные о родственных процессах', isRight: true },
     ],
   },
   {
@@ -1111,7 +1111,7 @@ export const OSISP: Question[] = [
       { text: 'простота реализации', isRight: false },
       { text: 'сложность реализации', isRight: false },
       { text: 'малые временные затраты', isRight: false },
-      { text: 'эффективное использование памяти', isRight: false },
+      { text: 'эффективное использование памяти', isRight: true },
       { text: 'большая гибкость', isRight: false },
     ],
   },
@@ -1120,7 +1120,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'снимает текущую метку тома или диска', isRight: false },
       { text: 'проверка диска', isRight: false },
-      { text: 'показывает текущую метку тома или диска', isRight: false },
+      { text: 'показывает текущую метку тома или диска', isRight: true },
       { text: 'архивирование диска', isRight: false },
       {
         text: 'создает, изменяет или удаляет метку тома или диска',
@@ -1143,7 +1143,7 @@ export const OSISP: Question[] = [
       { text: 'такого вида памяти не существует в Linux', isRight: false },
       {
         text: 'размер оперативной памяти, выделенной процессу, включая разделяемую память и виртуальную память(Никита тестом)',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -1155,7 +1155,7 @@ export const OSISP: Question[] = [
       { text: 'Windows Driver Kit (WDK)', isRight: false },
       { text: 'Main Boot Record (MBR)', isRight: false },
       { text: 'Asynchronous PrОСedure Call (APC)', isRight: false },
-      { text: 'Memory Descriptor List (MDL)', isRight: false },
+      { text: 'Memory Descriptor List (MDL)', isRight: true },
     ],
   },
   {
@@ -1164,7 +1164,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'IОСreateDevice', isRight: false },
       { text: 'IoDeleteDevice', isRight: false },
-      { text: 'IОСallDriver', isRight: false },
+      { text: 'IОСallDriver', isRight: true },
       { text: 'ZwReadFile', isRight: false },
       { text: 'NtReadFile', isRight: false },
     ],
@@ -1177,7 +1177,7 @@ export const OSISP: Question[] = [
       { text: 'моноядро', isRight: false },
       { text: 'экзоядро', isRight: false },
       { text: 'клиент-сервер', isRight: false },
-      { text: 'виртуальные машины', isRight: false },
+      { text: 'виртуальные машины', isRight: true },
     ],
   },
   {
@@ -1186,7 +1186,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'контроля', isRight: false },
       { text: 'защиты процессов', isRight: false },
-      { text: 'межпроцессного взаимодействия', isRight: false },
+      { text: 'межпроцессного взаимодействия', isRight: true },
       { text: 'защиты ресурсов', isRight: false },
       { text: 'безопасность', isRight: false },
     ],
@@ -1196,7 +1196,7 @@ export const OSISP: Question[] = [
     answers: [
       {
         text: 'программа, предоставляющая интерфейс пользователя для работы с файловой системой и файлами',
-        isRight: false,
+        isRight: true,
       },
       { text: 'программа для создания каталогов', isRight: false },
       {
@@ -1218,7 +1218,7 @@ export const OSISP: Question[] = [
       { text: 'HKEY_CLASSES_ROOT', isRight: false },
       { text: 'HKEY_LОСAL_CONFIG', isRight: false },
       { text: 'HKEY_LОСAL_MACHINE', isRight: false },
-      { text: 'HKEY_CURRENT_CONFIG', isRight: false },
+      { text: 'HKEY_CURRENT_CONFIG', isRight: true },
     ],
   },
   {
@@ -1230,7 +1230,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'Выполняет перенос прямоугольной части растрового изображения из одного контекста устройства в другой контекст устройства, применяя заданную битовую операцию',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Выполняет перенос и масштабирование прямоугольной части растрового изображения из одного контекста устройства в другой контекст устройства, применяя заданную битовую операцию',
@@ -1251,7 +1251,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'утилит', isRight: false },
       { text: 'дисковых систем', isRight: false },
-      { text: 'ОС', isRight: false },
+      { text: 'ОС', isRight: true },
       { text: 'пользовательских программ', isRight: false },
       { text: 'драйвером дисков', isRight: false },
     ],
@@ -1285,7 +1285,7 @@ export const OSISP: Question[] = [
       { text: 'Замена файлов', isRight: false },
       { text: 'тестирование файлов', isRight: false },
       { text: 'копирование файлов', isRight: false },
-      { text: 'переименование файлов', isRight: false },
+      { text: 'переименование файлов', isRight: true },
       { text: 'сравнение файлов', isRight: false },
     ],
   },
@@ -1296,7 +1296,7 @@ export const OSISP: Question[] = [
       { text: 'Ровно 1', isRight: false },
       { text: 'Более 4', isRight: false },
       { text: 'Более 2', isRight: false },
-      { text: 'Более 1', isRight: false },
+      { text: 'Более 1', isRight: true },
       { text: 'Менее 8', isRight: false },
     ],
   },
@@ -1305,7 +1305,7 @@ export const OSISP: Question[] = [
     answers: [
       {
         text: 'файловые системы, использующие транзакции и ведущие в специальной области диска, журнал изменений',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'файловая система, в которой ведется журнал всех действий',
@@ -1335,7 +1335,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'В ОС Windows существует дополнительный шаг — создание объекта ядра «проекция файла» (FileMapping)',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'В ОС Windows не нужно указывать атрибуты защиты для проекции файла',
@@ -1369,7 +1369,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'управление устройствами, управление данными, управление памятью, управление процессами',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -1382,7 +1382,7 @@ export const OSISP: Question[] = [
       { text: 'использования компиляторов', isRight: false },
       {
         text: 'детального знания аппаратного устройства компьютера',
-        isRight: false,
+        isRight: true,
       },
       { text: 'знания языков программирования', isRight: false },
     ],
@@ -1400,12 +1400,12 @@ export const OSISP: Question[] = [
         isRight: false,
       },
       {
-        text: 'Подъем (otmMacAscent), спуск (otmMacDescent), межстрочный интервал (otmMacLineGap)(Никита тестом)',
+        text: 'Подъем (otmMacAscent), спуск (otmMacDescent), межстрочный интервал',
         isRight: false,
       },
       {
-        text: 'Подъем (otmMacAscent), спуск (otmMacDescent), внешнее поле межстрочного интервала (tmExternalLeading)(Леха)',
-        isRight: false,
+        text: 'Подъем (otmMacAscent), спуск (otmMacDescent), внешнее поле межстрочного интервала',
+        isRight: true,
       },
       {
         text: 'Высота текста (tmHeight), межстрочный интервал (otmMacLineGap)',
@@ -1423,7 +1423,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'Критическая секция, ожидаемое условие, атомарная операция, барьер синхронизации',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Мьютекс, семафор, событие, ожидаемый таймер', isRight: false },
       {
@@ -1441,7 +1441,7 @@ export const OSISP: Question[] = [
     answers: [
       {
         text: 'база данных для хранения сведений о конфигурации компьютера и настроек ОС',
-        isRight: false,
+        isRight: true,
       },
       { text: 'структура с набором системных переменных', isRight: false },
       { text: 'область на диске для выгрузки задач', isRight: false },
@@ -1462,7 +1462,7 @@ export const OSISP: Question[] = [
       { text: 'от загруженности ЦП', isRight: false },
       {
         text: 'от класса приоритета процесса и относительного приоритета потока',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -1478,7 +1478,7 @@ export const OSISP: Question[] = [
       { text: 'сравнение файлов', isRight: false },
       {
         text: 'выводит имя текущего каталога или осуществляет переход в другую папку',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -1494,8 +1494,8 @@ export const OSISP: Question[] = [
         isRight: false,
       },
       {
-        text: 'механизм памяти, когда физическая память адресуется с помощью комбинации двух регистров, сегмента и смещения. Возможно несколько комбинаций сегмент: смещение, адресующих один и тот же физический адрес (+)',
-        isRight: false,
+        text: 'механизм памяти, когда физическая память адресуется с помощью комбинации двух регистров, сегмента и смещения. Возможно несколько комбинаций сегмент: смещение, адресующих один и тот же физический адрес ',
+        isRight: true,
       },
       {
         text: 'механизм памяти, когда физическая память адресуется с помощью комбинации двух регистров, сегмента и смещения. Каждая пара сегмент: смещение, адресует единственный физический адрес',
@@ -1512,7 +1512,7 @@ export const OSISP: Question[] = [
       'Какой процесс позволяет записывать файлы в дисковые кластеры, последовательно идущие друг за другом?',
     answers: [
       { text: 'форматирование', isRight: false },
-      { text: 'дефрагментация', isRight: false },
+      { text: 'дефрагментация', isRight: true },
       { text: 'установка драйвера', isRight: false },
       { text: 'установки утилит', isRight: false },
       { text: 'фрагментация', isRight: false },
@@ -1525,7 +1525,7 @@ export const OSISP: Question[] = [
       { text: 'названия различных файловых систем', isRight: false },
       { text: 'названия различных операционных систем', isRight: false },
       { text: 'расширения текстовых файлов', isRight: false },
-      { text: 'расширения графических файлов', isRight: false },
+      { text: 'расширения графических файлов', isRight: true },
     ],
   },
   {
@@ -1535,7 +1535,7 @@ export const OSISP: Question[] = [
       { text: 'LeaveCriticalSection', isRight: false },
       { text: 'EnterCriticalSection', isRight: false },
       { text: 'OpenSemaphore', isRight: false },
-      { text: 'WaitForSingleObject', isRight: false },
+      { text: 'WaitForSingleObject', isRight: true },
       { text: 'ReleaseMutex', isRight: false },
     ],
   },
@@ -1543,7 +1543,7 @@ export const OSISP: Question[] = [
     question:
       'Какие инструкции используются в современных процессорах для выхода из режима ядра при возврате из системной функции?',
     answers: [
-      { text: 'sysexit/sysret', isRight: false },
+      { text: 'sysexit/sysret', isRight: true },
       { text: 'enter/call', isRight: false },
       { text: 'call/receive', isRight: false },
       { text: 'leave/mmx', isRight: false },
@@ -1554,7 +1554,7 @@ export const OSISP: Question[] = [
     question:
       'Какие инструкции используются в современных процессорах для перехода в режим ядра при вызове системной функции?',
     answers: [
-      { text: 'sysenter/syscall', isRight: false },
+      { text: 'sysenter/syscall', isRight: true },
       { text: 'enter/mmx', isRight: false },
       { text: 'call/receive', isRight: false },
       { text: 'exit/ret', isRight: false },
@@ -1569,7 +1569,7 @@ export const OSISP: Question[] = [
       { text: 'самый низкий приоритет', isRight: false },
       { text: 'базовый приоритет процесса', isRight: false },
       { text: 'нормальный приоритет', isRight: false },
-      { text: 'самый высокий приоритет', isRight: false },
+      { text: 'самый высокий приоритет', isRight: true },
     ],
   },
   {
@@ -1579,7 +1579,7 @@ export const OSISP: Question[] = [
       { text: 'флешке', isRight: false },
       { text: 'дискете', isRight: false },
       { text: 'ОЗУ', isRight: false },
-      { text: 'ПЗУ', isRight: false },
+      { text: 'ПЗУ', isRight: true },
     ],
   },
   {
@@ -1588,7 +1588,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'InterlОСkedAnd', isRight: false },
       { text: 'InterlОСkedIncrement', isRight: false },
-      { text: 'InterlОСkedCompareExchange', isRight: false },
+      { text: 'InterlОСkedCompareExchange', isRight: true },
       { text: 'InterlОСkedDecrement', isRight: false },
       { text: 'InterlОСkedExchange', isRight: false },
     ],
@@ -1599,7 +1599,7 @@ export const OSISP: Question[] = [
       { text: 'для начальной загрузки компьютера', isRight: false },
       {
         text: 'для изменения текущих настроек базовой системы ввода-вывода',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'для создания резервной копии операционной системы',
@@ -1615,7 +1615,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'NtReadFile', isRight: false },
       { text: 'ZwWriteFile', isRight: false },
-      { text: 'KeLowerIrql(+)', isRight: false },
+      { text: 'KeLowerIrql', isRight: true },
       { text: 'NtWriteFile', isRight: false },
       { text: 'ZwReadFile', isRight: false },
     ],
@@ -1624,7 +1624,7 @@ export const OSISP: Question[] = [
     question:
       'Родительский и дочерний процессы в Unix-системах отличаются друг от друга',
     answers: [
-      { text: 'идентификатором процесса PID (+)', isRight: false },
+      { text: 'идентификатором процесса PID', isRight: true },
       { text: 'эффективным идентификатором', isRight: false },
       { text: 'данными', isRight: false },
       { text: 'кластерами', isRight: false },
@@ -1636,7 +1636,7 @@ export const OSISP: Question[] = [
       'Какие программы предназначены для обнаружения подозрительных действий при работе компьютера?',
     answers: [
       { text: 'программы-архиваторы', isRight: false },
-      { text: 'программы-фильтры', isRight: false },
+      { text: 'программы-фильтры', isRight: true },
       { text: 'программы-утилиты', isRight: false },
       { text: 'программы-ревизоры', isRight: false },
       { text: 'программы-доктора', isRight: false },
@@ -1648,7 +1648,7 @@ export const OSISP: Question[] = [
       { text: 'файл', isRight: false },
       { text: 'панель задач', isRight: false },
       { text: 'рабочий стол', isRight: false },
-      { text: 'процессор', isRight: false },
+      { text: 'процессор', isRight: true },
       { text: 'папка', isRight: false },
     ],
   },
@@ -1657,7 +1657,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'наименования', isRight: false },
       { text: 'параметры', isRight: false },
-      { text: 'дерево', isRight: false },
+      { text: 'дерево', isRight: true },
       { text: 'раздел', isRight: false },
       { text: 'ключи', isRight: false },
     ],
@@ -1670,7 +1670,7 @@ export const OSISP: Question[] = [
       { text: 'DWORD WINAPI ThreadProС(HANDLE hThread)', isRight: false },
       { text: 'DWORD WINAPI ThreadProС(HANDLE hPrОСess)', isRight: false },
       { text: 'DWORD WINAPI ThreadProС(MSG* message)', isRight: false },
-      { text: 'DWORD WINAPI ThreadProС(void* lpParameter)', isRight: false },
+      { text: 'DWORD WINAPI ThreadProС(void* lpParameter)', isRight: true },
     ],
   },
   {
@@ -1683,7 +1683,7 @@ export const OSISP: Question[] = [
       { text: 'Событие', isRight: false },
       {
         text: 'Критическая секция (презентация Суркова) (Даша и Никита)',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -1697,7 +1697,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'Процедурный по форме. Возвращаются дескрипторы вместо указателей на внутренние структуры данных ОС',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Объектно-ориентированный по форме. Возвращаются указатели на объекты ядра ОС',
@@ -1721,14 +1721,14 @@ export const OSISP: Question[] = [
       { text: 'InterruptServiceRoutine', isRight: false },
       { text: 'IoDeleteDevice', isRight: false },
       { text: 'IОСompletionRoutine', isRight: false },
-      { text: 'IОСreateDevice', isRight: false },
+      { text: 'IОСreateDevice', isRight: true },
     ],
   },
   {
     question: 'Какие виды растровых изображений существуют в ОС Windows?',
     answers: [
       { text: 'Icon, Cursor', isRight: false },
-      { text: 'Bitmap, Icon, Cursor', isRight: false },
+      { text: 'Bitmap, Icon, Cursor', isRight: true },
       { text: 'Bitmap', isRight: false },
       { text: 'Bitmap, Cursor', isRight: false },
       { text: 'Bitmap, Icon', isRight: false },
@@ -1742,7 +1742,7 @@ export const OSISP: Question[] = [
       { text: 'NtDll.dll', isRight: false },
       { text: 'Win32k.sys', isRight: false },
       { text: 'Hal.dll', isRight: false },
-      { text: 'Kernel32.dll', isRight: false },
+      { text: 'Kernel32.dll', isRight: true },
     ],
   },
   {
@@ -1752,7 +1752,7 @@ export const OSISP: Question[] = [
       { text: 'шифрование с открытым ключом', isRight: false },
       { text: 'шифрование с секретным ключом', isRight: false },
       { text: 'необратимые функции', isRight: false },
-      { text: 'цифровые подписи', isRight: false },
+      { text: 'цифровые подписи', isRight: true },
       { text: 'функции', isRight: false },
     ],
   },
@@ -1762,7 +1762,7 @@ export const OSISP: Question[] = [
       { text: 'Ни один поток', isRight: false },
       {
         text: 'Особый поток, выполняющий обнуление неиспользуемых страниц памяти',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Первый поток любого процесса', isRight: false },
       { text: 'Любой поток режима ядра', isRight: false },
@@ -1779,7 +1779,7 @@ export const OSISP: Question[] = [
       { text: 'LoadImage', isRight: false },
       { text: 'ImportLibrary', isRight: false },
       { text: 'OpenLibrary', isRight: false },
-      { text: 'LoadLibrary(+)', isRight: false },
+      { text: 'LoadLibrary', isRight: true },
       { text: 'CreateLibrary', isRight: false },
     ],
   },
@@ -1787,7 +1787,7 @@ export const OSISP: Question[] = [
     question:
       'Снятие процесса ОС Windows функцией TerminatePrОСess не приводит к вызову в DLL-библиотеках функции DllMain с кодом:',
     answers: [
-      { text: 'DLL_PRОСESS_DETACH(Вероника+Вера+Никита)', isRight: false },
+      { text: 'DLL_PRОСESS_DETACH(Вероника+Вера+Никита)', isRight: true },
       { text: 'DLL_THREAD_DETACH', isRight: false },
       { text: 'DLL_PRОСESS_ATTACH', isRight: false },
       { text: 'DLL_THREAD_ATTACH', isRight: false },
@@ -1800,7 +1800,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'Committed', isRight: false },
       { text: 'New', isRight: false },
-      { text: 'Free', isRight: false },
+      { text: 'Free', isRight: true },
       { text: 'Scheduled', isRight: false },
       { text: 'Registry', isRight: false },
     ],
@@ -1810,7 +1810,7 @@ export const OSISP: Question[] = [
       'Какая из перечисленных процедур WinAPI используется для создания удаленного потока в пользовательском режиме?',
     answers: [
       { text: 'NtReadFile', isRight: false },
-      { text: 'CreateRemoteThread', isRight: false },
+      { text: 'CreateRemoteThread', isRight: true },
       { text: 'LoadLibrary', isRight: false },
       { text: 'CreateThread', isRight: false },
       { text: 'NtWriteFile', isRight: false },
@@ -1821,7 +1821,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'диалоговая оболочка', isRight: false },
       { text: 'командный язык операционной системы', isRight: false },
-      { text: 'базовая система ввода-вывода', isRight: false },
+      { text: 'базовая система ввода-вывода', isRight: true },
       { text: 'программа в ОС', isRight: false },
       { text: 'игровая программа', isRight: false },
     ],
@@ -1830,7 +1830,7 @@ export const OSISP: Question[] = [
     question: 'Для копирования файлов в ОС Linux используется команда:',
     answers: [
       { text: 'sh', isRight: false },
-      { text: 'cp', isRight: false },
+      { text: 'cp', isRight: true },
       { text: 'copy', isRight: false },
       { text: 'xcopy', isRight: false },
       { text: 'mkfile', isRight: false },
@@ -1842,7 +1842,7 @@ export const OSISP: Question[] = [
     answers: [
       {
         text: 'Параметры передаются на стек в обратном порядке. Стек после вызова освобождается вызванной подпрограммой',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Параметры передаются на стек через регистры процессора. За освобождение стека после вызова подпрограммы отвечает вызывающая программа',
@@ -1871,8 +1871,8 @@ export const OSISP: Question[] = [
       { text: 'менеджер ресурсов', isRight: false },
       { text: 'специальная утилита', isRight: false },
       {
-        text: 'микроядро (Даша и Никита проверила тестом) (+)',
-        isRight: false,
+        text: 'микроядро',
+        isRight: true,
       },
     ],
   },
@@ -1880,7 +1880,7 @@ export const OSISP: Question[] = [
     question:
       'Какая команда используется для приостановки выполнения командных файлов?',
     answers: [
-      { text: 'PAUSE', isRight: false },
+      { text: 'PAUSE', isRight: true },
       { text: 'REM', isRight: false },
       { text: 'CLS', isRight: false },
       { text: 'CD', isRight: false },
@@ -1893,7 +1893,7 @@ export const OSISP: Question[] = [
       { text: 'параллельность выполнения нескольких команд', isRight: false },
       {
         text: 'последовательное выполнение нескольких команд, при этом вывод очередной команды перенаправляется на стандартный ввод следующей',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'последовательное выполнение нескольких команд, причем каждая следующая команда начинает выполняться после завершения предыдущей',
@@ -1914,7 +1914,7 @@ export const OSISP: Question[] = [
       { text: 'вызов', isRight: false },
       { text: 'возврат', isRight: false },
       { text: 'кэш', isRight: false },
-      { text: 'прерывание', isRight: false },
+      { text: 'прерывание', isRight: true },
     ],
   },
   {
@@ -1929,7 +1929,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'В момент, когда счетчик процессов-пользователей объекта переходит в значение ноль',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -1942,7 +1942,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'последовательная загрузка файлов операционной системы в оперативную память',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'копирование файлов операционной системы с CD - диска на жёсткий диск',
@@ -1964,7 +1964,7 @@ export const OSISP: Question[] = [
       { text: 'MS DOS', isRight: false },
       { text: 'Mac OS', isRight: false },
       { text: 'OS/2', isRight: false },
-      { text: 'Microsoft', isRight: false },
+      { text: 'Microsoft', isRight: true },
       { text: 'Ubuntu', isRight: false },
     ],
   },
@@ -1976,7 +1976,7 @@ export const OSISP: Question[] = [
       { text: 'FILE_OBJECT', isRight: false },
       { text: 'LIST_ENTRY', isRight: false },
       { text: 'DRIVER_OBJECT', isRight: false },
-      { text: 'DEVICE_OBJECT', isRight: false },
+      { text: 'DEVICE_OBJECT', isRight: true },
     ],
   },
   {
@@ -1986,7 +1986,7 @@ export const OSISP: Question[] = [
       { text: 'интерпретаторами', isRight: false },
       { text: 'программным обеспечением', isRight: false },
       { text: 'загрузчиками', isRight: false },
-      { text: 'драйверами', isRight: false },
+      { text: 'драйверами', isRight: true },
     ],
   },
   {
@@ -1997,7 +1997,7 @@ export const OSISP: Question[] = [
       { text: 'приложение пользователя', isRight: false },
       { text: 'системного программиста', isRight: false },
       { text: 'аппаратное обеспечение', isRight: false },
-      { text: 'операционную систему', isRight: false },
+      { text: 'операционную систему', isRight: true },
     ],
   },
   {
@@ -2006,7 +2006,7 @@ export const OSISP: Question[] = [
       { text: 'двоичные', isRight: false },
       { text: 'строковые', isRight: false },
       { text: 'Dword', isRight: false },
-      { text: 'Dexcel', isRight: false },
+      { text: 'Dexcel', isRight: true },
       { text: 'восьмеричные', isRight: false },
     ],
   },
@@ -2025,7 +2025,7 @@ export const OSISP: Question[] = [
       { text: 'совокупность основных устройств компьютера', isRight: false },
       {
         text: 'набор программ, обеспечивающих работу всех аппаратных устройств компьютера и доступ пользователя к ним',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -2036,7 +2036,7 @@ export const OSISP: Question[] = [
       { text: 'любое количество потоков', isRight: false },
       { text: 'не более 10-ти потоков', isRight: false },
       { text: 'не менее одного потока', isRight: false },
-      { text: 'не более одного потока', isRight: false },
+      { text: 'не более одного потока', isRight: true },
       { text: 'два и более потока', isRight: false },
     ],
   },
@@ -2048,7 +2048,7 @@ export const OSISP: Question[] = [
       { text: 'Переводит событие в занятое состояние', isRight: false },
       {
         text: 'Переводит событие в свободное состояние, а потом в занятое, запуская лишь один из ожидающих данное событие потоков(Никита тестом)',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Переводит событие в свободное состояние, а потом в занятое, запуская все потоки, ожидающие данное события',
@@ -2068,7 +2068,7 @@ export const OSISP: Question[] = [
       { text: 'троян', isRight: false },
       { text: 'вирус-мутант', isRight: false },
       { text: 'резидентный вирус', isRight: false },
-      { text: 'загрузочный вирус', isRight: false },
+      { text: 'загрузочный вирус', isRight: true },
     ],
   },
   {
@@ -2077,7 +2077,7 @@ export const OSISP: Question[] = [
       { text: 'информацию о состоянии процесса', isRight: false },
       { text: 'идентификатор процесса', isRight: false },
       { text: 'данные о родственных процессах', isRight: false },
-      { text: 'режим работы процессора', isRight: false },
+      { text: 'режим работы процессора', isRight: true },
       { text: 'информацию о работе процесса', isRight: false },
     ],
   },
@@ -2091,7 +2091,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'За счет маршрутизатора, подключенного к шине каждого NUMA-узла',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'За счет трансформатора, подключенного к шине каждого NUMA-узла',
@@ -2112,7 +2112,7 @@ export const OSISP: Question[] = [
     answers: [
       {
         text: 'основной компонент операционной системы, предоставляющий интерфейс системных вызовов для прикладных программ, осуществляющий управление ресурсами, выполняемыми программами',
-        isRight: false,
+        isRight: true,
       },
       { text: 'устройство в составе монолитного процессора', isRight: false },
       { text: 'устройство в составе многоядерного процессора', isRight: false },
@@ -2131,7 +2131,7 @@ export const OSISP: Question[] = [
       'Как называется пакет ввода-вывода, используемый в качестве единого интерфейса взаимодействия с драйверами режима ядра?',
     answers: [
       { text: 'Memory Manager', isRight: false },
-      { text: 'Input-Output Request Packet', isRight: false },
+      { text: 'Input-Output Request Packet', isRight: true },
       { text: 'Windows Driver Kit', isRight: false },
       { text: 'Deferred PrОСedure Call', isRight: false },
       { text: 'Registry', isRight: false },
@@ -2151,7 +2151,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'Описатель действителен лишь в пределах текущего процесса, а идентификатор является сквозным и действителен в любом процессе операционной системы',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Описатель и идентификатор полностью эквивалентны',
@@ -2172,7 +2172,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'режим неограниченного доступа ко всем ресурсам компьютера',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'режим монопольного владения процессором на время работы программы',
@@ -2194,7 +2194,7 @@ export const OSISP: Question[] = [
       { text: 'порт', isRight: false },
       { text: 'утилита', isRight: false },
       { text: 'сокет', isRight: false },
-      { text: 'брандмауэр', isRight: false },
+      { text: 'брандмауэр', isRight: true },
       { text: 'антивирус', isRight: false },
     ],
   },
@@ -2211,14 +2211,14 @@ export const OSISP: Question[] = [
         text: 'Выполнить транспонирование и перемножение заданных матриц',
         isRight: false,
       },
-      { text: 'Выполнить перемножение заданных матриц', isRight: false },
+      { text: 'Выполнить перемножение заданных матриц', isRight: true },
       { text: 'Выполнить сложение заданных матриц', isRight: false },
     ],
   },
   {
     question: 'Что из перечисленного не является операционной системой?',
     answers: [
-      { text: 'MS Office', isRight: false },
+      { text: 'MS Office', isRight: true },
       { text: 'Linux', isRight: false },
       { text: 'MS-DOS', isRight: false },
       { text: 'MS Windows 10', isRight: false },
@@ -2233,7 +2233,7 @@ export const OSISP: Question[] = [
       { text: 'GetHandle', isRight: false },
       { text: 'FreeLibrary', isRight: false },
       { text: 'GetWindowHandle', isRight: false },
-      { text: 'GetModuleHandle', isRight: false },
+      { text: 'GetModuleHandle', isRight: true },
     ],
   },
   {
@@ -2253,7 +2253,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'Механизм посылки таймерных сообщений WM_TIMER через определенные промежутки времени',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Механизм передачи сообщений другим процессам ОС Windows',
@@ -2267,7 +2267,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'сбой работы приложения', isRight: false },
       { text: 'свернуть окно приложения', isRight: false },
-      { text: 'закрыть окно приложения', isRight: false },
+      { text: 'закрыть окно приложения', isRight: true },
       { text: 'запустить другое приложение', isRight: false },
       { text: 'переключиться в другое окно', isRight: false },
     ],
@@ -2286,7 +2286,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'Растровое изображение, перо, кисть, шрифт, палитра, матрица трансформации, режим масштабирования, фоновый цвет, область отсечения',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Растровое изображение, перо, кисть, шрифт, палитра, матрица трансформации, режим масштабирования',
@@ -2304,7 +2304,7 @@ export const OSISP: Question[] = [
       { text: 'в оперативном запоминающем устройстве', isRight: false },
       { text: 'на винчестере', isRight: false },
       { text: 'на CD-ROM', isRight: false },
-      { text: 'в постоянном запоминающем устройстве(+)', isRight: false },
+      { text: 'в постоянном запоминающем устройстве', isRight: true },
       { text: 'в процессоре', isRight: false },
     ],
   },
@@ -2319,8 +2319,8 @@ export const OSISP: Question[] = [
         isRight: false,
       },
       {
-        text: 'организация диалога с пользователем, управление ресурсами компьютера (+)',
-        isRight: false,
+        text: 'организация диалога с пользователем, управление ресурсами компьютера',
+        isRight: true,
       },
     ],
   },
@@ -2332,7 +2332,7 @@ export const OSISP: Question[] = [
       { text: 'переносимость', isRight: false },
       { text: 'мультипрограммность', isRight: false },
       { text: 'монопрограммностью', isRight: false },
-      { text: 'совместимость', isRight: false },
+      { text: 'совместимость', isRight: true },
     ],
   },
   {
@@ -2342,7 +2342,7 @@ export const OSISP: Question[] = [
       { text: 'ввода-вывода', isRight: false },
       { text: 'конфигурирования механизмов защиты памяти', isRight: false },
       { text: 'запуска приложений', isRight: false },
-      { text: 'перехода в привилегированный режим (+)', isRight: false },
+      { text: 'перехода в привилегированный режим', isRight: true },
       { text: 'перехода в пользовательский режим', isRight: false },
     ],
   },
@@ -2350,7 +2350,7 @@ export const OSISP: Question[] = [
     question:
       'При делении ядра на основные слои непосредственно над слоем машинно-зависимых модулей расположен слой',
     answers: [
-      { text: 'базовых механизмов ядра', isRight: false },
+      { text: 'базовых механизмов ядра', isRight: true },
       { text: 'средств аппаратной поддержки ОС', isRight: false },
       { text: 'менеджеров ресурсов', isRight: false },
       { text: 'менеджер поддержки ядер', isRight: false },
@@ -2365,7 +2365,7 @@ export const OSISP: Question[] = [
       { text: 'File System Mini-Filter', isRight: false },
       { text: 'Thread Callbacks', isRight: false },
       { text: 'PrОСess Callbacks', isRight: false },
-      { text: 'Registry Callbacks', isRight: false },
+      { text: 'Registry Callbacks', isRight: true },
     ],
   },
   {
@@ -2373,7 +2373,7 @@ export const OSISP: Question[] = [
     answers: [
       {
         text: 'использование нескольких процессоров для увеличения производительности вычислений',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'поток задействован на выполнения одной задачи пользователя',
@@ -2398,7 +2398,7 @@ export const OSISP: Question[] = [
       'Какая из перечисленных процедур WinAPI используется для создания пакета ввода-вывода IRP?',
     answers: [
       { text: 'IОСallDriver', isRight: false },
-      { text: 'IoAllocateIrp', isRight: false },
+      { text: 'IoAllocateIrp', isRight: true },
       { text: 'IОСompleteRequest', isRight: false },
       { text: 'ZwWriteFile', isRight: false },
       { text: 'ZwReadFile', isRight: false },
@@ -2411,14 +2411,14 @@ export const OSISP: Question[] = [
       { text: 'удаление файлов и каталогов', isRight: false },
       { text: 'перемещение файлов и каталогов', isRight: false },
       { text: 'переименование файлов', isRight: false },
-      { text: 'копирование файлов и каталогов', isRight: false },
+      { text: 'копирование файлов и каталогов', isRight: true },
     ],
   },
   {
     question: 'Windows 3.1 - это',
     answers: [
       { text: 'среда программирования', isRight: false },
-      { text: 'одна из оболочек операционной системы MS DOS', isRight: false },
+      { text: 'одна из оболочек операционной системы MS DOS', isRight: true },
       { text: 'версия Windows 10', isRight: false },
       { text: 'текстовый редактор', isRight: false },
       { text: 'графический редактор', isRight: false },
@@ -2432,7 +2432,7 @@ export const OSISP: Question[] = [
       { text: 'Emacs', isRight: false },
       { text: 'Notepad++', isRight: false },
       { text: 'Android Studio', isRight: false },
-      { text: 'Visual Studio', isRight: false },
+      { text: 'Visual Studio', isRight: true },
     ],
   },
   {
@@ -2443,7 +2443,7 @@ export const OSISP: Question[] = [
       { text: 'LoadLibrary', isRight: false },
       { text: 'DestroyLibrary', isRight: false },
       { text: 'DisposeLibrary', isRight: false },
-      { text: 'FreeLibrary', isRight: false },
+      { text: 'FreeLibrary', isRight: true },
     ],
   },
   {
@@ -2457,7 +2457,7 @@ export const OSISP: Question[] = [
       { text: 'перемещает каталог', isRight: false },
       {
         text: 'выводит на экран список файлов каталога, заданного в командной строке либо текущего',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'делает заданный каталог текущим и выводит список файлов',
@@ -2471,7 +2471,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'сетевое окружение', isRight: false },
       { text: 'кэширование', isRight: false },
-      { text: 'виртуальная память', isRight: false },
+      { text: 'виртуальная память', isRight: true },
       { text: 'plug-and-play', isRight: false },
       { text: 'обработка прерываний', isRight: false },
     ],
@@ -2482,7 +2482,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'Memory AllОСation Request (MAR)', isRight: false },
       { text: 'Main Boot Record (MBR)', isRight: false },
-      { text: 'Deferred PrОСedure Call (DPC)', isRight: false },
+      { text: 'Deferred PrОСedure Call (DPC)', isRight: true },
       { text: 'Buffer Request (BR)', isRight: false },
       { text: 'Call', isRight: false },
     ],
@@ -2492,7 +2492,7 @@ export const OSISP: Question[] = [
       'Функции ядра, которые могут вызываться приложениями, образуют интерфейс',
     answers: [
       { text: 'приложения', isRight: false },
-      { text: 'прикладного программирования', isRight: false },
+      { text: 'прикладного программирования', isRight: true },
       { text: 'утилит', isRight: false },
       { text: 'системных вызовов', isRight: false },
       { text: 'пользователя', isRight: false },
@@ -2513,7 +2513,7 @@ export const OSISP: Question[] = [
         text: 'оболочка, принимающая и обрабатывающая команды пользователя',
         isRight: false,
       },
-      { text: 'резидентная часть операционной системы', isRight: false },
+      { text: 'резидентная часть операционной системы', isRight: true },
       {
         text: 'основная программа, принимающая и обрабатывающая команды пользователя',
         isRight: false,
@@ -2526,7 +2526,7 @@ export const OSISP: Question[] = [
       { text: 'Memory AllОСation Request (MAR)', isRight: false },
       { text: 'Main Boot Record (MBR)', isRight: false },
       { text: 'Buffer Request (BR)', isRight: false },
-      { text: 'Interrupt Service Routine (ISR)', isRight: false },
+      { text: 'Interrupt Service Routine (ISR)', isRight: true },
       { text: 'Request', isRight: false },
     ],
   },
@@ -2537,7 +2537,7 @@ export const OSISP: Question[] = [
       { text: 'Committed', isRight: false },
       { text: 'Deleted', isRight: false },
       { text: 'Free', isRight: false },
-      { text: 'Reserved', isRight: false },
+      { text: 'Reserved', isRight: true },
       { text: 'New', isRight: false },
     ],
   },
@@ -2547,7 +2547,7 @@ export const OSISP: Question[] = [
       { text: 'наличие множества графических оболочек', isRight: false },
       { text: 'наличие нескольких графических оболочек', isRight: false },
       { text: 'наличие нескольких графических оболочек', isRight: false },
-      { text: 'открытость кода операционной системы', isRight: false },
+      { text: 'открытость кода операционной системы', isRight: true },
       { text: 'широкая известность и популярность', isRight: false },
     ],
   },
@@ -2556,7 +2556,7 @@ export const OSISP: Question[] = [
       'Что отражает числовое значение 12, 16, 32 в файловой системе FAT?',
     answers: [
       { text: 'допустимое количество символов в имени файла', isRight: false },
-      { text: 'размер кластера на диске', isRight: false },
+      { text: 'размер кластера на диске', isRight: true },
       { text: 'объем диска', isRight: false },
       { text: 'количество знаков в файле', isRight: false },
       { text: 'разрядность элемента в таблице FAT', isRight: false },
@@ -2574,8 +2574,8 @@ export const OSISP: Question[] = [
         isRight: false,
       },
       {
-        text: 'Низкоуровневый язык программирования, использующий наглядные мнемоники для записи машинных команд, и добавляющих высокоуровневые компоненты (переменные, метки, макросы). Программы на ассемблере транслируются в машинный код(+)',
-        isRight: false,
+        text: 'Низкоуровневый язык программирования, использующий наглядные мнемоники для записи машинных команд, и добавляющих высокоуровневые компоненты (переменные, метки, макросы). Программы на ассемблере транслируются в машинный код',
+        isRight: true,
       },
       {
         text: 'Низкоуровневый язык программирования, непосредственно понимаемый процессором, без необходимости его трансляции',
@@ -2592,8 +2592,8 @@ export const OSISP: Question[] = [
       'Какие поля структуры сообщения Windows (struct MSG) передаются в процедуру обработки сообщений?',
     answers: [
       {
-        text: 'Поля hwnd, message, wParam, lParam(Никита по тесту)',
-        isRight: false,
+        text: 'Поля hwnd, message, wParam, lParam',
+        isRight: true,
       },
       { text: 'Поля message, wParam, lParam', isRight: false },
       { text: 'Поля hwnd, message', isRight: false },
@@ -2605,7 +2605,7 @@ export const OSISP: Question[] = [
     question:
       'Пока в ОС Windows существуют потоки с более высокими приоритетами, потоки с более низкими приоритетами',
     answers: [
-      { text: 'простаивают(+)', isRight: false },
+      { text: 'простаивают', isRight: true },
       {
         text: 'выполняются с уменьшенным в четыре раза квантом времени',
         isRight: false,
@@ -2623,7 +2623,7 @@ export const OSISP: Question[] = [
       'Как в 32-х разрядной DLL-библиотеке ОС Windows выглядит идентификатор функции, экспортированной как __declspec(dllexport) int __stdcall Min(int x, int y)?',
     answers: [
       { text: 'Min1', isRight: false },
-      { text: '_Min@8', isRight: false },
+      { text: '_Min@8', isRight: true },
       { text: 'Min@0', isRight: false },
       { text: 'Min8', isRight: false },
       { text: '__Min', isRight: false },
@@ -2636,7 +2636,7 @@ export const OSISP: Question[] = [
       { text: 'выводит список полных имен файлов', isRight: false },
       {
         text: 'выводит список полных имен файлов и подкаталогов каталога',
-        isRight: false,
+        isRight: true,
       },
       { text: 'сравнение файлов', isRight: false },
       { text: 'перемещает все содержимое папки', isRight: false },
@@ -2647,7 +2647,7 @@ export const OSISP: Question[] = [
       'Как называется механизм перехвата процедур взаимодействия программ с файловой системой в ОС Windows?',
     answers: [
       { text: 'Thread Callbacks', isRight: false },
-      { text: 'File System Mini-Filter', isRight: false },
+      { text: 'File System Mini-Filter', isRight: true },
       { text: 'Registry Callbacks', isRight: false },
       { text: 'PrОСess Callbacks', isRight: false },
       { text: 'Object Manager Callbacks', isRight: false },
@@ -2658,7 +2658,7 @@ export const OSISP: Question[] = [
       'Подсистема, являющаяся интерфейсом ко всем устройствам, подключенным к компьютеру, называется подсистемой?',
     answers: [
       { text: 'внешних устройств', isRight: false },
-      { text: 'ввода-вывода', isRight: false },
+      { text: 'ввода-вывода', isRight: true },
       { text: 'управления памятью', isRight: false },
       { text: 'ввода', isRight: false },
       { text: 'управления интерфейсом', isRight: false },
@@ -2669,7 +2669,7 @@ export const OSISP: Question[] = [
     answers: [
       {
         text: 'совокупность программ, установленных в операционной системе',
-        isRight: false,
+        isRight: true,
       },
       { text: 'все устройства, которые существуют в мире', isRight: false },
       { text: 'все программы, которые у вас есть на диске', isRight: false },
@@ -2687,14 +2687,14 @@ export const OSISP: Question[] = [
       { text: 'logout', isRight: false },
       { text: 'exit', isRight: false },
       { text: 'ex', isRight: false },
-      { text: 'shutdown(+)', isRight: false },
+      { text: 'shutdown', isRight: true },
     ],
   },
   {
     question:
       'Какая системная программа служит для управления всеми разделяемыми ресурсами компьютера?',
     answers: [
-      { text: 'диспетчер объектов(+)', isRight: false },
+      { text: 'диспетчер объектов', isRight: true },
       { text: 'диспетчер файлов', isRight: false },
       { text: 'диспетчер процессов', isRight: false },
       { text: 'диспетчер ввода-вывода', isRight: false },
@@ -2707,7 +2707,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'PrОСess Manager', isRight: false },
       { text: 'Scheduler', isRight: false },
-      { text: 'Memory Manager(+)', isRight: false },
+      { text: 'Memory Manager', isRight: true },
       { text: 'Registry', isRight: false },
       { text: 'Network Manager', isRight: false },
     ],
@@ -2729,7 +2729,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'в случае возникновения ошибки в пространстве ядра Windows без возможности продолжения выполнения, а также в случае ошибки в пользовательской программе в Windows 3.11 или Windows 9x для снятия программы, выполнившей недопустимую операцию (Никита Тестом)',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'в случае выполнения невыполнимой операции пользовательской программой',
@@ -2742,7 +2742,7 @@ export const OSISP: Question[] = [
       'Какой режим масштабирования, устанавливаемый процедурой SetMapMode ОС Windows, обеспечивает рисование в сотых долях дюйма?',
     answers: [
       { text: 'MM_LOMETRIC', isRight: false },
-      { text: 'MM_LOENGLISH', isRight: false },
+      { text: 'MM_LOENGLISH', isRight: true },
       { text: 'MM_HIMETRIC', isRight: false },
       { text: 'MM_TEXT', isRight: false },
       { text: 'MM_HIENGLISH', isRight: false },
@@ -2752,7 +2752,7 @@ export const OSISP: Question[] = [
     question: 'Дескрипторы отдельных процессов объединены в список, образующий',
     answers: [
       { text: 'контекст процессов', isRight: false },
-      { text: 'таблицу процессов', isRight: false },
+      { text: 'таблицу процессов', isRight: true },
       { text: 'идентификатор процесса', isRight: false },
       { text: 'текст процесса', isRight: false },
       { text: 'описатель потока', isRight: false },
@@ -2761,7 +2761,7 @@ export const OSISP: Question[] = [
   {
     question: 'Как называется резервное копирование информации?',
     answers: [
-      { text: 'архивация', isRight: false },
+      { text: 'архивация', isRight: true },
       { text: 'дезактивация', isRight: false },
       { text: 'инкапсуляция', isRight: false },
       { text: 'дефрагментация', isRight: false },
@@ -2777,8 +2777,8 @@ export const OSISP: Question[] = [
         isRight: false,
       },
       {
-        text: 'Это отступ слева от буквы (A), ширина буквы (B) и отступ справа от буквы (C) (+)',
-        isRight: false,
+        text: 'Это отступ слева от буквы (A), ширина буквы (B) и отступ справа от буквы (C) ',
+        isRight: true,
       },
       { text: 'Это высота букв A, B и C', isRight: false },
       { text: 'Это размеры первых трех букв алфавита', isRight: false },
@@ -2793,7 +2793,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'DIR/Р', isRight: false },
       { text: 'RMDIR', isRight: false },
-      { text: 'MKDIR', isRight: false },
+      { text: 'MKDIR', isRight: true },
       { text: 'MOVE', isRight: false },
       { text: 'CHDIR', isRight: false },
     ],
@@ -2805,7 +2805,7 @@ export const OSISP: Question[] = [
       { text: 'название файлов', isRight: false },
       { text: 'названия различных операционных систем', isRight: false },
       { text: 'виды кодировки файлов', isRight: false },
-      { text: 'названия различных файловых систем', isRight: false },
+      { text: 'названия различных файловых систем', isRight: true },
     ],
   },
   {
@@ -2813,7 +2813,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'Dispose', isRight: false },
       { text: 'Close', isRight: false },
-      { text: 'CloseHandle', isRight: false },
+      { text: 'CloseHandle', isRight: true },
       { text: 'Delete', isRight: false },
       { text: 'Free', isRight: false },
     ],
@@ -2833,7 +2833,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'Программа перестанет получать сообщения WM_CHAR, WM_DEADCHAR, WM_SYSCHAR, WM_SYSDEADCHAR',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Программа перестанет получать сообщения WM_KEYDOWN, WM_KEYUP, WM_SYSKEYDOWN, WM_SYSKEYUP',
@@ -2847,7 +2847,7 @@ export const OSISP: Question[] = [
       { text: 'гибридное', isRight: false },
       { text: 'гибридное модульное', isRight: false },
       { text: 'экзоядро', isRight: false },
-      { text: 'монолитное модульное', isRight: false },
+      { text: 'монолитное модульное', isRight: true },
       { text: 'микроядро', isRight: false },
     ],
   },
@@ -2857,7 +2857,7 @@ export const OSISP: Question[] = [
       { text: 'выполнить команду setup', isRight: false },
       {
         text: 'запустить менеджер пакетов и выбрать пакет с устанавливаемой программой',
-        isRight: false,
+        isRight: true,
       },
       { text: 'создать пакет, содержащий программу', isRight: false },
       { text: 'распаковать пакет, содержащий программу', isRight: false },
@@ -2872,8 +2872,8 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'подключения устройств ввода-вывода', isRight: false },
       {
-        text: 'считывания в память модулей ядра операционной системы (Никита и Леха и Даша и тест)',
-        isRight: false,
+        text: 'считывания в память модулей ядра операционной системы',
+        isRight: true,
       },
       { text: 'загрузки программ в оперативную память ЭВМ', isRight: false },
       { text: 'обработки данных', isRight: false },
@@ -2887,7 +2887,7 @@ export const OSISP: Question[] = [
       { text: 'копирование файлов', isRight: false },
       { text: 'тестирование файлов', isRight: false },
       { text: 'удаление файлов', isRight: false },
-      { text: 'замена файлов', isRight: false },
+      { text: 'замена файлов', isRight: true },
     ],
   },
   {
@@ -2901,7 +2901,7 @@ export const OSISP: Question[] = [
       { text: 'способ виртуализация', isRight: false },
       {
         text: 'механизм трансляции вызовов WinAPI в системный вызовы ядра Linux',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'приложение для проигрывания музыки с открытым кодом',
@@ -2916,8 +2916,8 @@ export const OSISP: Question[] = [
       { text: 'выставляет определенный магнитный импульс', isRight: false },
       { text: 'генерирует код ошибки', isRight: false },
       {
-        text: 'выставляет определенный электрический сигнал(Никита и Даша)',
-        isRight: false,
+        text: 'выставляет определенный электрический сигнал',
+        isRight: true,
       },
       { text: 'посылает сообщение серверу ОС', isRight: false },
       { text: 'посылает сообщение ядру ОС', isRight: false },
@@ -2929,7 +2929,7 @@ export const OSISP: Question[] = [
       { text: 'управление памятью', isRight: false },
       { text: 'управление устройствами ввода-вывода', isRight: false },
       { text: 'контроль доступа исполняемого кода к памяти', isRight: false },
-      { text: 'контроль качества исполняемого кода', isRight: false },
+      { text: 'контроль качества исполняемого кода', isRight: true },
       { text: 'управление процессами', isRight: false },
     ],
   },
@@ -2937,7 +2937,7 @@ export const OSISP: Question[] = [
     question: 'Процессор, основная память, внешняя память являются?',
     answers: [
       { text: 'вторичными ресурсами вычислительной системы', isRight: false },
-      { text: 'первичными ресурсами вычислительной системы', isRight: false },
+      { text: 'первичными ресурсами вычислительной системы', isRight: true },
       { text: 'внешними ресурсами вычислительной системы', isRight: false },
       { text: 'ресурсами вычислительной сети', isRight: false },
       { text: 'сетевыми ресурсами вычислительной системы', isRight: false },
@@ -2948,7 +2948,7 @@ export const OSISP: Question[] = [
       'Достоинством распределения памяти разделами с фиксированными границами является',
     answers: [
       { text: 'высокий уровень мультипрограммирования', isRight: false },
-      { text: 'простота реализации', isRight: false },
+      { text: 'простота реализации', isRight: true },
       { text: 'эффективное использование памяти', isRight: false },
       { text: 'многопоточность', isRight: false },
       { text: 'гибкость', isRight: false },
@@ -2960,7 +2960,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'NtReadFile', isRight: false },
       { text: 'InterruptServiceRoutine', isRight: false },
-      { text: 'IoDeleteDevice', isRight: false },
+      { text: 'IoDeleteDevice', isRight: true },
       { text: 'IОСreateDevice', isRight: false },
       { text: 'IОСompletionRoutine', isRight: false },
     ],
@@ -2972,7 +2972,7 @@ export const OSISP: Question[] = [
       { text: 'архивирование диска', isRight: false },
       { text: 'дефрагментация диска', isRight: false },
       { text: 'вывод информации с диска', isRight: false },
-      { text: 'форматирование диска', isRight: false },
+      { text: 'форматирование диска', isRight: true },
     ],
   },
   {
@@ -2994,7 +2994,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'Устраняется проблема перестановки операций записи и чтения памяти',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -3004,7 +3004,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'мультивычислением', isRight: false },
       { text: 'мультипроцессированием', isRight: false },
-      { text: 'мультипрограммированием', isRight: false },
+      { text: 'мультипрограммированием', isRight: true },
       { text: 'однопоточностью', isRight: false },
       { text: 'многопоточностью', isRight: false },
     ],
@@ -3016,7 +3016,7 @@ export const OSISP: Question[] = [
       { text: 'командной утилитой', isRight: false },
       { text: 'утилитой', isRight: false },
       { text: 'диспетчером команд', isRight: false },
-      { text: 'командным интерпретатором', isRight: false },
+      { text: 'командным интерпретатором', isRight: true },
       { text: 'командным модулем', isRight: false },
     ],
   },
@@ -3025,7 +3025,7 @@ export const OSISP: Question[] = [
       'Если планировщик задач принимает решения о перепланировании не во время работы системы, а по заранее составленному плану, то он называется',
     answers: [
       { text: 'динамическим', isRight: false },
-      { text: 'статическим', isRight: false },
+      { text: 'статическим', isRight: true },
       { text: 'синхронным', isRight: false },
       { text: 'асинхронным', isRight: false },
       { text: 'статистическим', isRight: false },
@@ -3036,7 +3036,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'Deferred PrОСedure Call', isRight: false },
       { text: 'Asynchronous PrОСedure Call', isRight: false },
-      { text: 'Interrupt Dispatch Table', isRight: false },
+      { text: 'Interrupt Dispatch Table', isRight: true },
       { text: 'Registry', isRight: false },
       { text: 'Driver Buffer', isRight: false },
     ],
@@ -3047,7 +3047,7 @@ export const OSISP: Question[] = [
       { text: 'функцией LogonUser', isRight: false },
       { text: 'методом LogonUser', isRight: false },
       { text: 'ядром ОС', isRight: false },
-      { text: 'специальным процессом Winlogon', isRight: false },
+      { text: 'специальным процессом Winlogon', isRight: true },
       { text: 'специальным процессом LogonUser', isRight: false },
     ],
   },
@@ -3055,7 +3055,7 @@ export const OSISP: Question[] = [
     question:
       'Что является идентификатором оконного класса ОС Windows в программе с графическим пользовательским интерфейсом?',
     answers: [
-      { text: 'Имя оконного класса', isRight: false },
+      { text: 'Имя оконного класса', isRight: true },
       { text: 'Дескриптор объекта оконного класса', isRight: false },
       { text: 'Номер оконного класса', isRight: false },
       { text: 'Пара номеров оконного класса', isRight: false },
@@ -3067,7 +3067,7 @@ export const OSISP: Question[] = [
     answers: [
       {
         text: 'программа в ОС Windows, постоянно находящаяся в памяти, напрямую не взаимодействующая с пользователем, но реализующая функции, необходимые для работы операционной системы или выполнения серверных функций в клиент-серверной архитектуре',
-        isRight: false,
+        isRight: true,
       },
       { text: 'программа-обработчик прерывания', isRight: false },
       {
@@ -3091,7 +3091,7 @@ export const OSISP: Question[] = [
       { text: 'DLL_PRОСESS_TERMINATE', isRight: false },
       { text: 'DLL_PRОСESS_ATTACH', isRight: false },
       { text: 'DLL_PRОСESS_DETACH', isRight: false },
-      { text: 'DLL_THREAD_DETACH', isRight: false },
+      { text: 'DLL_THREAD_DETACH', isRight: true },
       { text: 'DLL_THREAD_ATTACH', isRight: false },
     ],
   },
@@ -3099,7 +3099,7 @@ export const OSISP: Question[] = [
     question: 'Как называется точка входа-выхода DLL-библиотеки ОС Windows?',
     answers: [
       { text: 'DllEntry', isRight: false },
-      { text: 'DllMain, но имя не закреплено (+)', isRight: false },
+      { text: 'DllMain, но имя не закреплено ', isRight: true },
       { text: 'DllEntryPoint', isRight: false },
       { text: 'DriverEntry', isRight: false },
       { text: 'LoadLibrary', isRight: false },
@@ -3110,7 +3110,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'удаление файлов', isRight: false },
       { text: 'тестирование файлов', isRight: false },
-      { text: 'копирование файлов (+)', isRight: false },
+      { text: 'копирование файлов ', isRight: true },
       { text: 'архивация файлов', isRight: false },
       { text: 'перемещение файлов', isRight: false },
     ],
@@ -3132,7 +3132,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'не имеют встроенного механизма для работы с несколькими пользователями, предоставляя монопольный доступ ко всем устройствам и ресурсам, без разграничения',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'операционные системы для мобильных устройств, там нет необходимости в использовании несколькими пользователями',
@@ -3147,7 +3147,7 @@ export const OSISP: Question[] = [
       { text: 'Windows SubSystem for Linux', isRight: false },
       { text: 'SDK', isRight: false },
       { text: 'Windows Software Development Kit', isRight: false },
-      { text: 'Windows Driver Kit(WDK)', isRight: false },
+      { text: 'Windows Driver Kit(WDK)', isRight: true },
       { text: 'Sysinternals Suite', isRight: false },
     ],
   },
@@ -3169,7 +3169,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'Операционной системой программе посылается сообщение WM_PAINT, которое программа должна обработать',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Программа после каждого события вызывает процедуру InvalidateRegion, выполняющую перерисовку окна',
@@ -3183,7 +3183,7 @@ export const OSISP: Question[] = [
       { text: 'OpenVZ, KVM', isRight: false },
       { text: 'Wine, Linux-подсистема в Windows 10', isRight: false },
       { text: 'QEMU, KVM', isRight: false },
-      { text: 'OpenVZ, LXC, DОСker', isRight: false },
+      { text: 'OpenVZ, LXC, DОСker', isRight: true },
       { text: 'LXC, Wine', isRight: false },
     ],
   },
@@ -3193,7 +3193,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'целое число', isRight: false },
       { text: 'вещественное число', isRight: false },
-      { text: 'двусвязный список', isRight: false },
+      { text: 'двусвязный список', isRight: true },
       { text: 'строка', isRight: false },
       { text: 'булево', isRight: false },
     ],
@@ -3204,7 +3204,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'папка', isRight: false },
       { text: 'документ', isRight: false },
-      { text: 'файл', isRight: false },
+      { text: 'файл', isRight: true },
       { text: 'раздел', isRight: false },
       { text: 'драйвер', isRight: false },
     ],
@@ -3215,8 +3215,8 @@ export const OSISP: Question[] = [
       { text: 'единица измерения информации', isRight: false },
       { text: 'текст, распечатанный на принтере', isRight: false },
       {
-        text: 'поименованная область данных на внешнем носителе памяти (+)',
-        isRight: false,
+        text: 'поименованная область данных на внешнем носителе памяти ',
+        isRight: true,
       },
       { text: 'область данных в оперативной памяти', isRight: false },
       { text: 'программа в оперативной памяти', isRight: false },
@@ -3237,7 +3237,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'Имя, атрибуты защиты, счетчик числа процессов-пользователей объекта',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Атрибуты защиты, счетчик числа процессов-пользователей объекта',
@@ -3251,7 +3251,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'ключу объекта в реестре ОС Windows', isRight: false },
       { text: 'дайджесту объекта', isRight: false },
-      { text: 'имени объекта', isRight: false },
+      { text: 'имени объекта', isRight: true },
       { text: 'номеру объекта', isRight: false },
       { text: 'временной метке объекта', isRight: false },
     ],
@@ -3264,7 +3264,7 @@ export const OSISP: Question[] = [
       { text: '1, 5', isRight: false },
       { text: '4, 5', isRight: false },
       { text: '2, 3', isRight: false },
-      { text: '1, 4', isRight: false },
+      { text: '1, 4', isRight: true },
     ],
   },
   {
@@ -3272,7 +3272,7 @@ export const OSISP: Question[] = [
       'Как называется папка, которая выступает в качестве вершины файловой структуры?',
     answers: [
       { text: 'папка нижнего уровня', isRight: false },
-      { text: 'корневая', isRight: false },
+      { text: 'корневая', isRight: true },
       { text: 'папка верхнего уровня', isRight: false },
       { text: 'начальная', isRight: false },
       { text: 'стартовая', isRight: false },
@@ -3283,7 +3283,7 @@ export const OSISP: Question[] = [
       'Как называется информационная структура, содержащая сведения об идентификаторе потока, данные о правах доступа и приоритете и состоянии потока',
     answers: [
       { text: 'дескриптором файла', isRight: false },
-      { text: 'описателем потока', isRight: false },
+      { text: 'описателем потока', isRight: true },
       { text: 'описателем процесса', isRight: false },
       { text: 'дескриптором процесса', isRight: false },
       { text: 'номером потока', isRight: false },
@@ -3296,7 +3296,7 @@ export const OSISP: Question[] = [
       { text: 'Registry', isRight: false },
       { text: 'Free', isRight: false },
       { text: 'New', isRight: false },
-      { text: 'Committed', isRight: false },
+      { text: 'Committed', isRight: true },
       { text: 'Deleted', isRight: false },
     ],
   },
@@ -3304,7 +3304,7 @@ export const OSISP: Question[] = [
     question:
       'Какая команда используется в ОС Windows для просмотра оглавления каталога?',
     answers: [
-      { text: 'DIR/Р', isRight: false },
+      { text: 'DIR/Р', isRight: true },
       { text: 'RMDIR', isRight: false },
       { text: 'MKDIR', isRight: false },
       { text: 'MOVE', isRight: false },
@@ -3326,7 +3326,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'Да, для этого необходимо воспользоваться процедурами AddFontMemResourceEx и RemoveFontMemResourceEx',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Нет, копирование файла шрифта в папку C:\\Windows\\Fonts неизбежно',
@@ -3341,7 +3341,7 @@ export const OSISP: Question[] = [
       { text: 'Поток', isRight: false },
       { text: 'Драйвер', isRight: false },
       { text: 'DLL-библиотека', isRight: false },
-      { text: 'Процесс', isRight: false },
+      { text: 'Процесс', isRight: true },
       { text: 'Сервис', isRight: false },
     ],
   },
@@ -3350,7 +3350,7 @@ export const OSISP: Question[] = [
       'Возможность подключения разнообразных моделей внешних устройств гарантируется наличием в ОС большого количества',
     answers: [
       { text: 'утилит', isRight: false },
-      { text: 'драйверов (+)', isRight: false },
+      { text: 'драйверов ', isRight: true },
       { text: 'модулей ядра', isRight: false },
       { text: 'вспомогательных приложений', isRight: false },
       { text: 'программ', isRight: false },
@@ -3359,19 +3359,19 @@ export const OSISP: Question[] = [
   {
     question: 'Что такое буфер обмена?',
     answers: [
-      { text: '﻿﻿жесткий диск', isRight: false },
+      { text: 'жесткий диск', isRight: false },
       {
-        text: '﻿﻿это специальная память компьютера, которую нельзя стереть',
+        text: 'это специальная память компьютера, которую нельзя стереть',
         isRight: false,
       },
       {
-        text: '﻿﻿специальная область монитора, в которой временно хранится информация',
+        text: 'специальная область монитора, в которой временно хранится информация',
         isRight: false,
       },
-      { text: '﻿﻿это оперативная память', isRight: false },
+      { text: 'это оперативная память', isRight: false },
       {
-        text: '﻿﻿специальная область памяти компьютера, в которой временно хранится информация',
-        isRight: false,
+        text: 'специальная область памяти компьютера, в которой временно хранится информация',
+        isRight: true,
       },
     ],
   },
@@ -3380,23 +3380,23 @@ export const OSISP: Question[] = [
       'Сколько координатных плоскостей существует в расширенном графическом режиме (GM_ADVANCED) ОС Windows? Как они называются?',
     answers: [
       {
-        text: '﻿﻿2: мировая (world coordinate space), устройства (device coordinate space)',
+        text: '2: мировая (world coordinate space), устройства (device coordinate space)',
         isRight: false,
       },
       {
-        text: '﻿﻿5: мировая (world coordinate space), логическая (logical coordinate space), страничная (page coordinate space), устройства (device coordinate space), физического устройства (physical device coordinate space)',
+        text: '5: мировая (world coordinate space), логическая (logical coordinate space), страничная (page coordinate space), устройства (device coordinate space), физического устройства (physical device coordinate space)',
         isRight: false,
       },
       {
-        text: '﻿﻿2: логическая (logical coordinate space), физическая (device coordinate space)',
+        text: '2: логическая (logical coordinate space), физическая (device coordinate space)',
         isRight: false,
       },
       {
-        text: '﻿﻿4: мировая (world coordinate space), страничная (page coordinate space), устройства (device coordinate space), физического устройства (physical device coordinate space)',
-        isRight: false,
+        text: '4: мировая (world coordinate space), страничная (page coordinate space), устройства (device coordinate space), физического устройства (physical device coordinate space)',
+        isRight: true,
       },
       {
-        text: '﻿﻿3: мировая (world coordinate space), страничная (page coordinate space), устройства (device coordinate space)',
+        text: '3: мировая (world coordinate space), страничная (page coordinate space), устройства (device coordinate space)',
         isRight: false,
       },
     ],
@@ -3406,7 +3406,7 @@ export const OSISP: Question[] = [
       'Программирование первых ламповых вычислительных устройств осуществлялось исключительно на',
     answers: [
       { text: 'пользовательском языке', isRight: false },
-      { text: 'машинном языке', isRight: false },
+      { text: 'машинном языке', isRight: true },
       { text: 'высокоуровневом языке', isRight: false },
       { text: 'английском языке', isRight: false },
       { text: 'командном языке', isRight: false },
@@ -3420,13 +3420,13 @@ export const OSISP: Question[] = [
       { text: 'виртуальную память', isRight: false },
       { text: 'драйвер', isRight: false },
       { text: 'соглашение вызова', isRight: false },
-      { text: 'механизмы синхронизации', isRight: false },
+      { text: 'механизмы синхронизации', isRight: true },
     ],
   },
   {
     question: 'Для чего нужна в Linux утилита grep?',
     answers: [
-      { text: 'для работы с регулярными выражениями', isRight: false },
+      { text: 'для работы с регулярными выражениями', isRight: true },
       { text: 'для открытия файла', isRight: false },
       { text: 'для архивации файла', isRight: false },
       { text: 'для перемещения файла', isRight: false },
@@ -3437,7 +3437,7 @@ export const OSISP: Question[] = [
     question:
       'Как называется нотация, используемая в идентификаторах параметров функций операционной системы Windows?',
     answers: [
-      { text: 'Венгерская', isRight: false },
+      { text: 'Венгерская', isRight: true },
       { text: 'Русская', isRight: false },
       { text: 'Английская', isRight: false },
       { text: 'Польская', isRight: false },
@@ -3452,7 +3452,7 @@ export const OSISP: Question[] = [
       { text: 'не измеряется', isRight: false },
       { text: 'не оценивается', isRight: false },
       { text: 'не изменяется', isRight: false },
-      { text: 'повышается', isRight: false },
+      { text: 'повышается', isRight: true },
     ],
   },
   {
@@ -3473,7 +3473,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'защищает компьютер, предотвращает несанкционированный доступ к нему из сети',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -3482,7 +3482,7 @@ export const OSISP: Question[] = [
       'Время между запуском системы на выполнение и получением результата называют',
     answers: [
       { text: 'длительностью реакции', isRight: false },
-      { text: 'временем реакции', isRight: false },
+      { text: 'временем реакции', isRight: true },
       { text: 'периодом выполнения', isRight: false },
       { text: 'временем выполнения', isRight: false },
       { text: 'временем деактивации', isRight: false },
@@ -3495,14 +3495,14 @@ export const OSISP: Question[] = [
       { text: 'пассивным', isRight: false },
       { text: 'загрузочным', isRight: false },
       { text: 'статичным', isRight: false },
-      { text: 'активным', isRight: false },
+      { text: 'активным', isRight: true },
       { text: 'основным', isRight: false },
     ],
   },
   {
     question: 'Объекты оконной системы ОС Windows называются:',
     answers: [
-      { text: 'Window Objects', isRight: false },
+      { text: 'Window Objects', isRight: true },
       { text: 'User Objects', isRight: false },
       { text: 'Kernel Objects', isRight: false },
       { text: 'GDI Objects', isRight: false },
@@ -3512,7 +3512,7 @@ export const OSISP: Question[] = [
   {
     question: 'Как называется совокупность кодов и данных процесса',
     answers: [
-      { text: 'образом процесса', isRight: false },
+      { text: 'образом процесса', isRight: true },
       { text: 'процессор', isRight: false },
       { text: 'дескриптором процесса', isRight: false },
       { text: 'идентификатором процесса', isRight: false },
@@ -3526,7 +3526,7 @@ export const OSISP: Question[] = [
       { text: 'GetModuleFileName', isRight: false },
       { text: 'GetModuleHandle', isRight: false },
       { text: 'LoadLibrary', isRight: false },
-      { text: 'GetProcAddress', isRight: false },
+      { text: 'GetProcAddress', isRight: true },
       { text: 'GetFunction', isRight: false },
     ],
   },
@@ -3534,7 +3534,7 @@ export const OSISP: Question[] = [
     question:
       'Какая функция используется для записи файла в WinAPI в пользовательском режиме?',
     answers: [
-      { text: 'NtWriteFile', isRight: false },
+      { text: 'NtWriteFile', isRight: true },
       { text: 'ZwReadFile', isRight: false },
       { text: 'NtReadFile', isRight: false },
       { text: 'NtDll.dll', isRight: false },
@@ -3559,7 +3559,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'Указатель на процедуру обработки оконных сообщений, стиль оконного класса, значок, курсор, меню окон данного оконного класса и другие данные',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Значок, курсор, меню, заголовок окон данного оконного класса и другие данные',
@@ -3574,7 +3574,7 @@ export const OSISP: Question[] = [
       { text: 'Start', isRight: false },
       { text: 'Pause', isRight: false },
       { text: 'Cmd', isRight: false },
-      { text: 'Echo', isRight: false },
+      { text: 'Echo', isRight: true },
     ],
   },
   {
@@ -3582,7 +3582,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'удаление файлов', isRight: false },
       { text: 'замена файлов', isRight: false },
-      { text: 'сравнение файлов', isRight: false },
+      { text: 'сравнение файлов', isRight: true },
       { text: 'тестирование файлов', isRight: false },
       { text: 'переименование файлов', isRight: false },
     ],
@@ -3591,7 +3591,7 @@ export const OSISP: Question[] = [
     question:
       'Как называется информационная структура, которая содержит информацию о процессе, необходимую ядру ОС в течение всего жизненного цикла процесса независимо от его состояния?',
     answers: [
-      { text: 'дескриптор', isRight: false },
+      { text: 'дескриптор', isRight: true },
       { text: 'контекст', isRight: false },
       { text: 'схема', isRight: false },
       { text: 'процесс', isRight: false },
@@ -3610,14 +3610,14 @@ export const OSISP: Question[] = [
       { text: 'файл, содержащий команды файла', isRight: false },
       {
         text: 'набор команд, соединенных символом канала(Никита тестом)',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
   {
     question: 'KDE, GNOME, Xfce - это названия',
     answers: [
-      { text: 'оболочек операционной системы Linux(+)', isRight: false },
+      { text: 'оболочек операционной системы Linux', isRight: true },
       { text: 'оболочек операционной системы Windows', isRight: false },
       { text: 'сред разработки', isRight: false },
       { text: 'браузеров', isRight: false },
@@ -3636,14 +3636,14 @@ export const OSISP: Question[] = [
       },
       {
         text: 'Это виртуальная среда для запуска разных ОС на вашем ПК',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
   {
     question: 'Какая запись имени текстового файла является правильной?',
     answers: [
-      { text: 'sigma.txt', isRight: false },
+      { text: 'sigma.txt', isRight: true },
       { text: '$sigma.txt', isRight: false },
       { text: 'sigma.si', isRight: false },
       { text: 'sigma.com', isRight: false },
@@ -3655,7 +3655,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'FAT32', isRight: false },
       { text: 'FAT', isRight: false },
-      { text: 'journalized ext3 FS', isRight: false },
+      { text: 'journalized ext3 FS', isRight: true },
       { text: 'FAT16', isRight: false },
       { text: 'NTFS', isRight: false },
     ],
@@ -3665,7 +3665,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'макроядро', isRight: false },
       { text: 'микроядро', isRight: false },
-      { text: 'экоядро', isRight: false },
+      { text: 'экоядро', isRight: true },
       { text: 'гибридное ядро', isRight: false },
       { text: 'экзоядро', isRight: false },
     ],
@@ -3673,7 +3673,7 @@ export const OSISP: Question[] = [
   {
     question: 'Где хранятся атрибуты файлов в файловой системе FAT?',
     answers: [
-      { text: 'в каталогах', isRight: false },
+      { text: 'в каталогах', isRight: true },
       { text: 'вместе с файлом', isRight: false },
       { text: 'в индексных дескрипторах', isRight: false },
       { text: 'в таблице с папками и файлами', isRight: false },
@@ -3701,8 +3701,8 @@ export const OSISP: Question[] = [
         isRight: false,
       },
       {
-        text: 'Мьютекс может использоваться для синхронизации потоков разных процессов, а критическая секция - нет (+)',
-        isRight: false,
+        text: 'Мьютекс может использоваться для синхронизации потоков разных процессов, а критическая секция - нет ',
+        isRight: true,
       },
     ],
   },
@@ -3712,7 +3712,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'временем деактивации', isRight: false },
       { text: 'временем реакции', isRight: false },
-      { text: 'временем выполнения', isRight: false },
+      { text: 'временем выполнения', isRight: true },
       { text: 'длительностью реакции', isRight: false },
       { text: 'периодом выполнения', isRight: false },
     ],
@@ -3727,7 +3727,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'В оконном классе необходимо включить стиль CS_DBLCLKS',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'При создании окна необходимо включить стиль WS_DBLCLKS',
@@ -3750,7 +3750,7 @@ export const OSISP: Question[] = [
       { text: 'Fn', isRight: false },
       { text: 'Zw', isRight: false },
       { text: 'Usr', isRight: false },
-      { text: 'Nt', isRight: false },
+      { text: 'Nt', isRight: true },
       { text: 'Am', isRight: false },
     ],
   },
@@ -3760,7 +3760,7 @@ export const OSISP: Question[] = [
       { text: 'архивация каталога', isRight: false },
       { text: 'копирование каталогов', isRight: false },
       { text: 'создание каталогов', isRight: false },
-      { text: 'удаление каталогов', isRight: false },
+      { text: 'удаление каталогов', isRight: true },
       { text: 'перемещение каталогов', isRight: false },
     ],
   },
@@ -3770,7 +3770,7 @@ export const OSISP: Question[] = [
     answers: [
       {
         text: 'Создания файла манифеста для приложения или пустого файла или каталога, совпадающего по имени с именем приложения и отличающегося наличием суффикса .locall',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Создания каталога, совпадающего по имени с именем приложения и отличающегося наличием суффикса .dll',
@@ -3794,7 +3794,7 @@ export const OSISP: Question[] = [
       { text: 'Bitmap', isRight: false },
       { text: 'VersionInformation', isRight: false },
       { text: 'String Table', isRight: false },
-      { text: 'RCData', isRight: false },
+      { text: 'RCData', isRight: true },
       { text: 'AcceleratorTable', isRight: false },
     ],
   },
@@ -3802,7 +3802,7 @@ export const OSISP: Question[] = [
     question:
       'Как называется механизм перехвата процедур взаимодействия программ с объектами в ОС Windows?',
     answers: [
-      { text: 'Object Manager Callbacks', isRight: false },
+      { text: 'Object Manager Callbacks', isRight: true },
       { text: 'PrОСess Callbacks', isRight: false },
       { text: 'Registry Callbacks', isRight: false },
       { text: 'Thread Callbacks', isRight: false },
@@ -3817,7 +3817,7 @@ export const OSISP: Question[] = [
       { text: 'оболочка операционной системы', isRight: false },
       { text: 'файловая система', isRight: false },
       { text: 'программное обеспечение', isRight: false },
-      { text: 'ядро операционной системы', isRight: false },
+      { text: 'ядро операционной системы', isRight: true },
     ],
   },
   {
@@ -3825,7 +3825,7 @@ export const OSISP: Question[] = [
     answers: [
       {
         text: 'непрерывный участок виртуального адресного пространства процесса, рассматриваемый как отдельный объект',
-        isRight: false,
+        isRight: true,
       },
       { text: 'участки адресного пространства', isRight: false },
       {
@@ -3846,7 +3846,7 @@ export const OSISP: Question[] = [
       { text: 'стартовая папка', isRight: false },
       { text: 'папка', isRight: false },
       { text: 'структурная папка', isRight: false },
-      { text: 'корневая папка', isRight: false },
+      { text: 'корневая папка', isRight: true },
     ],
   },
   {
@@ -3858,7 +3858,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'система, позволяющая выполнять несколько задач и переключаться между ними',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'позволяет использовать операционную систему нескольким пользователям',
@@ -3876,7 +3876,7 @@ export const OSISP: Question[] = [
     answers: [
       {
         text: 'режим многозадачности, при котором переключение процессов происходит через определенные кванты времени соответственно приоритетам',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'режим многозадачности, при котором переключение процессов возможно через определенное время',
@@ -3903,7 +3903,7 @@ export const OSISP: Question[] = [
       { text: 'TerminateThread', isRight: false },
       { text: 'ExitThread', isRight: false },
       { text: 'SuspendThread', isRight: false },
-      { text: 'Sleep или SleepEx', isRight: false },
+      { text: 'Sleep или SleepEx', isRight: true },
       { text: 'SwitchToThread', isRight: false },
     ],
   },
@@ -3913,7 +3913,7 @@ export const OSISP: Question[] = [
       { text: 'DriverUnload', isRight: false },
       { text: 'Windows Driver Kit', isRight: false },
       { text: 'IRQL', isRight: false },
-      { text: 'Driver Entry (+)', isRight: false },
+      { text: 'Driver Entry ', isRight: true },
       { text: 'NtReadFile', isRight: false },
     ],
   },
@@ -3924,7 +3924,7 @@ export const OSISP: Question[] = [
       { text: 'большой набор графических функций', isRight: false },
       { text: 'приложение браузер', isRight: false },
       { text: 'меню пуск', isRight: false },
-      { text: 'терминал', isRight: false },
+      { text: 'терминал', isRight: true },
     ],
   },
   {
@@ -3932,7 +3932,7 @@ export const OSISP: Question[] = [
       'Образ выгруженного процесса возвращается с диска в оперативную память в случае',
     answers: [
       { text: 'блокировки процесса', isRight: false },
-      { text: 'возобновления работы процесса', isRight: false },
+      { text: 'возобновления работы процесса', isRight: true },
       { text: 'прерывания процесса', isRight: false },
       { text: 'выполнения операций ввода-вывода', isRight: false },
       { text: 'обмена сообщениями с другим процессом', isRight: false },
@@ -3944,7 +3944,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'BIOS', isRight: false },
       { text: 'вспомогательных модулей ОС', isRight: false },
-      { text: 'ядра ОС', isRight: false },
+      { text: 'ядра ОС', isRight: true },
       { text: 'специальных модулей ОС', isRight: false },
       { text: 'драйверов', isRight: false },
     ],
@@ -3962,7 +3962,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'устройство, реализованное в виде микросхемы, либо электронной схемы',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'устройство, реализованное только в виде микросхемы. Если состоит из транзисторов, ламп, проводов, это уже не процессор, а системный блок(Никита и Даша)',
@@ -3996,14 +3996,14 @@ export const OSISP: Question[] = [
       },
       {
         text: 'CreateFile, CreateFileMapping, MapViewofFileEx',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
   {
     question: 'Какое действие в командной строке выполняет команда CHKDSK?',
     answers: [
-      { text: 'проверка диска', isRight: false },
+      { text: 'проверка диска', isRight: true },
       { text: 'архивирование диска', isRight: false },
       { text: 'форматирование диска', isRight: false },
       { text: 'перемещение диска', isRight: false },
@@ -4016,7 +4016,7 @@ export const OSISP: Question[] = [
       { text: 'cmd', isRight: false },
       { text: 'input', isRight: false },
       { text: '> > >', isRight: false },
-      { text: '> (+)', isRight: false },
+      { text: '> ', isRight: true },
       { text: '<', isRight: false },
     ],
   },
@@ -4028,7 +4028,7 @@ export const OSISP: Question[] = [
       { text: '1, 2, 4', isRight: false },
       { text: '1, 5', isRight: false },
       { text: '1, 3, 4', isRight: false },
-      { text: '1, 2, 3', isRight: false },
+      { text: '1, 2, 3', isRight: true },
     ],
   },
   {
@@ -4039,7 +4039,7 @@ export const OSISP: Question[] = [
       { text: 'расширяемостью', isRight: false },
       { text: 'наращиваемостью', isRight: false },
       { text: 'идентификацией', isRight: false },
-      { text: 'масштабируемостью', isRight: false },
+      { text: 'масштабируемостью', isRight: true },
     ],
   },
   {
@@ -4047,7 +4047,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'драйверы устройств', isRight: false },
       { text: 'файлы', isRight: false },
-      { text: 'системный загрузчик', isRight: false },
+      { text: 'системный загрузчик', isRight: true },
       { text: 'ядро', isRight: false },
       { text: 'прикладные программы', isRight: false },
     ],
@@ -4056,7 +4056,7 @@ export const OSISP: Question[] = [
     question:
       'Как называется информационная структура, которая содержит информацию, необходимую для возобновления выполнения процесса после прерывания и поэтому сохраняемую перед прерыванием?',
     answers: [
-      { text: 'контекст', isRight: false },
+      { text: 'контекст', isRight: true },
       { text: 'поток', isRight: false },
       { text: 'процесс', isRight: false },
       { text: 'файл', isRight: false },
@@ -4067,7 +4067,7 @@ export const OSISP: Question[] = [
     question: 'В ОС UNIX функции драйверов принтеров выполняют:',
     answers: [
       { text: 'системные вызовы', isRight: false },
-      { text: 'фильтры печати(Никита тестом)', isRight: false },
+      { text: 'фильтры печати', isRight: true },
       { text: 'утилиты', isRight: false },
       { text: 'сокеты', isRight: false },
       { text: 'специальные файлы устройств', isRight: false },
@@ -4088,7 +4088,7 @@ export const OSISP: Question[] = [
       { text: 'Никак не изменяет', isRight: false },
       {
         text: 'Увеличивает приоритет потока на 2, через квант времени уменьшает его на 1, еще через квант времени уменьшает его на 1 до базового приоритета',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Увеличивает приоритет потока на 1, через квант времени уменьшает его на 1 до базового приоритета',
@@ -4101,7 +4101,7 @@ export const OSISP: Question[] = [
       'Наиболее широко для создания резервных копий файловых систем UNIX используются команды',
     answers: [
       { text: 'dump', isRight: false },
-      { text: 'backup и restore', isRight: false },
+      { text: 'backup и restore', isRight: true },
       { text: 'dump и restore', isRight: false },
       { text: 'cat и paste', isRight: false },
       { text: 'backup и tar', isRight: false },
@@ -4125,8 +4125,8 @@ export const OSISP: Question[] = [
         isRight: false,
       },
       {
-        text: 'Заголовок, рамка и другие стандартные элементы окна не будут нарисованы на экране (+)',
-        isRight: false,
+        text: 'Заголовок, рамка и другие стандартные элементы окна не будут нарисованы на экране ',
+        isRight: true,
       },
     ],
   },
@@ -4134,7 +4134,7 @@ export const OSISP: Question[] = [
     question: 'Какой фирмой выпускается операционная система MacOS?',
     answers: [
       { text: 'Acer', isRight: false },
-      { text: 'Apple', isRight: false },
+      { text: 'Apple', isRight: true },
       { text: 'IBM', isRight: false },
       { text: 'HP', isRight: false },
       { text: 'Windows', isRight: false },
@@ -4144,7 +4144,7 @@ export const OSISP: Question[] = [
     question: 'Основой структуры тома в файловой системе NTFS является',
     answers: [
       { text: 'FAT32', isRight: false },
-      { text: 'главная таблица файлов', isRight: false },
+      { text: 'главная таблица файлов', isRight: true },
       { text: 'таблица индексных дескрипторов', isRight: false },
       { text: 'FAT', isRight: false },
       { text: 'суперблок', isRight: false },
@@ -4155,7 +4155,7 @@ export const OSISP: Question[] = [
     answers: [
       {
         text: 'режим, при котором переключение процессов возможно только, когда работающий процесс вызовет системную функцию',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'режим многозадачности, при котором переключение процессов происходит через определенные кванты времени',
@@ -4181,7 +4181,7 @@ export const OSISP: Question[] = [
     answers: [
       {
         text: 'Создание в разделе экспорта DLL записи, указывающей на другую процедуру в другой DLL-библиотеке (Даша)',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Замена в программе кода процедуры DLL-библиотеки',
@@ -4209,7 +4209,7 @@ export const OSISP: Question[] = [
       { text: 'приложение пользователя', isRight: false },
       { text: 'системного программиста', isRight: false },
       { text: 'драйвера пользователя', isRight: false },
-      { text: 'операционную систему', isRight: false },
+      { text: 'операционную систему', isRight: true },
     ],
   },
   {
@@ -4220,7 +4220,7 @@ export const OSISP: Question[] = [
       { text: 'номеру объекта', isRight: false },
       { text: 'ключу объекта в реестре', isRight: false },
       { text: 'дайджесту объекта', isRight: false },
-      { text: 'имени объекта', isRight: false },
+      { text: 'имени объекта', isRight: true },
     ],
   },
   {
@@ -4231,7 +4231,7 @@ export const OSISP: Question[] = [
       { text: 'антивирусными', isRight: false },
       { text: 'системными', isRight: false },
       { text: 'папками', isRight: false },
-      { text: 'архиваторами', isRight: false },
+      { text: 'архиваторами', isRight: true },
     ],
   },
   {
@@ -4240,7 +4240,7 @@ export const OSISP: Question[] = [
     answers: [
       {
         text: 'Множество символов со схожими размерами и начертанием контуров',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Множество символов с одинаковой шириной', isRight: false },
       { text: 'Множество символов с одинаковой гарнитурой', isRight: false },
@@ -4251,7 +4251,7 @@ export const OSISP: Question[] = [
   {
     question: 'К операционным системам относятся',
     answers: [
-      { text: 'MS-DOS, Windows 8', isRight: false },
+      { text: 'MS-DOS, Windows 8', isRight: true },
       { text: 'MS-Word, WordPad, PowerPoint, Windows 10', isRight: false },
       { text: 'MS-Office, Windows 10', isRight: false },
       { text: 'Photoshop', isRight: false },
@@ -4263,7 +4263,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'в самом первом цилиндре на винчестере', isRight: false },
       { text: 'в самой первой дорожке на винчестере', isRight: false },
-      { text: 'в самом первом секторе на винчестере', isRight: false },
+      { text: 'в самом первом секторе на винчестере', isRight: true },
       { text: 'в операционной системе', isRight: false },
       { text: 'в самой первой части винчестера', isRight: false },
     ],
@@ -4275,7 +4275,7 @@ export const OSISP: Question[] = [
       { text: 'удаление файлов', isRight: false },
       { text: 'тестирование файлов', isRight: false },
       { text: 'изменение атрибутов файла', isRight: false },
-      { text: 'перемещение файлов', isRight: false },
+      { text: 'перемещение файлов', isRight: true },
     ],
   },
   {
@@ -4292,7 +4292,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'Корневые разделы: HKEY_LОСAL_MACHINE, HKEY_USERS. Короткие пути: HKEY_CURRENT_CONFIG, HKEY_CLASSES_ROOT, HKEY_CURRENT_USER',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Корневые разделы: HKEY_CURRENT_CONFIG, HKEY_CLASSES_ROOT. Короткие пути: HKEY_LОСAL_MACHINE, HKEY_USERS, HKEY_CURRENT_USER',
@@ -4309,7 +4309,7 @@ export const OSISP: Question[] = [
       'Какой процедурой ОС Windows нужно воспользоваться, чтобы загрузить растровое изображение из произвольного файла на диске?',
     answers: [
       { text: 'LoadBitmap', isRight: false },
-      { text: 'LoadImage', isRight: false },
+      { text: 'LoadImage', isRight: true },
       { text: 'LoadResource', isRight: false },
       { text: 'LoadCursor', isRight: false },
       { text: 'LoadIcon', isRight: false },
@@ -4322,7 +4322,7 @@ export const OSISP: Question[] = [
       { text: 'Memory AllОСation Request (MAR)', isRight: false },
       { text: 'Request', isRight: false },
       { text: 'Buffer Request (BR)', isRight: false },
-      { text: 'Interrupt Request (IRQ)', isRight: false },
+      { text: 'Interrupt Request (IRQ)', isRight: true },
     ],
   },
   {
@@ -4331,7 +4331,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'тремя', isRight: false },
       { text: 'шестью', isRight: false },
-      { text: 'четырьмя(Никита тестом)', isRight: false },
+      { text: 'четырьмя', isRight: true },
       { text: 'двумя', isRight: false },
       { text: 'пятью', isRight: false },
     ],
@@ -4352,14 +4352,14 @@ export const OSISP: Question[] = [
       { text: 'WM_SYSKEYDOWN, WM_SYSKEYUP', isRight: false },
       {
         text: 'WM_KEYDOWN, WM_KEYUP, WM_SYSKEYDOWN, WM_SYSKEYUP(1)',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
   {
     question: 'ОС Linux распространяется по лицензии:',
     answers: [
-      { text: 'GNU', isRight: false },
+      { text: 'GNU', isRight: true },
       { text: 'Линуса Торвальдса', isRight: false },
       { text: 'компании Sun', isRight: false },
       { text: 'MFIT', isRight: false },
@@ -4378,7 +4378,7 @@ export const OSISP: Question[] = [
       { text: 'пользовательские приложения', isRight: false },
       {
         text: 'модули ядра ОС и наиболее важные вспомогательные модули ОС',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -4390,7 +4390,7 @@ export const OSISP: Question[] = [
       { text: 'однопоточные', isRight: false },
       { text: 'многопользовательские', isRight: false },
       { text: 'многопроцессорные', isRight: false },
-      { text: 'многозадачные', isRight: false },
+      { text: 'многозадачные', isRight: true },
     ],
   },
   {
@@ -4399,7 +4399,7 @@ export const OSISP: Question[] = [
       { text: 'система временной обработки', isRight: false },
       { text: 'система реального времени', isRight: false },
       { text: 'система системной обработки', isRight: false },
-      { text: 'система индивидуальной обработки (+)', isRight: false },
+      { text: 'система индивидуальной обработки ', isRight: true },
       { text: 'система пакетной обработки', isRight: false },
     ],
   },
@@ -4417,7 +4417,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'Ожидаемый таймер точнее, потому что с ним поток не тратит время на получение сообщения из очереди сообщений',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Ожидаемый таймер точнее, потому что оконный таймер не позволяет задать промежуток времени в миллисекундах',
@@ -4433,7 +4433,7 @@ export const OSISP: Question[] = [
     question:
       'Какое название носят современные операционные системы компании Microsoft?',
     answers: [
-      { text: 'Windows (+)', isRight: false },
+      { text: 'Windows ', isRight: true },
       { text: 'Linus', isRight: false },
       { text: 'Ubuntu', isRight: false },
       { text: 'Solaris', isRight: false },
@@ -4444,8 +4444,8 @@ export const OSISP: Question[] = [
     question: 'Функция CreateRemoteThread ОС Windows предназначена для',
     answers: [
       {
-        text: 'создания потока в другом процессе локального компьютера (+)',
-        isRight: false,
+        text: 'создания потока в другом процессе локального компьютера ',
+        isRight: true,
       },
       {
         text: 'создания потока в текущем процессе локального компьютера',
@@ -4469,7 +4469,7 @@ export const OSISP: Question[] = [
       { text: '__Min@0', isRight: false },
       { text: 'Min', isRight: false },
       { text: 'Min1', isRight: false },
-      { text: 'Min@0', isRight: false },
+      { text: 'Min@0', isRight: true },
       { text: '__Min0', isRight: false },
     ],
   },
@@ -4487,7 +4487,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'Структура XFORM кодирует первые два столбца матрицы трансформации, а последний столбец состоит из констант 0, 0, 1',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Матрица трансформации является симметричной, поэтому для ее кодирования достаточно 6 полей в структуре XFORM',
@@ -4505,7 +4505,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: '2', isRight: false },
       { text: '15', isRight: false },
-      { text: '0x2E', isRight: false },
+      { text: '0x2E', isRight: true },
       { text: '20', isRight: false },
       { text: '0', isRight: false },
     ],
@@ -4523,7 +4523,7 @@ export const OSISP: Question[] = [
       },
       {
         text: 'двоичные инструкции, непосредственно выполняемые процессором, определяемые архитектурой данного процессора',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'отображение программы на языке высокого уровня в виде бит, кодирующих соответствующие символы',
@@ -4542,7 +4542,7 @@ export const OSISP: Question[] = [
       },
       { text: 'параллельная многозадачность', isRight: false },
       { text: 'вытесняющая многозадачность', isRight: false },
-      { text: 'симметричная многозадачность', isRight: false },
+      { text: 'симметричная многозадачность', isRight: true },
     ],
   },
   {
@@ -4551,7 +4551,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'квантования времени', isRight: false },
       { text: 'разделения времени', isRight: false },
-      { text: 'реального времени', isRight: false },
+      { text: 'реального времени', isRight: true },
       { text: 'квантового разделения времени', isRight: false },
       { text: 'заданного времени', isRight: false },
     ],
@@ -4562,7 +4562,7 @@ export const OSISP: Question[] = [
     answers: [
       { text: 'ExtTextOut', isRight: false },
       { text: 'TextOut', isRight: false },
-      { text: 'DrawText и DrawTextEx', isRight: false },
+      { text: 'DrawText и DrawTextEx', isRight: true },
       { text: 'TabbedTextOut', isRight: false },
       { text: 'PolyTextOut', isRight: false },
     ],
@@ -4570,7 +4570,7 @@ export const OSISP: Question[] = [
   {
     question: 'Какой подсистемы управления нет в ОС?',
     answers: [
-      { text: 'заданиями', isRight: false },
+      { text: 'заданиями', isRight: true },
       { text: 'устройствами ввода-вывода', isRight: false },
       { text: 'процессами', isRight: false },
       { text: 'процессорами', isRight: false },
@@ -4581,7 +4581,7 @@ export const OSISP: Question[] = [
     question:
       'Наиболее важной подсистемой окружения Windows NT, обеспечивающей GUI и управляющей вводом-выводом данных пользователя, является',
     answers: [
-      { text: 'Win32', isRight: false },
+      { text: 'Win32', isRight: true },
       { text: 'POSIX', isRight: false },
       { text: 'DOS', isRight: false },
       { text: 'OS/2', isRight: false },
@@ -4599,7 +4599,7 @@ export const OSISP: Question[] = [
       { text: 'приоритет функции', isRight: false },
       {
         text: 'порядок передачи аргументов и возврата результата вызываемой функции',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
