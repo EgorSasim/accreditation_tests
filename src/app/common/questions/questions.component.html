@@ -7,8 +7,17 @@
   </div>
 
   <div class="question__controls">
-    <button (click)="confirmQuestion()">confirm</button>
-    <button (click)="showNextQuestion()">next</button>
+    <button class="question__controls-button" (click)="confirmQuestion()">
+      confirm
+    </button>
+    <div class="question__controls-navigation">
+      <button class="question__controls-button" (click)="showPrevQuestion()">
+        prev
+      </button>
+      <button class="question__controls-button" (click)="showNextQuestion()">
+        next
+      </button>
+    </div>
   </div>
 </main>
 

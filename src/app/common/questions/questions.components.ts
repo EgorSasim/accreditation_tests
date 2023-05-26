@@ -24,15 +24,24 @@ export class QuestionsComponent implements OnInit {
   public isResShown: number = 0;
 
   public ngOnInit(): void {
-    this.showNextQuestion();
+    this.question = this.questions[this.questionPointer];
   }
 
   public showNextQuestion(): void {
     this.selectedAnswer = {} as Answer;
     if (this.questionPointer < this.questions.length) {
-      this.question = this.questions[this.questionPointer++];
+      this.question = this.questions[++this.questionPointer];
     } else {
       this.showResult();
+    }
+  }
+
+  public showPrevQuestion(): void {
+    this.selectedAnswer = {} as Answer;
+    if (this.questionPointer == 0) {
+      alert("this is the first question!!! U can't go back");
+    } else {
+      this.question = this.questions[--this.questionPointer];
     }
   }
 
