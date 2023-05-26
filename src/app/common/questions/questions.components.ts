@@ -29,8 +29,8 @@ export class QuestionsComponent implements OnInit {
 
   public showNextQuestion(): void {
     this.selectedAnswer = {} as Answer;
-    if (this.questionPointer < this.questions.length) {
-      this.question = this.questions[++this.questionPointer];
+    if (++this.questionPointer < this.questions.length) {
+      this.question = this.questions[this.questionPointer];
     } else {
       this.showResult();
     }
