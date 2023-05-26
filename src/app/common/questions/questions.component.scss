@@ -1,0 +1,13 @@
+.question__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1.5rem;
+}
+
+.question__controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

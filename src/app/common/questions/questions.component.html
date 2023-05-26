@@ -1,0 +1,17 @@
+<main *ngIf="!isResShown" class="question__main">
+  <div>{{ question.question }}</div>
+
+  <div *ngFor="let answer of question.answers">
+    <input type="radio" name="answer" (click)="setSelectedAnswer(answer)" />
+    {{ answer.text }}
+  </div>
+
+  <div class="question__controls">
+    <button (click)="showNextQuestion()">next</button>
+    <button (click)="confirmQuestion()">confirm</button>
+  </div>
+</main>
+
+<button *ngIf="isResShown" (click)="refreshQuestions()">
+  Refresh questions
+</button>

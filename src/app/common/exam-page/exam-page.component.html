@@ -1,0 +1,16 @@
+<header class="exam-page__header">{{ title }}</header>
+
+<button
+  *ngIf="!questionsPull.length"
+  class="exam-page__start-testing"
+  (click)="startTesting()"
+>
+  Start
+</button>
+
+<div *ngIf="questionsPull.length">
+  <app-questions
+    [questions]="questionsPull"
+    (questionsRunOut)="startTesting()"
+  ></app-questions>
+</div>

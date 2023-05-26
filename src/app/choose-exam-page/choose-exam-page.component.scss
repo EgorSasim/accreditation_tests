@@ -1,0 +1,16 @@
+.choose-exam-page__header {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 4rem;
+}
+
+.choose-exam-page__main {
+  padding: 4rem;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
