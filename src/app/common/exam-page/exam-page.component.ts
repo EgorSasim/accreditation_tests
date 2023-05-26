@@ -1,7 +1,9 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { KSIS } from 'src/app/common/questions/KSIS';
 import { OOTPISP } from 'src/app/common/questions/OOTPISP';
 import { OSISP } from 'src/app/common/questions/OSISP';
+import { YAP } from 'src/app/common/questions/YAP';
 import { Question } from 'src/app/common/questions/questions.typings';
 
 @Component({
@@ -24,6 +26,12 @@ export class ExamPageComponent {
         break;
       case 'osisp':
         this.questionAnswerData = OSISP;
+        break;
+      case 'ksis':
+        this.questionAnswerData = KSIS;
+        break;
+      case 'yap':
+        this.questionAnswerData = YAP;
         break;
       default:
         break;

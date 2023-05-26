@@ -6,7 +6,7 @@ export const KSIS: Question[] = [
       'DNS-запрос, по которому DNS-клиент сам последовательно делает запросы на другие серверы, называется:',
     answers: [
       { text: 'прямым', isRight: false },
-      { text: 'итеративным', isRight: false },
+      { text: 'итеративным', isRight: true },
       { text: 'последовательным', isRight: false },
       { text: 'рекурсивным', isRight: false },
       { text: 'обратным', isRight: false },
@@ -16,7 +16,7 @@ export const KSIS: Question[] = [
     question:
       'Тип сетевой топологии, в которой рабочие станции расположены вдоль одного участка кабеля, называемого сегментом',
     answers: [
-      { text: 'общая шина', isRight: false },
+      { text: 'общая шина', isRight: true },
       { text: 'кольцо', isRight: false },
       { text: 'смешанная', isRight: false },
       { text: 'звезда', isRight: false },
@@ -31,7 +31,7 @@ export const KSIS: Question[] = [
       { text: 'концентратор(hub)', isRight: false },
       { text: 'коммутатор(switch)', isRight: false },
       { text: 'мост(bridge)', isRight: false },
-      { text: 'маршрутизатор(router)', isRight: false },
+      { text: 'маршрутизатор(router)', isRight: true },
     ],
   },
   {
@@ -40,7 +40,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'топология', isRight: false },
       { text: 'физическая топология', isRight: false },
-      { text: 'логическая топология', isRight: false },
+      { text: 'логическая топология', isRight: true },
       { text: 'общая шина', isRight: false },
       { text: 'информационная топология', isRight: false },
     ],
@@ -49,7 +49,7 @@ export const KSIS: Question[] = [
     question:
       'Если при передаче сигнала одна из его характеристик меняется по закону изменения другого сигнала, то такой процесс называется:',
     answers: [
-      { text: 'модуляцией', isRight: false },
+      { text: 'модуляцией', isRight: true },
       { text: 'шифрованием', isRight: false },
       { text: 'кодированием', isRight: false },
       { text: 'скрэмблированием', isRight: false },
@@ -62,7 +62,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'итеративным', isRight: false },
       { text: 'прямым', isRight: false },
-      { text: 'рекурсивным', isRight: false },
+      { text: 'рекурсивным', isRight: true },
       { text: 'последовательным', isRight: false },
       { text: 'обратным', isRight: false },
     ],
@@ -76,7 +76,7 @@ export const KSIS: Question[] = [
       },
       { text: 'по кабелю', isRight: false },
       { text: 'в одном направлении от источника', isRight: false },
-      { text: 'во всех направлениях от источника', isRight: false },
+      { text: 'во всех направлениях от источника', isRight: true },
       {
         text: 'сигналы в беспроводной сети доступны только устройству-отправителю',
         isRight: false,
@@ -86,7 +86,7 @@ export const KSIS: Question[] = [
   {
     question: 'Основным недостатком физической топологии Звезда является:',
     answers: [
-      { text: 'отказ всей сети при отказе центрального узла', isRight: false },
+      { text: 'отказ всей сети при отказе центрального узла', isRight: true },
       { text: 'отказ всей сети при отказе любого узла', isRight: false },
       { text: 'высокая частота коллизий', isRight: false },
       {
@@ -99,7 +99,7 @@ export const KSIS: Question[] = [
   {
     question: 'Протокол HTTPS в отличие от протокола HTTP обеспечивает:',
     answers: [
-      { text: 'Шифрование данных', isRight: false },
+      { text: 'Шифрование данных', isRight: true },
       { text: 'Кэширование ответов сервер', isRight: false },
       {
         text: 'Взаимодействие клиента с сервером в режиме «запрос-ответ»',
@@ -115,7 +115,7 @@ export const KSIS: Question[] = [
     answers: [
       {
         text: 'адрес возвращается в пул адресов для повторного использования после истечения срока аренды',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'аренда адреса автоматически продлевается до возвращения ПК в сеть',
@@ -147,7 +147,7 @@ export const KSIS: Question[] = [
       },
       {
         text: 'слишком слабый сигнал при передаче из одного конца сети в другой',
-        isRight: false,
+        isRight: true,
       },
       { text: 'слишком большой трафик в сети', isRight: false },
     ],
@@ -164,7 +164,7 @@ export const KSIS: Question[] = [
       { text: 'отказ от передачи данных в сеть узлом', isRight: false },
       {
         text: 'результат одновременной передачи данных в сеть двумя узлами',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'результат повторной передачи данных в сеть узлом',
@@ -178,7 +178,7 @@ export const KSIS: Question[] = [
       { text: 'амплитудная', isRight: false },
       { text: 'фазово-импульсная', isRight: false },
       { text: 'импульсная', isRight: false },
-      { text: 'фазовая', isRight: false },
+      { text: 'фазовая', isRight: true },
       { text: 'частотная', isRight: false },
     ],
   },
@@ -186,7 +186,7 @@ export const KSIS: Question[] = [
     question:
       'Какой метод используется для доступа к разделяемой среде передачи в беспроводных сетях при предупреждении коллизий:',
     answers: [
-      { text: 'CSMA/CA', isRight: false },
+      { text: 'CSMA/CA', isRight: true },
       { text: 'IPX/SPX', isRight: false },
       { text: 'MAC/LLC', isRight: false },
       { text: 'CSMA/DA', isRight: false },
@@ -200,7 +200,7 @@ export const KSIS: Question[] = [
       { text: 'IP-адрес получателя и порт получателя', isRight: false },
       { text: 'IP-адрес отправителя', isRight: false },
       { text: 'IP-адрес получателя', isRight: false },
-      { text: 'IP-адрес отправителя и порт отправителя', isRight: false },
+      { text: 'IP-адрес отправителя и порт отправителя', isRight: true },
       { text: 'IP-адрес отправителя и MAC-адрес отправителя', isRight: false },
     ],
   },
@@ -212,7 +212,7 @@ export const KSIS: Question[] = [
       { text: 'повторитель', isRight: false },
       { text: 'модем', isRight: false },
       { text: 'концентратор', isRight: false },
-      { text: 'ISR', isRight: false },
+      { text: 'ISR', isRight: true },
     ],
   },
   {
@@ -222,7 +222,7 @@ export const KSIS: Question[] = [
       { text: 'рабочая группа', isRight: false },
       { text: 'ведомый', isRight: false },
       { text: 'пользователь', isRight: false },
-      { text: 'сервер', isRight: false },
+      { text: 'сервер', isRight: true },
       { text: 'рабочая станция', isRight: false },
     ],
   },
@@ -231,7 +231,7 @@ export const KSIS: Question[] = [
     answers: [
       {
         text: 'физический, канальный, сетевой, транспортный, сеансовый, представления, прикладной',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'прикладной, сеансовый, канальный, физический, деловой, транспортный',
@@ -256,7 +256,7 @@ export const KSIS: Question[] = [
       'Что позволяет организовывать пулы сетевых настроек для автоматического конфигурирования сетевых интерфейсов?',
     answers: [
       { text: 'HTTP', isRight: false },
-      { text: 'DHCP сервер', isRight: false },
+      { text: 'DHCP сервер', isRight: true },
       { text: 'SMTP', isRight: false },
       { text: 'DNS сервер', isRight: false },
       { text: 'FTP', isRight: false },
@@ -270,14 +270,14 @@ export const KSIS: Question[] = [
       { text: 'терминальной', isRight: false },
       { text: 'смешанной', isRight: false },
       { text: 'шлюза', isRight: false },
-      { text: 'одноранговой', isRight: false },
+      { text: 'одноранговой', isRight: true },
     ],
   },
   {
     question:
       'Какой метод используется для доступа к разделяемой среде передачи в проводных сетях при обнаружении коллизий:',
     answers: [
-      { text: 'CSMA/CD', isRight: false },
+      { text: 'CSMA/CD', isRight: true },
       { text: 'TCP/IP', isRight: false },
       { text: 'MAC/LLC', isRight: false },
       { text: 'CSMA/CA', isRight: false },
@@ -289,7 +289,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: '1278.214.198', isRight: false },
       { text: '123.259.259.250', isRight: false },
-      { text: '108.214.198.112', isRight: false },
+      { text: '108.214.198.112', isRight: true },
       { text: '125.255.255.1120', isRight: false },
       { text: '18.274.198.0', isRight: false },
     ],
@@ -300,7 +300,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'передача логических сигналов LLC', isRight: false },
       { text: 'интерфейс с устройством доступа AUI', isRight: false },
-      { text: 'управление доступом к передающей среде МАС', isRight: false },
+      { text: 'управление доступом к передающей среде МАС', isRight: true },
       { text: 'управление логическим каналом LLC', isRight: false },
       { text: 'передача физических сигналов PS', isRight: false },
     ],
@@ -327,7 +327,7 @@ export const KSIS: Question[] = [
       },
       {
         text: 'при перемещении узла его просто необходимо логически включить в другую VLAN, к которой подключены пользователи другой группы',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -336,7 +336,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'антенну', isRight: false },
       { text: 'доменное имя', isRight: false },
-      { text: 'IP-адрес', isRight: false },
+      { text: 'IP-адрес', isRight: true },
       { text: 'URL-адрес', isRight: false },
       { text: 'беспроводную сетевую плату', isRight: false },
     ],
@@ -348,7 +348,7 @@ export const KSIS: Question[] = [
       { text: '255.255.255.255', isRight: false },
       { text: '01-00-5E-ad-44-ff', isRight: false },
       { text: '192.168.33.7', isRight: false },
-      { text: 'ff-ff-ff-ff-ff-ff', isRight: false },
+      { text: 'ff-ff-ff-ff-ff-ff', isRight: true },
       { text: '00-7b-8c-9f-46-aa', isRight: false },
     ],
   },
@@ -356,7 +356,7 @@ export const KSIS: Question[] = [
     question:
       'В каком типе кабеля световая электромагнитная волна распространяется по центру стеклянного проводника:',
     answers: [
-      { text: 'одномодовое оптоволокно', isRight: false },
+      { text: 'одномодовое оптоволокно', isRight: true },
       { text: 'витая пара', isRight: false },
       { text: 'многомодовое оптоволокно', isRight: false },
       { text: 'коаксиальный кабель', isRight: false },
@@ -371,7 +371,7 @@ export const KSIS: Question[] = [
       { text: 'IMAP', isRight: false },
       { text: 'POP3', isRight: false },
       { text: 'FTP', isRight: false },
-      { text: 'SMTP', isRight: false },
+      { text: 'SMTP', isRight: true },
     ],
   },
   {
@@ -382,7 +382,7 @@ export const KSIS: Question[] = [
       { text: 'кодированием', isRight: false },
       { text: 'дешифрацией', isRight: false },
       { text: 'конфликтом', isRight: false },
-      { text: 'коллизией', isRight: false },
+      { text: 'коллизией', isRight: true },
     ],
   },
   {
@@ -390,7 +390,7 @@ export const KSIS: Question[] = [
       'Какой из способов обновления данных веб-сайта по протоколу HTTP характеризуется: средней частотой обновления данных (режим, близкий к реальному времени); средним потреблением полосы пропускания канала связи (заголовки HTTP присутствуют в каждом цикле передачи данных туда и обратно); высокой нагрузкой на веб-сервер; малым временем задержки для событий малой интенсивности:',
     answers: [
       { text: 'Потоковая передача (Comet Streaming)', isRight: false },
-      { text: 'Долгий опрос (Comet Long Polling)', isRight: false },
+      { text: 'Долгий опрос (Comet Long Polling)', isRight: true },
       { text: 'Периодический опрос (Ajax Polling)', isRight: false },
       { text: 'Веб-гнездо (Web Socket)', isRight: false },
       { text: 'Полное обновление страницы', isRight: false },
@@ -400,7 +400,7 @@ export const KSIS: Question[] = [
     question:
       'Какой тип NAT при трансляции подменяет не только адрес локального узла, но и его порт?',
     answers: [
-      { text: 'динамический NAT (PAT)', isRight: false },
+      { text: 'динамический NAT (PAT)', isRight: true },
       { text: 'WAN', isRight: false },
       { text: 'статический NAT', isRight: false },
       { text: 'L2TP', isRight: false },
@@ -410,7 +410,7 @@ export const KSIS: Question[] = [
   {
     question: 'Устройство, обеспечивающее сопряжение ПК с линией связи',
     answers: [
-      { text: 'модем', isRight: false },
+      { text: 'модем', isRight: true },
       { text: 'сетевой адаптер', isRight: false },
       { text: 'шлюз', isRight: false },
       { text: 'сетевой концентратор', isRight: false },
@@ -423,7 +423,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'доменом рассылок', isRight: false },
       { text: 'доменом обнаружения', isRight: false },
-      { text: 'доменом коллизий', isRight: false },
+      { text: 'доменом коллизий', isRight: true },
       { text: 'широковещательным доменом', isRight: false },
       { text: 'доменом ошибок', isRight: false },
     ],
@@ -434,7 +434,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'IP', isRight: false },
       { text: 'Ethernet', isRight: false },
-      { text: 'TCP', isRight: false },
+      { text: 'TCP', isRight: true },
       { text: 'UDP', isRight: false },
       { text: 'HTTP', isRight: false },
     ],
@@ -455,7 +455,7 @@ export const KSIS: Question[] = [
       { text: 'доступ к телефонному каналу', isRight: false },
       {
         text: 'постоянное соединение по оптоволоконному каналу',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -468,7 +468,7 @@ export const KSIS: Question[] = [
       },
       {
         text: 'установления и поддержание сеанса связи между взаимодействующими узлами',
-        isRight: false,
+        isRight: true,
       },
       { text: 'проверки доступности разделяемой среды', isRight: false },
       {
@@ -481,7 +481,7 @@ export const KSIS: Question[] = [
   {
     question: 'Сетевая топология-это:',
     answers: [
-      { text: 'способ соединения компьютеров в сеть', isRight: false },
+      { text: 'способ соединения компьютеров в сеть', isRight: true },
       { text: 'механизм обмена информации в сети', isRight: false },
       { text: 'характеристика основных элементов сети', isRight: false },
       { text: 'способ обмена информацией в сети', isRight: false },
@@ -491,7 +491,7 @@ export const KSIS: Question[] = [
   {
     question: 'Маршрутизаторы определяют оптимальный путь на основе данных:',
     answers: [
-      { text: 'таблицы маршрутизации', isRight: false },
+      { text: 'таблицы маршрутизации', isRight: true },
       { text: 'таблицы коммутации', isRight: false },
       { text: 'ARP-таблицы', isRight: false },
       { text: 'таблицы соответствия', isRight: false },
@@ -505,7 +505,7 @@ export const KSIS: Question[] = [
       { text: 'домен третьего уровня', isRight: false },
       { text: 'домен нулевого уровня', isRight: false },
       { text: 'домен корневого уровня', isRight: false },
-      { text: 'домен первого уровня', isRight: false },
+      { text: 'домен первого уровня', isRight: true },
       { text: 'домен второго уровня', isRight: false },
     ],
   },
@@ -516,7 +516,7 @@ export const KSIS: Question[] = [
       { text: 'используя RIP-ответы', isRight: false },
       { text: 'используя ARP-ответы', isRight: false },
       { text: 'обращаясь к серверу имен', isRight: false },
-      { text: 'используя IP-адрес', isRight: false },
+      { text: 'используя IP-адрес', isRight: true },
       { text: 'обращаясь к мосту', isRight: false },
     ],
   },
@@ -530,7 +530,7 @@ export const KSIS: Question[] = [
       },
       {
         text: 'стандарт передачи данных через компьютерную сеть',
-        isRight: false,
+        isRight: true,
       },
       { text: 'устройство для работы локальной сети', isRight: false },
       { text: 'средство для передачи данных по сети', isRight: false },
@@ -540,7 +540,7 @@ export const KSIS: Question[] = [
     question: 'Выберите протокол транспортного уровня без установки соединения',
     answers: [
       { text: 'HTTP', isRight: false },
-      { text: 'UDP', isRight: false },
+      { text: 'UDP', isRight: true },
       { text: 'Ethernet', isRight: false },
       { text: 'TCP', isRight: false },
       { text: 'IP', isRight: false },
@@ -557,7 +557,7 @@ export const KSIS: Question[] = [
       },
       { text: 'короткое расстояние передачи сигнала', isRight: false },
       { text: 'наличие возврата уровня сигнала к 0', isRight: false },
-      { text: 'кодирование битов перепадами уровня сигнала', isRight: false },
+      { text: 'кодирование битов перепадами уровня сигнала', isRight: true },
     ],
   },
   {
@@ -566,7 +566,7 @@ export const KSIS: Question[] = [
       { text: 'сетевой', isRight: false },
       { text: 'физический', isRight: false },
       { text: 'транспортный', isRight: false },
-      { text: 'прикладной', isRight: false },
+      { text: 'прикладной', isRight: true },
       { text: 'канальный', isRight: false },
     ],
   },
@@ -578,7 +578,7 @@ export const KSIS: Question[] = [
       { text: 'брандмауэр', isRight: false },
       { text: 'модем', isRight: false },
       { text: 'шина', isRight: false },
-      { text: 'мост', isRight: false },
+      { text: 'мост', isRight: true },
     ],
   },
   {
@@ -592,7 +592,7 @@ export const KSIS: Question[] = [
       },
       { text: 'короткое расстояние передачи сигнала', isRight: false },
       { text: 'наличие возврата уровня сигнала к 0', isRight: false },
-      { text: 'кодирование битов перепадами уровня сигнала', isRight: false },
+      { text: 'кодирование битов перепадами уровня сигнала', isRight: true },
     ],
   },
   {
@@ -608,11 +608,11 @@ export const KSIS: Question[] = [
       },
       {
         text: 'правила и стандарты взаимодействия между двумя уровнями одного узла',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'правила и стандарты взаимодействия между двумя уровнями одного узла',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'правила и стандарты взаимодействия между двумя узлам',
@@ -628,7 +628,7 @@ export const KSIS: Question[] = [
       { text: 'долгий опрос (comet long polling)', isRight: false },
       { text: 'полное обновление страницы', isRight: false },
       { text: 'периодический опрос (ajax polling)', isRight: false },
-      { text: 'веб-гнездо (web socket)', isRight: false },
+      { text: 'веб-гнездо (web socket)', isRight: true },
     ],
   },
   {
@@ -639,13 +639,13 @@ export const KSIS: Question[] = [
       { text: 'IP-адрес получателя и порт получателя', isRight: false },
       { text: 'IP-адрес отправителя', isRight: false },
       { text: 'IP-адрес отправителя и порт отправителя', isRight: false },
-      { text: 'IP-адрес получателя', isRight: false },
+      { text: 'IP-адрес получателя', isRight: true },
     ],
   },
   {
     question: 'К какому уровню ISO/OSI относится протокол POP3?',
     answers: [
-      { text: 'прикладной', isRight: false },
+      { text: 'прикладной', isRight: true },
       { text: 'сетевой', isRight: false },
       { text: 'канальный', isRight: false },
       { text: 'транспортный', isRight: false },
@@ -657,7 +657,7 @@ export const KSIS: Question[] = [
       'Какой протокол транспортного уровня необходимо использовать при работе сетевых приложений, для которых важна скорость передачи, но не важна надежность:',
     answers: [
       { text: 'IP', isRight: false },
-      { text: 'UDP', isRight: false },
+      { text: 'UDP', isRight: true },
       { text: 'TCP', isRight: false },
       { text: 'ICMP', isRight: false },
       { text: 'ARP', isRight: false },
@@ -671,7 +671,7 @@ export const KSIS: Question[] = [
       { text: 'дерево', isRight: false },
       { text: 'смешанная', isRight: false },
       { text: 'звезда', isRight: false },
-      { text: 'кольцо', isRight: false },
+      { text: 'кольцо', isRight: true },
     ],
   },
   {
@@ -684,7 +684,7 @@ export const KSIS: Question[] = [
       },
       {
         text: 'в замене частного (локального) адреса узла внутренней сети на глобальный IP-адрес',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'в замене частного IP-адреса шлюза по умолчанию глобальным IP-адресом',
@@ -696,7 +696,7 @@ export const KSIS: Question[] = [
   {
     question: 'Выберите протокол транспортного уровня без гарантии доставки',
     answers: [
-      { text: 'UDP', isRight: false },
+      { text: 'UDP', isRight: true },
       { text: 'TCP', isRight: false },
       { text: 'IP', isRight: false },
       { text: 'Ethernet', isRight: false },
@@ -708,7 +708,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'позднее освобождения маркера', isRight: false },
       { text: 'раннего освобождения маркера', isRight: false },
-      { text: 'передача маркера по физическому кольцу', isRight: false },
+      { text: 'передача маркера по физическому кольцу', isRight: true },
       { text: 'множественный доступ', isRight: false },
       { text: 'передача сообщений по шине', isRight: false },
     ],
@@ -717,7 +717,7 @@ export const KSIS: Question[] = [
     question:
       'Какие значения подменяются при передаче UDP-пакета из глобальной сети в локальную сеть через маршрутизатор с технологией “динамический NAT” (PAT):',
     answers: [
-      { text: 'IP-адрес получателя и порт получателя', isRight: false },
+      { text: 'IP-адрес получателя и порт получателя', isRight: true },
       { text: 'IP-адрес получателя', isRight: false },
       { text: 'IP-адрес отправителя и МАС-адрес отправителя', isRight: false },
       { text: 'IP-адрес отправителя и порт отправителя', isRight: false },
@@ -731,7 +731,7 @@ export const KSIS: Question[] = [
       { text: 'IMAP', isRight: false },
       { text: 'HTTP', isRight: false },
       { text: 'POP3', isRight: false },
-      { text: 'FTP', isRight: false },
+      { text: 'FTP', isRight: true },
       { text: 'SMTP', isRight: false },
     ],
   },
@@ -740,7 +740,7 @@ export const KSIS: Question[] = [
       'Выберите название протокола, который управляет потоком передаваемых данных:',
     answers: [
       { text: 'ARP', isRight: false },
-      { text: 'TCP', isRight: false },
+      { text: 'TCP', isRight: true },
       { text: 'IP', isRight: false },
       { text: 'UDP', isRight: false },
       { text: 'ICMP', isRight: false },
@@ -753,7 +753,7 @@ export const KSIS: Question[] = [
       { text: 'сообщений', isRight: false },
       { text: 'каналов', isRight: false },
       { text: 'протоколов', isRight: false },
-      { text: 'пакетов', isRight: false },
+      { text: 'пакетов', isRight: true },
     ],
   },
   {
@@ -762,7 +762,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'SMTP', isRight: false },
       { text: 'IMAP', isRight: false },
-      { text: 'HTTP', isRight: false },
+      { text: 'HTTP', isRight: true },
       { text: 'FTP', isRight: false },
       { text: 'POP3', isRight: false },
     ],
@@ -773,7 +773,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'четырех проводников', isRight: false },
       { text: 'шести проводников', isRight: false },
-      { text: 'восьми проводников', isRight: false },
+      { text: 'восьми проводников', isRight: true },
       { text: 'девяти проводников', isRight: false },
       { text: 'двух проводников', isRight: false },
     ],
@@ -784,7 +784,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'коммутация сообщений', isRight: false },
       { text: 'коммутация каналов', isRight: false },
-      { text: 'коммутация пакетов', isRight: false },
+      { text: 'коммутация пакетов', isRight: true },
       { text: 'коммутация ячеек', isRight: false },
       { text: 'коммутация папок', isRight: false },
     ],
@@ -797,13 +797,13 @@ export const KSIS: Question[] = [
       { text: 'кольцо', isRight: false },
       { text: 'дерево', isRight: false },
       { text: 'смешанная', isRight: false },
-      { text: 'звезда', isRight: false },
+      { text: 'звезда', isRight: true },
     ],
   },
   {
     question: 'Граф физических связей машин в сети называется:',
     answers: [
-      { text: 'топологией', isRight: false },
+      { text: 'топологией', isRight: true },
       { text: 'маршрутом', isRight: false },
       { text: 'рабочей группой', isRight: false },
       { text: 'шлюзом', isRight: false },
@@ -815,7 +815,7 @@ export const KSIS: Question[] = [
       'Компьютеры или программы, переводящие данные из формата принятого в одной сети, в формат, принятый в другой сети:',
     answers: [
       { text: 'шины', isRight: false },
-      { text: 'шлюзы', isRight: false },
+      { text: 'шлюзы', isRight: true },
       { text: 'мосты', isRight: false },
       { text: 'модем', isRight: false },
       { text: 'брандмауэры', isRight: false },
@@ -827,7 +827,7 @@ export const KSIS: Question[] = [
     answers: [
       {
         text: 'Дуплексная передача обновляемых данных между сервером и клиентом;',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Всё из вышеперечисленного', isRight: false },
       { text: 'Высокая нагрузка на веб-сервер', isRight: false },
@@ -849,7 +849,7 @@ export const KSIS: Question[] = [
       { text: 'туннель', isRight: false },
       { text: 'коммутатор', isRight: false },
       { text: 'шлюз', isRight: false },
-      { text: 'модем', isRight: false },
+      { text: 'модем', isRight: true },
     ],
   },
   {
@@ -857,7 +857,7 @@ export const KSIS: Question[] = [
       'Устройство, которое на стороне передатчика обеспечивает преобразование цифрового сигнала компьютера в модулированный аналоговый сигнал, а на стороне приемника выполняет обратное преобразование сигналов:',
     answers: [
       { text: 'принтер', isRight: false },
-      { text: 'модем', isRight: false },
+      { text: 'модем', isRight: true },
       { text: 'сетевой коммутатор', isRight: false },
       { text: 'сканер', isRight: false },
       { text: 'сетевой адаптер', isRight: false },
@@ -867,7 +867,7 @@ export const KSIS: Question[] = [
     question: 'Наименее помехоустойчивыми линиями связи в сетях являются:',
     answers: [
       { text: 'на экранированной витой паре', isRight: false },
-      { text: 'на коаксиальном медном кабеле', isRight: false },
+      { text: 'на коаксиальном медном кабеле', isRight: true },
       { text: 'на волоконнооптическом кабеле', isRight: false },
       { text: 'беспроводные(радиолинии)', isRight: false },
       { text: 'на неэкранированной витой паре', isRight: false },
@@ -877,7 +877,7 @@ export const KSIS: Question[] = [
     question:
       'Какое максимальное число устройств возможно подключить к IPv4-сети с маской 255.255.255.0:',
     answers: [
-      { text: '254', isRight: false },
+      { text: '254', isRight: true },
       { text: '128', isRight: false },
       { text: '255', isRight: false },
       { text: '126', isRight: false },
@@ -891,7 +891,7 @@ export const KSIS: Question[] = [
       { text: '2001:db8::0:2bdf:::7334', isRight: false },
       { text: '2001:db8:::2bdf:::7334', isRight: false },
       { text: '2001:db8::2bdf::7334', isRight: false },
-      { text: '2001:db8::2bdf:0:0:7334', isRight: false },
+      { text: '2001:db8::2bdf:0:0:7334', isRight: true },
     ],
   },
   {
@@ -901,7 +901,7 @@ export const KSIS: Question[] = [
       { text: 'cmd', isRight: false },
       { text: 'nslookup', isRight: false },
       { text: 'telnet', isRight: false },
-      { text: 'tracert', isRight: false },
+      { text: 'tracert', isRight: true },
       { text: 'ping', isRight: false },
     ],
   },
@@ -916,7 +916,7 @@ export const KSIS: Question[] = [
       { text: 'око', isRight: false },
       {
         text: 'максимальное количество пересылок IP-дейтаграммы между маршрутизаторами',
-        isRight: false,
+        isRight: true,
       },
       { text: 'хранения IP-адресов компаний и организаций', isRight: false },
       {
@@ -929,7 +929,7 @@ export const KSIS: Question[] = [
     question: '«Трехкратным рукопожатием» называют',
     answers: [
       { text: 'разрыв соединения в протоколе UDP', isRight: false },
-      { text: 'установку соединения в протоколе TCP', isRight: false },
+      { text: 'установку соединения в протоколе TCP', isRight: true },
       { text: 'установку соединения в протоколе UDP', isRight: false },
       { text: 'разрыв соединения в протоколе TCP', isRight: false },
       { text: 'установку соединения в протоколе HTTP', isRight: false },
@@ -939,7 +939,7 @@ export const KSIS: Question[] = [
     question:
       'Укажите сетевое оборудование, которое в своей работе реализует функции 1 -го (физического), 2-го (канального) уровней модели OSI:',
     answers: [
-      { text: 'коммутатор (switch)', isRight: false },
+      { text: 'коммутатор (switch)', isRight: true },
       { text: 'маршрутизатор (router)', isRight: false },
       { text: 'мост (bridge)', isRight: false },
       { text: 'усилитель', isRight: false },
@@ -954,7 +954,7 @@ export const KSIS: Question[] = [
       { text: 'глобальная сеть', isRight: false },
       { text: 'муниципальная сеть', isRight: false },
       { text: 'региональная сеть', isRight: false },
-      { text: 'локальная сеть', isRight: false },
+      { text: 'локальная сеть', isRight: true },
     ],
   },
   {
@@ -962,7 +962,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'физический', isRight: false },
       { text: 'представительный', isRight: false },
-      { text: 'транспортный', isRight: false },
+      { text: 'транспортный', isRight: true },
       { text: 'сетевой', isRight: false },
       { text: 'канальный', isRight: false },
     ],
@@ -980,7 +980,7 @@ export const KSIS: Question[] = [
       },
       {
         text: 'стандарты на построение беспроводных локальных сетей WLAN',
-        isRight: false,
+        isRight: true,
       },
       { text: 'дифференциальное кодирование', isRight: false },
       {
@@ -995,7 +995,7 @@ export const KSIS: Question[] = [
     answers: [
       {
         text: 'Высокая частота обновления данных (режим реального времени), низкое потребление полосы пропускания канала связи (заголовки HTTP отсутствуют при передаче данных), дуплексная передача обновляемых данных между сервером и клиентом',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Дуплексная передача обновляемых данных между сервером и клиентом, среднее потребление полосы пропускания канала связи (заголовки HTTP присутствуют при передаче данных)',
@@ -1020,7 +1020,7 @@ export const KSIS: Question[] = [
       'Какие протоколы призваны обеспечить надежность передачи данных при использовании протокола UDP?',
     answers: [
       { text: 'межсетевые протоколы', isRight: false },
-      { text: 'протоколы уровня приложений', isRight: false },
+      { text: 'протоколы уровня приложений', isRight: true },
       { text: 'протоколы транспортного уровня', isRight: false },
       { text: 'протоколы сетевого уровня', isRight: false },
       { text: 'протоколы управления передачей', isRight: false },
@@ -1030,7 +1030,7 @@ export const KSIS: Question[] = [
     question:
       'Какой уровень OSI отвечает за надежную передачу данных через физический канал?',
     answers: [
-      { text: 'канальный', isRight: false },
+      { text: 'канальный', isRight: true },
       { text: 'физический', isRight: false },
       { text: 'прикладной', isRight: false },
       { text: 'сетевой', isRight: false },
@@ -1055,7 +1055,7 @@ export const KSIS: Question[] = [
       },
       {
         text: 'IP-адрес узла получателя присутствует в списке подменяемых адресов',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Значение порта получателя больше максимального разрешённого значения для внутренних портов маршрутизатора',
@@ -1067,7 +1067,7 @@ export const KSIS: Question[] = [
     question: 'Что проверяет команда tracert?',
     answers: [
       { text: 'функциональность конечного приложения', isRight: false },
-      { text: 'сетевой путь до места назначения', isRight: false },
+      { text: 'сетевой путь до места назначения', isRight: true },
       { text: 'функциональность приложения', isRight: false },
       { text: 'функциональность сетевой интерфейсной платы', isRight: false },
       { text: 'полосу пропускания поставщика услуг Интернета', isRight: false },
@@ -1084,7 +1084,7 @@ export const KSIS: Question[] = [
       { text: 'это никак не влияет на связь', isRight: false },
       {
         text: 'узел может обмениваться данными с другими узлами своей локальной сети, но не может обмениваться данными с узлами в других сетях',
-        isRight: false,
+        isRight: true,
       },
       { text: 'влияет на сетевую таблицу', isRight: false },
       {
@@ -1099,7 +1099,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'Недостатки коммутации пакетов', isRight: false },
       { text: 'Недостатки коммутации каналов', isRight: false },
-      { text: 'Достоинства коммутации каналов', isRight: false },
+      { text: 'Достоинства коммутации каналов', isRight: true },
       { text: 'Достоинства коммутации пакетов', isRight: false },
       { text: 'Достоинства коммутации пакетов и каналов', isRight: false },
     ],
@@ -1109,7 +1109,7 @@ export const KSIS: Question[] = [
       'Какой кабель в основном используется для соединения компьютеров в локальной сети?',
     answers: [
       { text: 'локальный кабель', isRight: false },
-      { text: 'витая пара', isRight: false },
+      { text: 'витая пара', isRight: true },
       { text: 'оптоволокно', isRight: false },
       { text: 'коаксиальный кабель', isRight: false },
       { text: 'кросс кабель', isRight: false },
@@ -1122,7 +1122,7 @@ export const KSIS: Question[] = [
       { text: 'симплексный', isRight: false },
       { text: 'обратный', isRight: false },
       { text: 'прямой', isRight: false },
-      { text: 'дуплексный', isRight: false },
+      { text: 'дуплексный', isRight: true },
       { text: 'полудуплексный', isRight: false },
     ],
   },
@@ -1133,7 +1133,7 @@ export const KSIS: Question[] = [
       { text: '109.207.161.11', isRight: false },
       { text: '109.207.0.0', isRight: false },
       { text: '109.207.161.0', isRight: false },
-      { text: '109.207.161.255', isRight: false },
+      { text: '109.207.161.255', isRight: true },
       { text: '109.207.0.254', isRight: false },
     ],
   },
@@ -1150,7 +1150,7 @@ export const KSIS: Question[] = [
       },
       {
         text: 'оно позволяет во время TCP-сеанса динамически согласовывать размер окна, что приводит к более эффективному использованию полосы пропускания',
-        isRight: false,
+        isRight: true,
       },
       { text: 'оно ограничивает объем поступающих данных', isRight: false },
       {
@@ -1166,7 +1166,7 @@ export const KSIS: Question[] = [
       { text: 'DELETE', isRight: false },
       { text: 'PUT', isRight: false },
       { text: 'GET', isRight: false },
-      { text: 'GET, PUT, DELETE, POST', isRight: false },
+      { text: 'GET, PUT, DELETE, POST', isRight: true },
       { text: 'POST', isRight: false },
     ],
   },
@@ -1177,7 +1177,7 @@ export const KSIS: Question[] = [
       { text: 'loopback-адрес', isRight: false },
       { text: 'адрес, из блока частных адресов', isRight: false },
       { text: 'групповой адрес', isRight: false },
-      { text: 'широковещательный адрес', isRight: false },
+      { text: 'широковещательный адрес', isRight: true },
     ],
   },
   {
@@ -1185,7 +1185,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'беспроводные (радиолинии)', isRight: false },
       { text: 'на экранированной витой паре', isRight: false },
-      { text: 'на волоконнооптическом кабеле', isRight: false },
+      { text: 'на волоконнооптическом кабеле', isRight: true },
       { text: 'на коаксиальном медном кабеле', isRight: false },
       { text: 'на неэкранированной витой паре', isRight: false },
     ],
@@ -1195,7 +1195,7 @@ export const KSIS: Question[] = [
       'Какой из перечисленных протоколов служит для доступа к почтовому ящику на сервере с нескольких устройств и позволяет пометить важные сообщения флагом, который хранится на сервере:',
     answers: [
       { text: 'SMTP', isRight: false },
-      { text: 'IMAP', isRight: false },
+      { text: 'IMAP', isRight: true },
       { text: 'POP3', isRight: false },
       { text: 'FTP', isRight: false },
       { text: 'HTTP', isRight: false },
@@ -1208,7 +1208,7 @@ export const KSIS: Question[] = [
       { text: 'FTP', isRight: false },
       { text: 'HTTP', isRight: false },
       { text: 'DHCP', isRight: false },
-      { text: 'HTTP/2', isRight: false },
+      { text: 'HTTP/2', isRight: true },
       { text: 'POP3', isRight: false },
     ],
   },
@@ -1225,7 +1225,7 @@ export const KSIS: Question[] = [
         isRight: false,
       },
       { text: 'Высокая нагрузка на веб-сервер', isRight: false },
-      { text: 'Всё из перечисленного', isRight: false },
+      { text: 'Всё из перечисленного', isRight: true },
       {
         text: 'Невысокая частота обновления данных (отсутствие режима реального времени)',
         isRight: false,
@@ -1238,7 +1238,7 @@ export const KSIS: Question[] = [
     answers: [
       {
         text: 'Доступ к почтовому ящику с возможностью управления перемещением и хранением сообщений на сервере',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Одноранговое взаимодействие «точка-точка»', isRight: false },
       {
@@ -1254,7 +1254,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'FTP', isRight: false },
       { text: 'DHCP сервер', isRight: false },
-      { text: 'DNS сервер', isRight: false },
+      { text: 'DNS сервер', isRight: true },
       { text: 'HTTP', isRight: false },
       { text: 'RIP', isRight: false },
     ],
@@ -1262,7 +1262,7 @@ export const KSIS: Question[] = [
   {
     question: 'Путь к запрашиваемому ресурсу в протоколе HTTP передаётся',
     answers: [
-      { text: 'В стартовой строке запроса', isRight: false },
+      { text: 'В стартовой строке запроса', isRight: true },
       { text: 'В одном из заголовков запроса', isRight: false },
       { text: 'В теле сообщения', isRight: false },
       { text: 'В конце сообщения', isRight: false },
@@ -1272,7 +1272,7 @@ export const KSIS: Question[] = [
   {
     question: 'К какому уровню ISO/OSI относится протокол IP?',
     answers: [
-      { text: 'сетевой', isRight: false },
+      { text: 'сетевой', isRight: true },
       { text: 'транспортный', isRight: false },
       { text: 'канальный', isRight: false },
       { text: 'прикладной', isRight: false },
@@ -1284,7 +1284,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'коммутаторы', isRight: false },
       { text: 'повторители', isRight: false },
-      { text: 'маршрутизаторы (шлюзы по умолчанию)', isRight: false },
+      { text: 'маршрутизаторы (шлюзы по умолчанию)', isRight: true },
       { text: 'усилители', isRight: false },
       { text: 'модемы', isRight: false },
     ],
@@ -1298,7 +1298,7 @@ export const KSIS: Question[] = [
       },
       {
         text: 'преодоления различий представления, шифрования и дешифрования и сжатия данных',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'организации продвижения данных через составную сеть',
@@ -1318,7 +1318,7 @@ export const KSIS: Question[] = [
     question:
       'Какой тип записи DNS хранит соответствие имени и DNS-сервера домена?',
     answers: [
-      { text: 'NS', isRight: false },
+      { text: 'NS', isRight: true },
       { text: 'MX', isRight: false },
       { text: 'AAAA', isRight: false },
       { text: 'CNAME', isRight: false },
@@ -1333,7 +1333,7 @@ export const KSIS: Question[] = [
       { text: 'DNS', isRight: false },
       { text: 'HTTP', isRight: false },
       { text: 'RARP', isRight: false },
-      { text: 'DHCP', isRight: false },
+      { text: 'DHCP', isRight: true },
     ],
   },
   {
@@ -1342,7 +1342,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'FTP', isRight: false },
       { text: 'HTTP', isRight: false },
-      { text: 'IMAP', isRight: false },
+      { text: 'IMAP', isRight: true },
       { text: 'DHCP', isRight: false },
       { text: 'POP3', isRight: false },
     ],
@@ -1368,7 +1368,7 @@ export const KSIS: Question[] = [
       },
       {
         text: 'количество информации, передаваемое во всей сети, в единицу времени',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -1377,7 +1377,7 @@ export const KSIS: Question[] = [
       'Какие значения подменяются при передаче UDP-пакета из локальной сети в глобальную сеть через маршрутизатор с технологией «статический NAT»:',
     answers: [
       { text: 'IP-адрес получателя', isRight: false },
-      { text: 'IP-адрес отправителя', isRight: false },
+      { text: 'IP-адрес отправителя', isRight: true },
       { text: 'IP-адрес отправителя и порт отправителя', isRight: false },
       { text: 'IP-адрес отправителя и MAC-адрес отправителя', isRight: false },
       { text: 'IP-адрес получателя и порт получателя', isRight: false },
@@ -1386,7 +1386,7 @@ export const KSIS: Question[] = [
   {
     question: 'Для передачи файлов по сети используется протокол',
     answers: [
-      { text: 'FTP', isRight: false },
+      { text: 'FTP', isRight: true },
       { text: 'IMAP', isRight: false },
       { text: 'HTTP', isRight: false },
       { text: 'DHCP', isRight: false },
@@ -1399,7 +1399,7 @@ export const KSIS: Question[] = [
       { text: 'MX', isRight: false },
       { text: 'NS', isRight: false },
       { text: 'CNAME', isRight: false },
-      { text: 'A', isRight: false },
+      { text: 'A', isRight: true },
       { text: 'AAAA', isRight: false },
     ],
   },
@@ -1410,7 +1410,7 @@ export const KSIS: Question[] = [
       { text: '256', isRight: false },
       { text: '257', isRight: false },
       { text: '255', isRight: false },
-      { text: '254', isRight: false },
+      { text: '254', isRight: true },
       { text: '126', isRight: false },
     ],
   },
@@ -1422,14 +1422,14 @@ export const KSIS: Question[] = [
       { text: 'ICMP', isRight: false },
       { text: 'RARP', isRight: false },
       { text: 'IMAP', isRight: false },
-      { text: 'ARP', isRight: false },
+      { text: 'ARP', isRight: true },
     ],
   },
   {
     question:
       'Восстановление нескольких потоков данных, переданных по одному каналу связи, называется',
     answers: [
-      { text: 'демультиплексирование', isRight: false },
+      { text: 'демультиплексирование', isRight: true },
       { text: 'сжатие', isRight: false },
       { text: 'проверка контрольной суммы', isRight: false },
       { text: 'мультиплексирование', isRight: false },
@@ -1441,7 +1441,7 @@ export const KSIS: Question[] = [
       'Какой из перечисленных протоколов не является текстовым протоколом прикладного уровня:',
     answers: [
       { text: 'POP3', isRight: false },
-      { text: 'HTTP/2', isRight: false },
+      { text: 'HTTP/2', isRight: true },
       { text: 'SMTP', isRight: false },
       { text: 'IMAP', isRight: false },
       { text: 'FTP', isRight: false },
@@ -1453,7 +1453,7 @@ export const KSIS: Question[] = [
       { text: 'незашифрованное соединение', isRight: false },
       {
         text: 'объект для доступа к возможностям стека TCP/IP',
-        isRight: false,
+        isRight: true,
       },
       { text: 'зашифрованное соединение', isRight: false },
       {
@@ -1471,7 +1471,7 @@ export const KSIS: Question[] = [
       { text: 'telnet', isRight: false },
       { text: 'nslookup', isRight: false },
       { text: 'cmd', isRight: false },
-      { text: 'tracert', isRight: false },
+      { text: 'tracert', isRight: true },
     ],
   },
   {
@@ -1481,7 +1481,7 @@ export const KSIS: Question[] = [
       { text: 'полносвязная топология', isRight: false },
       { text: 'звезда', isRight: false },
       { text: 'общая шина', isRight: false },
-      { text: 'кольцо', isRight: false },
+      { text: 'кольцо', isRight: true },
       { text: 'дерево', isRight: false },
     ],
   },
@@ -1489,7 +1489,7 @@ export const KSIS: Question[] = [
     question:
       'Какой из приведенных ниже механизмов протокола TCP управляет объемом передаваемой информации?',
     answers: [
-      { text: 'работа с окнами', isRight: false },
+      { text: 'работа с окнами', isRight: true },
       { text: 'рукопожатие', isRight: false },
       { text: 'запись после ошибки', isRight: false },
       { text: 'широковещание', isRight: false },
@@ -1502,7 +1502,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'полносвязная топология', isRight: false },
       { text: 'звезда', isRight: false },
-      { text: 'шина', isRight: false },
+      { text: 'шина', isRight: true },
       { text: 'кольцо', isRight: false },
       { text: 'дерево', isRight: false },
     ],
@@ -1513,7 +1513,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'разрешить только входящие соединения', isRight: false },
       { text: 'разрешить все, что не запрещено', isRight: false },
-      { text: 'запретить все, что не разрешено', isRight: false },
+      { text: 'запретить все, что не разрешено', isRight: true },
       { text: 'разрешить только исходящие соединения', isRight: false },
       { text: 'разрешить все соединения', isRight: false },
     ],
@@ -1521,7 +1521,7 @@ export const KSIS: Question[] = [
   {
     question: 'Какой топологии не существует?',
     answers: [
-      { text: 'последовательная топология', isRight: false },
+      { text: 'последовательная топология', isRight: true },
       { text: 'топология звезда', isRight: false },
       { text: 'топология кольцо', isRight: false },
       { text: 'топология дерево', isRight: false },
@@ -1532,7 +1532,7 @@ export const KSIS: Question[] = [
     question: 'Стандартный протокол сети Интернет:',
     answers: [
       { text: 'ISO', isRight: false },
-      { text: 'IP', isRight: false },
+      { text: 'IP', isRight: true },
       { text: 'PPP', isRight: false },
       { text: 'SLIP', isRight: false },
       { text: 'OSI', isRight: false },
@@ -1542,7 +1542,7 @@ export const KSIS: Question[] = [
     question:
       'Какой канал передачи информации как правило используют для обеспечения надежного высокоскоростного соединения двух серверов?',
     answers: [
-      { text: 'оптоволокно', isRight: false },
+      { text: 'оптоволокно', isRight: true },
       { text: 'кросс кабель', isRight: false },
       { text: 'локальный кабель', isRight: false },
       { text: 'беспроводной', isRight: false },
@@ -1553,7 +1553,7 @@ export const KSIS: Question[] = [
     question:
       'Какой тип модуляции использует изменение частоты несущего сигнала?',
     answers: [
-      { text: 'частотная', isRight: false },
+      { text: 'частотная', isRight: true },
       { text: 'импульсная', isRight: false },
       { text: 'фазово-импульсная', isRight: false },
       { text: 'фазовая', isRight: false },
@@ -1564,7 +1564,7 @@ export const KSIS: Question[] = [
     question: 'Выберите протокол транспортного уровня с установкой соединения',
     answers: [
       { text: 'HTTP', isRight: false },
-      { text: 'TCP', isRight: false },
+      { text: 'TCP', isRight: true },
       { text: 'UDP', isRight: false },
       { text: 'Ethernet', isRight: false },
       { text: 'IP', isRight: false },
@@ -1577,7 +1577,7 @@ export const KSIS: Question[] = [
       { text: 'набором файлов', isRight: false },
       { text: 'пакетом протоколов', isRight: false },
       { text: 'набором протоколов', isRight: false },
-      { text: 'стеком протоколов', isRight: false },
+      { text: 'стеком протоколов', isRight: true },
       { text: 'пакетом правил межсетевого взаимодействия', isRight: false },
     ],
   },
@@ -1587,7 +1587,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'ячейка', isRight: false },
       { text: 'LOC', isRight: false },
-      { text: 'переход (hop)', isRight: false },
+      { text: 'переход (hop)', isRight: true },
       { text: 'сегмент', isRight: false },
       { text: 'IPS', isRight: false },
     ],
@@ -1598,7 +1598,7 @@ export const KSIS: Question[] = [
       { text: 'они отвечают на ARP-запросы', isRight: false },
       {
         text: 'они строят ARP-таблицы, которые описывают все сети, подключенные к ним',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'они принимают широковещательные сообщения и отправляют запрашиваемую информацию',
@@ -1616,7 +1616,7 @@ export const KSIS: Question[] = [
       'Какая из следующих функций используется маршрутизатором для пересылки пакетов данных между сетями?',
     answers: [
       { text: 'передающая среда', isRight: false },
-      { text: 'определение пути и коммутация', isRight: false },
+      { text: 'определение пути и коммутация', isRight: true },
       { text: 'широковещание и обнаружение коллизий', isRight: false },
       { text: 'приложение и передающая среда', isRight: false },
       { text: 'никакая из упомянутых', isRight: false },
@@ -1628,7 +1628,7 @@ export const KSIS: Question[] = [
     answers: [
       {
         text: 'ближайший к компьютеру интерфейс маршрутизатора',
-        isRight: false,
+        isRight: true,
       },
       { text: 'сервер, управляемый ISP', isRight: false },
       { text: 'сетевая таблица', isRight: false },
@@ -1647,7 +1647,7 @@ export const KSIS: Question[] = [
         text: 'Малое время задержки для событий малой интенсивности',
         isRight: false,
       },
-      { text: 'Всё из вышеперечисленного', isRight: false },
+      { text: 'Всё из вышеперечисленного', isRight: true },
       { text: 'Высокая нагрузка на веб-сервер', isRight: false },
       {
         text: 'Среднее потребление полосы пропускания канала связи (заголовки HTTP присутствуют в каждом цикле передачи данных туда и обратно)',
@@ -1664,7 +1664,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'транспортный', isRight: false },
       { text: 'физический', isRight: false },
-      { text: 'прикладной', isRight: false },
+      { text: 'прикладной', isRight: true },
       { text: 'сетевой', isRight: false },
       { text: 'канальный', isRight: false },
     ],
@@ -1675,7 +1675,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'индивидуальным адресом', isRight: false },
       { text: 'адресом сети', isRight: false },
-      { text: 'адресом шлюза по умолчанию', isRight: false },
+      { text: 'адресом шлюза по умолчанию', isRight: true },
       { text: 'неопределенным адресом', isRight: false },
       { text: 'адресом по умолчанию', isRight: false },
     ],
@@ -1685,7 +1685,7 @@ export const KSIS: Question[] = [
       'Какой из перечисленных протоколов является протоколом извлечения электронной почты по принципу «загрузи-и-удали» (без возможности перемещения сообщений между папками на сервере):',
     answers: [
       { text: 'IMAP', isRight: false },
-      { text: 'POP3', isRight: false },
+      { text: 'POP3', isRight: true },
       { text: 'SMTP', isRight: false },
       { text: 'HTTP', isRight: false },
       { text: 'FTP', isRight: false },
@@ -1698,14 +1698,14 @@ export const KSIS: Question[] = [
       { text: 'адрес TCP/IP', isRight: false },
       { text: 'двоичный адрес', isRight: false },
       { text: 'троичный адрес', isRight: false },
-      { text: 'физический адрес', isRight: false },
+      { text: 'физический адрес', isRight: true },
     ],
   },
   {
     question:
       'Компания хочет разместить собственный Web-сервер в своей локальной сети за NAT. Какой тип преобразования NAT необходимо использовать в этом случае:',
     answers: [
-      { text: 'статический NAT', isRight: false },
+      { text: 'статический NAT', isRight: true },
       { text: 'NAT на основе портов (РАТ)', isRight: false },
       { text: 'прямой NAT', isRight: false },
       { text: 'динамический NAT', isRight: false },
@@ -1720,14 +1720,14 @@ export const KSIS: Question[] = [
       { text: 'прикладной', isRight: false },
       { text: 'канальный', isRight: false },
       { text: 'сетевой', isRight: false },
-      { text: 'представительный', isRight: false },
+      { text: 'представительный', isRight: true },
     ],
   },
   {
     question:
       'Какой протокол гарантирует доставку пакетов данных в неизменном виде, последовательности и без потерь?',
     answers: [
-      { text: 'TCP', isRight: false },
+      { text: 'TCP', isRight: true },
       { text: 'UDP', isRight: false },
       { text: 'HTTP', isRight: false },
       { text: 'RIP', isRight: false },
@@ -1747,7 +1747,7 @@ export const KSIS: Question[] = [
       },
       {
         text: 'правила и стандарты взаимодействия между узлами на одном уровне',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'правила и стандарты взаимодействия между двумя уровнями одного узла',
@@ -1766,7 +1766,7 @@ export const KSIS: Question[] = [
       { text: 'сетевой уровень', isRight: false },
       { text: 'транспортный уровень', isRight: false },
       { text: 'сеансовый уровень', isRight: false },
-      { text: 'уровень представлений', isRight: false },
+      { text: 'уровень представлений', isRight: true },
       { text: 'уровень приложений', isRight: false },
     ],
   },
@@ -1775,7 +1775,7 @@ export const KSIS: Question[] = [
       'Какой из перечисленных протоколов является протоколом доступа к почтовому ящику с возможностью управления перемещением и хранением сообщений на сервере:',
     answers: [
       { text: 'SMTP', isRight: false },
-      { text: 'IMAP', isRight: false },
+      { text: 'IMAP', isRight: true },
       { text: 'POP3', isRight: false },
       { text: 'HTTP', isRight: false },
       { text: 'FTP', isRight: false },
@@ -1785,7 +1785,7 @@ export const KSIS: Question[] = [
     question:
       'Какой из перечисленных протоколов не является протоколом прикладного уровня:',
     answers: [
-      { text: 'Ethernet', isRight: false },
+      { text: 'Ethernet', isRight: true },
       { text: 'HTTP', isRight: false },
       { text: 'SMTP', isRight: false },
       { text: 'IMAP', isRight: false },
@@ -1800,7 +1800,7 @@ export const KSIS: Question[] = [
       { text: 'последовательным', isRight: false },
       { text: 'обратным', isRight: false },
       { text: 'итеративным', isRight: false },
-      { text: 'рекурсивным', isRight: false },
+      { text: 'рекурсивным', isRight: true },
     ],
   },
   {
@@ -1811,7 +1811,7 @@ export const KSIS: Question[] = [
       { text: 'коммутация пакетов', isRight: false },
       { text: 'коммутация сообщений', isRight: false },
       { text: 'коммутация участков', isRight: false },
-      { text: 'коммутация каналов', isRight: false },
+      { text: 'коммутация каналов', isRight: true },
     ],
   },
   {
@@ -1820,7 +1820,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: '4', isRight: false },
       { text: '1', isRight: false },
-      { text: '1,2,3', isRight: false },
+      { text: '1,2,3', isRight: true },
       { text: '3,4', isRight: false },
       { text: '2', isRight: false },
     ],
@@ -1839,7 +1839,7 @@ export const KSIS: Question[] = [
         text: 'Доступ к почтовому ящику с возможностью управления перемещением и хранением сообщений на сервере',
         isRight: false,
       },
-      { text: 'Отправка электронной почты', isRight: false },
+      { text: 'Отправка электронной почты', isRight: true },
     ],
   },
   {
@@ -1847,7 +1847,7 @@ export const KSIS: Question[] = [
       'Следующие основные методы протокола HTTP небезопасными и не идемпотентными?',
     answers: [
       { text: 'GET, HEAD', isRight: false },
-      { text: 'POST', isRight: false },
+      { text: 'POST', isRight: true },
       { text: 'POST, PUT, DELETE', isRight: false },
       { text: 'GET, PUT, DELETE, POST', isRight: false },
       { text: 'PUT, DELETE', isRight: false },
@@ -1865,7 +1865,7 @@ export const KSIS: Question[] = [
       { text: 'устройство для работы локальной сети', isRight: false },
       {
         text: 'стандарт передачи данных через компьютерную сеть',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -1876,7 +1876,7 @@ export const KSIS: Question[] = [
         text: 'небезопасный протокол для передачи гипертекста',
         isRight: false,
       },
-      { text: 'HTTP over SSL', isRight: false },
+      { text: 'HTTP over SSL', isRight: true },
       { text: 'язык программирования гипертекста', isRight: false },
       { text: 'протокол сетевого уровня', isRight: false },
       { text: 'протокол безопасного шифрования от Google', isRight: false },
@@ -1891,7 +1891,7 @@ export const KSIS: Question[] = [
       },
       {
         text: 'IPv4 состоит из 4-х октетов и служит для идентификации хостов на сетевом уровне.',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'IPv4 состоит из 4 октетов и служит для идентификации хостов на физическом уровне.',
@@ -1914,7 +1914,7 @@ export const KSIS: Question[] = [
       { text: 'канальный', isRight: false },
       { text: 'прикладной', isRight: false },
       { text: 'транспортный', isRight: false },
-      { text: 'физический', isRight: false },
+      { text: 'физический', isRight: true },
       { text: 'сетевой', isRight: false },
     ],
   },
@@ -1924,7 +1924,7 @@ export const KSIS: Question[] = [
       { text: 'манчестерское кодирование', isRight: false },
       { text: 'преобразование Фурье', isRight: false },
       { text: 'дифференциальное манчестерское кодирование', isRight: false },
-      { text: 'частотная модуляция', isRight: false },
+      { text: 'частотная модуляция', isRight: true },
       { text: 'амплитудная модуляция', isRight: false },
     ],
   },
@@ -1936,14 +1936,14 @@ export const KSIS: Question[] = [
       { text: 'канальный', isRight: false },
       { text: 'физический', isRight: false },
       { text: 'прикладной', isRight: false },
-      { text: 'представительный', isRight: false },
+      { text: 'представительный', isRight: true },
     ],
   },
   {
     question:
       'Какой уровень модели OSI обеспечивает доступ к среде передачи и разрешение коллизий, адресацию узлов сети с помощью аппаратных (МАС) адресов и адресную передачу по этим адресам, контроль ошибок при передаче:',
     answers: [
-      { text: 'канальный', isRight: false },
+      { text: 'канальный', isRight: true },
       { text: 'прикладной', isRight: false },
       { text: 'сетевой', isRight: false },
       { text: 'транспортный', isRight: false },
@@ -1956,14 +1956,14 @@ export const KSIS: Question[] = [
       { text: '2001:db8::19:a2e:70:48', isRight: false },
       { text: '2001:db8:85a3:d3:19:a2e:70:48', isRight: false },
       { text: '::', isRight: false },
-      { text: '2001::85a3:d3::70:48', isRight: false },
+      { text: '2001::85a3:d3::70:48', isRight: true },
       { text: '::1', isRight: false },
     ],
   },
   {
     question: 'Сетевой уровень модели OSI служит для:',
     answers: [
-      { text: 'определения маршрута через сеть', isRight: false },
+      { text: 'определения маршрута через сеть', isRight: true },
       {
         text: 'обеспечения передачи данных с требуемой степенью надежности',
         isRight: false,
@@ -1987,7 +1987,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: '2001:db8::2bdf::7334', isRight: false },
       { text: '2001:db8:::2bdf:::7334', isRight: false },
-      { text: 'адрес сократить невозможно', isRight: false },
+      { text: 'адрес сократить невозможно', isRight: true },
       { text: '2001:db8::2bdf:0:0:7334', isRight: false },
       { text: '2001:db8::0:2bdf:::7334', isRight: false },
     ],
@@ -1998,7 +1998,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'Долгий опрос (Comet Long Polling)', isRight: false },
       { text: 'Веб-гнездо (Web Socket)', isRight: false },
-      { text: 'Полное обновление страницы', isRight: false },
+      { text: 'Полное обновление страницы', isRight: true },
       { text: 'Периодический опрос (Ajax Polling)', isRight: false },
       { text: 'Потоковая передача (Comet Streaming)', isRight: false },
     ],
@@ -2008,7 +2008,7 @@ export const KSIS: Question[] = [
       'Какие направления трафика можно контролировать правилами межсетевого экрана?',
     answers: [
       { text: 'MAC, IP, домен', isRight: false },
-      { text: 'входящие и исходящие', isRight: false },
+      { text: 'входящие и исходящие', isRight: true },
       { text: 'внутренние и внешние', isRight: false },
       { text: 'прямые и косвенные', isRight: false },
       { text: 'порт, IP-адрес, приложение', isRight: false },
@@ -2029,7 +2029,7 @@ export const KSIS: Question[] = [
       { text: 'проверки доступности разделяемой среды', isRight: false },
       {
         text: 'предоставления выбора требуемой степени надежности передачи данных между сетевыми процессами',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -2040,7 +2040,7 @@ export const KSIS: Question[] = [
       { text: 'динамический NAT (PAT)', isRight: false },
       { text: 'WAN', isRight: false },
       { text: 'PPTP', isRight: false },
-      { text: 'статический NAT', isRight: false },
+      { text: 'статический NAT', isRight: true },
       { text: 'L2TP', isRight: false },
     ],
   },
@@ -2050,7 +2050,7 @@ export const KSIS: Question[] = [
     answers: [
       {
         text: 'протокол, который выполняет маршрутизацию посредством реализованного в нем алгоритма',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'протокол, который определяет формат и использование полей в пакете данных',
@@ -2076,7 +2076,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'канальный', isRight: false },
       { text: 'транспортный', isRight: false },
-      { text: 'физический', isRight: false },
+      { text: 'физический', isRight: true },
       { text: 'прикладной', isRight: false },
       { text: 'сетевой', isRight: false },
     ],
@@ -2086,7 +2086,7 @@ export const KSIS: Question[] = [
       'Если в линии связи существует два направления передачи, то такая линия называется?',
     answers: [
       { text: 'полу-симплексная', isRight: false },
-      { text: 'дуплексная', isRight: false },
+      { text: 'дуплексная', isRight: true },
       { text: 'симплексная', isRight: false },
       { text: 'беспроводная', isRight: false },
       { text: 'полудуплексная', isRight: false },
@@ -2096,7 +2096,7 @@ export const KSIS: Question[] = [
     question:
       'Какой из способов обновления данных веб-сайта по протоколу HTTP характеризуется: невысокой частотой обновления данных (отсутствием режима реального времени); большим потреблением полосы пропускания канала связи; высокой нагрузкой на веб-сервер; отсутствием блокировки пользовательского интерфейса:',
     answers: [
-      { text: 'Периодический опрос (Ajax Polling)', isRight: false },
+      { text: 'Периодический опрос (Ajax Polling)', isRight: true },
       { text: 'Полное обновление страницы', isRight: false },
       { text: 'Веб-гнездо (Web Socket)', isRight: false },
       { text: 'Долгий опрос (Comet Long Polling)', isRight: false },
@@ -2110,7 +2110,7 @@ export const KSIS: Question[] = [
       { text: 'определения МАС-адреса по IP-адресу', isRight: false },
       {
         text: 'определения IP-адреса по доменному( символьному) имени',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'определения МАС-адреса по доменному( символьному) имени',
@@ -2123,7 +2123,7 @@ export const KSIS: Question[] = [
     question: 'Что не относится к сетевому оборудованию?',
     answers: [
       { text: 'коммутатор', isRight: false },
-      { text: 'видеокарта', isRight: false },
+      { text: 'видеокарта', isRight: true },
       { text: 'концентратор', isRight: false },
       { text: 'сетевой адаптер', isRight: false },
       { text: 'маршрутизатор', isRight: false },
@@ -2133,7 +2133,7 @@ export const KSIS: Question[] = [
     question:
       'По какому виду кабеля информация передается не электрическим сигналом, а световым?',
     answers: [
-      { text: 'оптоволоконному', isRight: false },
+      { text: 'оптоволоконному', isRight: true },
       { text: 'адаптер', isRight: false },
       { text: 'маршрутному', isRight: false },
       { text: 'витая пара', isRight: false },
@@ -2144,7 +2144,7 @@ export const KSIS: Question[] = [
     question:
       'Какой тип NAT при трансляции подменяет только адрес локального узла?',
     answers: [
-      { text: 'статический NAT', isRight: false },
+      { text: 'статический NAT', isRight: true },
       { text: 'L2TP', isRight: false },
       { text: 'PPTP', isRight: false },
       { text: 'динамический NAT (PAT)', isRight: false },
@@ -2158,7 +2158,7 @@ export const KSIS: Question[] = [
       { text: 'GET, PUT, DELETE, POST', isRight: false },
       { text: 'GET, PUT', isRight: false },
       { text: 'PUT, DELETE, POST', isRight: false },
-      { text: 'GET, HEAD', isRight: false },
+      { text: 'GET, HEAD', isRight: true },
       { text: 'POST', isRight: false },
     ],
   },
@@ -2168,7 +2168,7 @@ export const KSIS: Question[] = [
       { text: 'транспортный', isRight: false },
       { text: 'физический', isRight: false },
       { text: 'сетевой', isRight: false },
-      { text: 'прикладной', isRight: false },
+      { text: 'прикладной', isRight: true },
       { text: 'канальный', isRight: false },
     ],
   },
@@ -2178,14 +2178,14 @@ export const KSIS: Question[] = [
       { text: 'IP-адрес назначения', isRight: false },
       { text: 'только IР-адреса', isRight: false },
       { text: 'только широковещательные адреса', isRight: false },
-      { text: 'только MAC-адреса', isRight: false },
+      { text: 'только MAC-адреса', isRight: true },
       { text: 'только логические адреса', isRight: false },
     ],
   },
   {
     question: 'Из каких двух подуровней состоит канальный уровень:',
     answers: [
-      { text: 'MAC/LLC', isRight: false },
+      { text: 'MAC/LLC', isRight: true },
       { text: 'IPX/SPX', isRight: false },
       { text: 'TCP/IP', isRight: false },
       { text: 'ARP/RARP', isRight: false },
@@ -2199,7 +2199,7 @@ export const KSIS: Question[] = [
       { text: 'высокочастотных помех', isRight: false },
       { text: 'магнитных помех', isRight: false },
       { text: 'тепловых помех', isRight: false },
-      { text: 'перекрестных помех', isRight: false },
+      { text: 'перекрестных помех', isRight: true },
     ],
   },
   {
@@ -2208,7 +2208,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: '04-10-0d-ad-44-ff', isRight: false },
       { text: 'a2-b1-12-f1-8в-aу', isRight: false },
-      { text: 'ff-ff-ff-ff-ff-ff', isRight: false },
+      { text: 'ff-ff-ff-ff-ff-ff', isRight: true },
       { text: '2a-2b-1c-2f-ae-ac', isRight: false },
       { text: 'aa-bb-1c-ff-8e-ad', isRight: false },
     ],
@@ -2220,7 +2220,7 @@ export const KSIS: Question[] = [
       { text: 'концентратор', isRight: false },
       { text: 'маршрутизатор', isRight: false },
       { text: 'повторитель', isRight: false },
-      { text: 'коммутатор', isRight: false },
+      { text: 'коммутатор', isRight: true },
       { text: 'усилитель', isRight: false },
     ],
   },
@@ -2232,7 +2232,7 @@ export const KSIS: Question[] = [
       { text: 'IP-адрес отправителя и MAC-адрес отправителя', isRight: false },
       { text: 'IP-адрес получателя', isRight: false },
       { text: 'IP-адрес получателя и порт получателя', isRight: false },
-      { text: 'IP-адрес отправителя', isRight: false },
+      { text: 'IP-адрес отправителя', isRight: true },
     ],
   },
   {
@@ -2241,7 +2241,7 @@ export const KSIS: Question[] = [
       { text: 'каждая станция подключается общему кабелю', isRight: false },
       {
         text: 'все рабочие станции присоединены к центральному узлу',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'каждая станция соединена с двумя другими станциями',
@@ -2262,7 +2262,7 @@ export const KSIS: Question[] = [
       'Тип DNS-запроса, при котором клиент делает рекурсивный запрос к DNS-серверу, который далее выполняет итеративный запрос, называется',
     answers: [
       { text: 'Рекурсивный', isRight: false },
-      { text: 'Смешанный', isRight: false },
+      { text: 'Смешанный', isRight: true },
       { text: 'Периодический', isRight: false },
       { text: 'Итеративный', isRight: false },
       { text: 'Обратный', isRight: false },
@@ -2275,7 +2275,7 @@ export const KSIS: Question[] = [
       { text: '123.255.255.255', isRight: false },
       { text: '1278.214.198', isRight: false },
       { text: '180.244.298.20', isRight: false },
-      { text: '123.255.255.250', isRight: false },
+      { text: '123.255.255.250', isRight: true },
     ],
   },
   {
@@ -2284,7 +2284,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'протокол', isRight: false },
       { text: 'пользователь', isRight: false },
-      { text: 'интерфейс', isRight: false },
+      { text: 'интерфейс', isRight: true },
       { text: 'стек протоколов', isRight: false },
       { text: 'провайдер', isRight: false },
     ],
@@ -2303,7 +2303,7 @@ export const KSIS: Question[] = [
       },
       {
         text: 'устройство для организации работы локальной сети',
-        isRight: false,
+        isRight: true,
       },
       { text: 'главный компьютер в локальной сети', isRight: false },
     ],
@@ -2312,7 +2312,7 @@ export const KSIS: Question[] = [
     question:
       'Узлу А необходимо узнать MAC-адрес узла В, расположенного в том же сегменте LAN. На все узлы в данном сегменте отправляется запрос на получение MAC-адреса узла В. Узел В отправляет ответ со своими MAC- адресом, а все другие узлы игнорируют запрос. Какой протокол используется в данном сценарии?',
     answers: [
-      { text: 'ARP', isRight: false },
+      { text: 'ARP', isRight: true },
       { text: 'DNS', isRight: false },
       { text: 'WINS', isRight: false },
       { text: 'RIP', isRight: false },
@@ -2326,7 +2326,7 @@ export const KSIS: Question[] = [
       { text: 'прикладной', isRight: false },
       { text: 'представительный', isRight: false },
       { text: 'физический', isRight: false },
-      { text: 'канальный', isRight: false },
+      { text: 'канальный', isRight: true },
       { text: 'сетевой', isRight: false },
     ],
   },
@@ -2338,7 +2338,7 @@ export const KSIS: Question[] = [
       { text: 'NetBEUI', isRight: false },
       { text: 'IPX/SPX', isRight: false },
       { text: 'AppleTalk', isRight: false },
-      { text: 'TCP/IP', isRight: false },
+      { text: 'TCP/IP', isRight: true },
     ],
   },
   {
@@ -2348,7 +2348,7 @@ export const KSIS: Question[] = [
       { text: 'фазовая', isRight: false },
       { text: 'фазово-импульсная', isRight: false },
       { text: 'частотная', isRight: false },
-      { text: 'амплитудная', isRight: false },
+      { text: 'амплитудная', isRight: true },
       { text: 'импульсная', isRight: false },
     ],
   },
@@ -2359,7 +2359,7 @@ export const KSIS: Question[] = [
       { text: 'DELETE', isRight: false },
       { text: 'GET, PUT, DELETE, POST', isRight: false },
       { text: 'PUT', isRight: false },
-      { text: 'POST', isRight: false },
+      { text: 'POST', isRight: true },
       { text: 'GET', isRight: false },
     ],
   },
@@ -2370,7 +2370,7 @@ export const KSIS: Question[] = [
       { text: 'ICMP', isRight: false },
       { text: 'UDP', isRight: false },
       { text: 'IP', isRight: false },
-      { text: 'TCP', isRight: false },
+      { text: 'TCP', isRight: true },
     ],
   },
   {
@@ -2378,7 +2378,7 @@ export const KSIS: Question[] = [
       'Какой тип NAT заключается в выделении узлу локальной сети одного порта для доступа в глобальную сеть?',
     answers: [
       { text: 'L2TP', isRight: false },
-      { text: 'динамический NAT (PAT)', isRight: false },
+      { text: 'динамический NAT (PAT)', isRight: true },
       { text: 'PPTP', isRight: false },
       { text: 'статический NAT', isRight: false },
       { text: 'WAN', isRight: false },
@@ -2391,7 +2391,7 @@ export const KSIS: Question[] = [
       { text: 'статический NAT', isRight: false },
       { text: 'DNS', isRight: false },
       { text: 'VLAN', isRight: false },
-      { text: 'PAT', isRight: false },
+      { text: 'PAT', isRight: true },
       { text: 'FTP', isRight: false },
     ],
   },
@@ -2399,7 +2399,7 @@ export const KSIS: Question[] = [
     question: 'Доменные имена записываются:',
     answers: [
       { text: 'в прямом порядке', isRight: false },
-      { text: 'в обратном порядке', isRight: false },
+      { text: 'в обратном порядке', isRight: true },
       { text: 'в смешанном порядке', isRight: false },
       { text: 'в любом порядке', isRight: false },
       { text: 'порядок не важен', isRight: false },
@@ -2413,7 +2413,7 @@ export const KSIS: Question[] = [
       { text: 'сетевой', isRight: false },
       { text: 'прикладной', isRight: false },
       { text: 'канальный', isRight: false },
-      { text: 'физический', isRight: false },
+      { text: 'физический', isRight: true },
     ],
   },
   {
@@ -2421,7 +2421,7 @@ export const KSIS: Question[] = [
       'Выберите метод протокола HTTP, который должен использоваться для реализации семантики добавления комментария к странице посетителем веб-сайта:',
     answers: [
       { text: 'HEAD', isRight: false },
-      { text: 'POST', isRight: false },
+      { text: 'POST', isRight: true },
       { text: 'PATCH', isRight: false },
       { text: 'TRACE', isRight: false },
       { text: 'PUT', isRight: false },
@@ -2431,7 +2431,7 @@ export const KSIS: Question[] = [
     question: 'На каких уровнях эталонной модели OSI работают глобальные сети?',
     answers: [
       { text: 'транспортный уровень', isRight: false },
-      { text: 'физический и канальный уровни', isRight: false },
+      { text: 'физический и канальный уровни', isRight: true },
       { text: 'канальный уровень и уровень представлений', isRight: false },
       { text: 'канальный и сетевой уровни', isRight: false },
       { text: 'физический уровень и уровень приложений', isRight: false },
@@ -2442,7 +2442,7 @@ export const KSIS: Question[] = [
       'Географическая схема расположения компьютеров и прокладки кабелей называется',
     answers: [
       { text: 'логическая топология', isRight: false },
-      { text: 'физическая топология', isRight: false },
+      { text: 'физическая топология', isRight: true },
       { text: 'информационная топология', isRight: false },
       { text: 'топология', isRight: false },
       { text: 'общая шина', isRight: false },
@@ -2453,7 +2453,7 @@ export const KSIS: Question[] = [
       'Какая таблица используется маршрутизатором для принятия решения о том, через какой интерфейс должен быть отправлен пакет данных?',
     answers: [
       { text: 'таблица рассылки', isRight: false },
-      { text: 'таблица маршрутизации', isRight: false },
+      { text: 'таблица маршрутизации', isRight: true },
       { text: 'таблица RIP', isRight: false },
       { text: 'таблица ARP', isRight: false },
       { text: 'таблица MAC-адресов', isRight: false },
@@ -2469,7 +2469,7 @@ export const KSIS: Question[] = [
       { text: 'определяет, работает ли протокол данных', isRight: false },
       {
         text: 'показывает каждый маршрутизатор, через который проходит пакет на пути к пункту назначения',
-        isRight: false,
+        isRight: true,
       },
       { text: 'определяет, работает ли протокол канала', isRight: false },
       {
@@ -2484,7 +2484,7 @@ export const KSIS: Question[] = [
     answers: [
       {
         text: 'посылает широковещательное сообщение по всей локальной сети',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'посылает широковещательное сообщение по всей сети',
@@ -2503,7 +2503,7 @@ export const KSIS: Question[] = [
       'Задан адрес электронной почты в сети Интернет: user@gmail.com. Выберите имя домена верхнего уровня',
     answers: [
       { text: 'gmail', isRight: false },
-      { text: 'com', isRight: false },
+      { text: 'com', isRight: true },
       { text: 'user', isRight: false },
       { text: 'user@', isRight: false },
       { text: 'gmail.com', isRight: false },
@@ -2526,7 +2526,7 @@ export const KSIS: Question[] = [
       },
       {
         text: 'используется для получения MAC-адреса хоста, по известному IP-адресу',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'используется для построения таблицы коммутации',
@@ -2539,7 +2539,7 @@ export const KSIS: Question[] = [
       'Сеть, не содержащая в своем составе выделенных серверов, называется:',
     answers: [
       { text: 'трехранговой', isRight: false },
-      { text: 'одноранговой', isRight: false },
+      { text: 'одноранговой', isRight: true },
       { text: 'выделенной', isRight: false },
       { text: 'центализованной', isRight: false },
       { text: 'двухранговой', isRight: false },
@@ -2550,7 +2550,7 @@ export const KSIS: Question[] = [
       'Какой уровень ISO/OSI задает логическую топологию сети и отвечает за физическую адресацию узлов?',
     answers: [
       { text: 'физический', isRight: false },
-      { text: 'канальный', isRight: false },
+      { text: 'канальный', isRight: true },
       { text: 'транспортный', isRight: false },
       { text: 'сетевой', isRight: false },
       { text: 'прикладной', isRight: false },
@@ -2562,7 +2562,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'адрес сократить невозможно', isRight: false },
       { text: '2001:0db8:85a3::::0370:7334', isRight: false },
-      { text: '2001:db8:85a3::370:7334', isRight: false },
+      { text: '2001:db8:85a3::370:7334', isRight: true },
       { text: '2001:db8:85a3::0::370:7334', isRight: false },
       { text: '::2001:0db8:85a3:370:7334', isRight: false },
     ],
@@ -2580,7 +2580,7 @@ export const KSIS: Question[] = [
       },
       {
         text: 'данные всегда посылаются в режиме широковещания',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'все устройства сети видят данные, анализируют адрес получателя и отбрасывают фрейм, если он адресован другому устройству(точно неправильно)',
@@ -2594,7 +2594,7 @@ export const KSIS: Question[] = [
     answers: [
       {
         text: 'позволяют объединить отдельные сети, увеличить число узлов и протяженность сети',
-        isRight: false,
+        isRight: true,
       },
       { text: 'определяет, работает ли протокол данных', isRight: false },
       {
@@ -2612,7 +2612,7 @@ export const KSIS: Question[] = [
     question:
       'На какие классы делятся компьютерные сети по территориальному признаку?',
     answers: [
-      { text: 'локальные, региональные и глобальные', isRight: false },
+      { text: 'локальные, региональные и глобальные', isRight: true },
       { text: 'проводные и беспроводные', isRight: false },
       { text: 'предприятий, организаций и корпораций', isRight: false },
       {
@@ -2628,7 +2628,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'ICMP', isRight: false },
       { text: 'IPX', isRight: false },
-      { text: 'ARP', isRight: false },
+      { text: 'ARP', isRight: true },
       { text: 'IP', isRight: false },
       { text: 'RARP', isRight: false },
     ],
@@ -2640,7 +2640,7 @@ export const KSIS: Question[] = [
       { text: 'bsuir', isRight: false },
       { text: 'bsuir.by', isRight: false },
       { text: 'mail', isRight: false },
-      { text: 'by', isRight: false },
+      { text: 'by', isRight: true },
       { text: 'mail.bsuir.by', isRight: false },
     ],
   },
@@ -2648,7 +2648,7 @@ export const KSIS: Question[] = [
     question:
       'Какой протокол позволяет определить IP-адрес узла по его MAC-адресу:',
     answers: [
-      { text: 'RARP', isRight: false },
+      { text: 'RARP', isRight: true },
       { text: 'IP', isRight: false },
       { text: 'ARP', isRight: false },
       { text: 'IPX', isRight: false },
@@ -2663,7 +2663,7 @@ export const KSIS: Question[] = [
       { text: 'звезда', isRight: false },
       { text: 'полносвязная топология', isRight: false },
       { text: 'дерево', isRight: false },
-      { text: 'кольцо', isRight: false },
+      { text: 'кольцо', isRight: true },
     ],
   },
   {
@@ -2672,7 +2672,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'дуплексный', isRight: false },
       { text: 'прямой', isRight: false },
-      { text: 'полудуплексный', isRight: false },
+      { text: 'полудуплексный', isRight: true },
       { text: 'симплексный', isRight: false },
       { text: 'обратный', isRight: false },
     ],
@@ -2682,7 +2682,7 @@ export const KSIS: Question[] = [
       'Какое количество МАС - адресов используется в заголовке канального уровня технологии Ethernet:',
     answers: [
       { text: 'один', isRight: false },
-      { text: 'два', isRight: false },
+      { text: 'два', isRight: true },
       { text: 'МАС-адрес не используется', isRight: false },
       { text: 'три', isRight: false },
       { text: 'четыре', isRight: false },
@@ -2695,7 +2695,7 @@ export const KSIS: Question[] = [
       { text: 'сетевой', isRight: false },
       { text: 'транспортный', isRight: false },
       { text: 'канальный', isRight: false },
-      { text: 'прикладной', isRight: false },
+      { text: 'прикладной', isRight: true },
     ],
   },
   {
@@ -2705,7 +2705,7 @@ export const KSIS: Question[] = [
       { text: 'ЭМВОС', isRight: false },
       { text: 'OSI/ISO', isRight: false },
       { text: 'NCP', isRight: false },
-      { text: 'TCP/IP', isRight: false },
+      { text: 'TCP/IP', isRight: true },
     ],
   },
   {
@@ -2723,7 +2723,7 @@ export const KSIS: Question[] = [
         text: 'передачи информации между двумя сетевыми процессами',
         isRight: false,
       },
-      { text: 'управления доступом к разделяемой среде', isRight: false },
+      { text: 'управления доступом к разделяемой среде', isRight: true },
       { text: 'маршрутизации пакетов', isRight: false },
     ],
   },
@@ -2731,7 +2731,7 @@ export const KSIS: Question[] = [
     question:
       'Тип сетевой топологии, в которой рабочие станции расположены вдоль одного участка кабеля, называемого сегментом',
     answers: [
-      { text: 'общая шина', isRight: false },
+      { text: 'общая шина', isRight: true },
       { text: 'кольцо', isRight: false },
       { text: 'звезда', isRight: false },
       { text: 'смешанная', isRight: false },
@@ -2743,7 +2743,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'передачи файлов', isRight: false },
       { text: 'коммутация участков', isRight: false },
-      { text: 'передачи гипертекста', isRight: false },
+      { text: 'передачи гипертекста', isRight: true },
       { text: 'защиты информации', isRight: false },
       { text: 'управления передачи сообщениями', isRight: false },
     ],
@@ -2753,7 +2753,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'наличие возврата уровня сигнала к 0', isRight: false },
       { text: 'самосинхронизация', isRight: false },
-      { text: 'отсутствие возврата уровня сигнала к 0', isRight: false },
+      { text: 'отсутствие возврата уровня сигнала к 0', isRight: true },
       { text: 'кодирование битов перепадами уровня сигнала', isRight: false },
       { text: 'короткое расстояние передачи сигнала', isRight: false },
     ],
@@ -2767,7 +2767,7 @@ export const KSIS: Question[] = [
         text: 'серверная часть DSL, размещается на стороне провайдера',
         isRight: false,
       },
-      { text: 'виртуальная локальная сеть', isRight: false },
+      { text: 'виртуальная локальная сеть', isRight: true },
       { text: 'то же самое, что VPN', isRight: false },
     ],
   },
@@ -2778,7 +2778,7 @@ export const KSIS: Question[] = [
       { text: 'NAT', isRight: false },
       { text: 'ATM', isRight: false },
       { text: 'Fame relay', isRight: false },
-      { text: 'VPN', isRight: false },
+      { text: 'VPN', isRight: true },
       { text: 'VLAN', isRight: false },
     ],
   },
@@ -2787,7 +2787,7 @@ export const KSIS: Question[] = [
       'Какой из перечисленных протоколов не является протоколом прикладного уровня:',
     answers: [
       { text: 'POP3', isRight: false },
-      { text: 'UDP', isRight: false },
+      { text: 'UDP', isRight: true },
       { text: 'IMAP', isRight: false },
       { text: 'HTTP', isRight: false },
       { text: 'FTP', isRight: false },
@@ -2814,7 +2814,7 @@ export const KSIS: Question[] = [
       },
       {
         text: 'Simple Mail Transfer Protocol - простой протокол передачи почты',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -2824,7 +2824,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'Рекурсивный', isRight: false },
       { text: 'Периодический', isRight: false },
-      { text: 'Итеративный', isRight: false },
+      { text: 'Итеративный', isRight: true },
       { text: 'Смешанный', isRight: false },
       { text: 'Обратный', isRight: false },
     ],
@@ -2842,7 +2842,7 @@ export const KSIS: Question[] = [
       },
       {
         text: 'защищает компьютер, предотвращает несанкционированный доступ к нему из сети',
-        isRight: false,
+        isRight: true,
       },
       { text: 'автоматические устанавливает обновления', isRight: false },
       {
@@ -2856,7 +2856,7 @@ export const KSIS: Question[] = [
       'Какой вид трансляции позволяет преобразовывать несколько внутренних адресов в один внешний',
     answers: [
       { text: 'MAC-IP', isRight: false },
-      { text: 'PAT', isRight: false },
+      { text: 'PAT', isRight: true },
       { text: 'Static NAT', isRight: false },
       { text: 'NAT', isRight: false },
       { text: 'Point', isRight: false },
@@ -2867,7 +2867,7 @@ export const KSIS: Question[] = [
     answers: [
       {
         text: 'состоят из 4-х октетов и служат для идентификации хостов на сетевом уровне',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'состоят из 6-и октетов и служат для идентификации хостов на канальном уровне',
@@ -2895,7 +2895,7 @@ export const KSIS: Question[] = [
       { text: 'преобразование данных', isRight: false },
       {
         text: 'электрические или оптические импульсы, кодирующие данные',
-        isRight: false,
+        isRight: true,
       },
       { text: 'официально установленные правила и процедуры', isRight: false },
     ],
@@ -2905,7 +2905,7 @@ export const KSIS: Question[] = [
       'Как называется вид связи, при котором информация передается только в одном направлении?',
     answers: [
       { text: 'дуплексный', isRight: false },
-      { text: 'симплексный', isRight: false },
+      { text: 'симплексный', isRight: true },
       { text: 'полудуплексный', isRight: false },
       { text: 'прямой', isRight: false },
       { text: 'обратный', isRight: false },
@@ -2925,7 +2925,7 @@ export const KSIS: Question[] = [
       },
       {
         text: 'IP-адрес узла получателя присутствует в списке подменяемых адресов',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'IP-адрес узла отправителя присутствует в таблице маршрутизации',
@@ -2942,7 +2942,7 @@ export const KSIS: Question[] = [
       'Какой из перечисленных протоколов не является протоколом прикладного уровня:',
     answers: [
       { text: 'IMAP', isRight: false },
-      { text: 'TCP', isRight: false },
+      { text: 'TCP', isRight: true },
       { text: 'POP3', isRight: false },
       { text: 'SMTP', isRight: false },
       { text: 'FTP', isRight: false },
@@ -2955,7 +2955,7 @@ export const KSIS: Question[] = [
       { text: 'ping', isRight: false },
       { text: 'tracert', isRight: false },
       { text: 'route', isRight: false },
-      { text: 'ipconfig', isRight: false },
+      { text: 'ipconfig', isRight: true },
       { text: 'netstat', isRight: false },
     ],
   },
@@ -2966,7 +2966,7 @@ export const KSIS: Question[] = [
       { text: 'IP', isRight: false },
       { text: 'UDP', isRight: false },
       { text: 'ICMP', isRight: false },
-      { text: 'TCP', isRight: false },
+      { text: 'TCP', isRight: true },
       { text: 'ARP', isRight: false },
     ],
   },
@@ -2976,7 +2976,7 @@ export const KSIS: Question[] = [
       { text: 'FTP', isRight: false },
       { text: 'DHCP', isRight: false },
       { text: 'TELNET', isRight: false },
-      { text: 'HTTP', isRight: false },
+      { text: 'HTTP', isRight: true },
       { text: 'SMTP', isRight: false },
     ],
   },
@@ -2987,7 +2987,7 @@ export const KSIS: Question[] = [
       { text: 'POST, PUT, DELETE', isRight: false },
       { text: 'GET, PUT, DELETE, POST', isRight: false },
       { text: 'GET, HEAD', isRight: false },
-      { text: 'POST', isRight: false },
+      { text: 'POST', isRight: true },
       { text: 'PUT, DELETE', isRight: false },
     ],
   },
@@ -2998,7 +2998,7 @@ export const KSIS: Question[] = [
       { text: 'ARP', isRight: false },
       { text: 'ICMP', isRight: false },
       { text: 'UDP', isRight: false },
-      { text: 'TCP', isRight: false },
+      { text: 'TCP', isRight: true },
       { text: 'IP', isRight: false },
     ],
   },
@@ -3007,7 +3007,7 @@ export const KSIS: Question[] = [
       'Тип DNS-запроса, при котором клиент отправляет запрос одному серверу, тот отправляет запрос другому серверу и так далее по цепочке, пока не будет достигнут конечный DNS-сервер, называется',
     answers: [
       { text: 'Периодический', isRight: false },
-      { text: 'Рекурсивный', isRight: false },
+      { text: 'Рекурсивный', isRight: true },
       { text: 'Итеративный', isRight: false },
       { text: 'Смешанный', isRight: false },
       { text: 'Обратный', isRight: false },
@@ -3020,7 +3020,7 @@ export const KSIS: Question[] = [
       { text: 'Одноранговое взаимодействие «точка-точка»', isRight: false },
       {
         text: 'Извлечение электронной почты по принципу «загрузи-и-удали»',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Доступ к почтовому ящику с возможностью управления перемещением и хранением сообщений на сервере',
@@ -3036,7 +3036,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'ICMP', isRight: false },
       { text: 'UDP', isRight: false },
-      { text: 'TCP', isRight: false },
+      { text: 'TCP', isRight: true },
       { text: 'ARP', isRight: false },
       { text: 'IP', isRight: false },
     ],
@@ -3061,7 +3061,7 @@ export const KSIS: Question[] = [
         text: 'многоуровневая модель имеет влияние в одной области на другие области',
         isRight: false,
       },
-      { text: 'многоуровневая модель увеличивает сложность', isRight: false },
+      { text: 'многоуровневая модель увеличивает сложность', isRight: true },
     ],
   },
   {
@@ -3072,7 +3072,7 @@ export const KSIS: Question[] = [
       { text: 'сетевой', isRight: false },
       { text: 'канальный', isRight: false },
       { text: 'сеансовый', isRight: false },
-      { text: 'транспортный', isRight: false },
+      { text: 'транспортный', isRight: true },
     ],
   },
   {
@@ -3080,7 +3080,7 @@ export const KSIS: Question[] = [
       'Какой протокол предназначен для передачи гипертекста и используется по умолчанию 80-ый порт сервера',
     answers: [
       { text: 'FTP', isRight: false },
-      { text: 'HTTP', isRight: false },
+      { text: 'HTTP', isRight: true },
       { text: 'DNS', isRight: false },
       { text: 'DHCP', isRight: false },
       { text: 'SMTP', isRight: false },
@@ -3093,7 +3093,7 @@ export const KSIS: Question[] = [
       { text: 'IP-адрес получателя', isRight: false },
       { text: 'IP-адрес отправителя и MAC-адрес отправителя', isRight: false },
       { text: 'IP-адрес отправителя и порт отправителя', isRight: false },
-      { text: 'IP-адрес получателя и порт получателя', isRight: false },
+      { text: 'IP-адрес получателя и порт получателя', isRight: true },
       { text: 'IP-адрес отправителя', isRight: false },
     ],
   },
@@ -3102,7 +3102,7 @@ export const KSIS: Question[] = [
       'Какой адрес использует сетевой адаптер при принятии решения о приеме кадров?',
     answers: [
       { text: 'MAC-адрес источника', isRight: false },
-      { text: 'MAC-адрес назначения', isRight: false },
+      { text: 'MAC-адрес назначения', isRight: true },
       { text: 'IP-адрес назначения', isRight: false },
       { text: 'IP-адрес источника', isRight: false },
       { text: 'IP-адрес', isRight: false },
@@ -3113,7 +3113,7 @@ export const KSIS: Question[] = [
       'Следующие основные методы протокола НТТР являются небезопасными и не идемпотентными:',
     answers: [
       { text: 'РОSТ, РОТ, РЕЕТЕ', isRight: false },
-      { text: 'POST', isRight: false },
+      { text: 'POST', isRight: true },
       { text: 'GET, PUT, DELETE, POST', isRight: false },
       { text: 'GET, HEAD', isRight: false },
       { text: 'PUT, DELETE', isRight: false },
@@ -3126,7 +3126,7 @@ export const KSIS: Question[] = [
       { text: 'демультиплексирование', isRight: false },
       { text: 'проверка контрольной суммы', isRight: false },
       { text: 'модуляция', isRight: false },
-      { text: 'мультиплексирование', isRight: false },
+      { text: 'мультиплексирование', isRight: true },
       { text: 'сжатие', isRight: false },
     ],
   },
@@ -3135,7 +3135,7 @@ export const KSIS: Question[] = [
       'Какой протокол позволяет определить MAC-адрес узла по его IP-адресу:',
     answers: [
       { text: 'IPX', isRight: false },
-      { text: 'ARP', isRight: false },
+      { text: 'ARP', isRight: true },
       { text: 'IP', isRight: false },
       { text: 'ICMP', isRight: false },
       { text: 'RARP', isRight: false },
@@ -3145,7 +3145,7 @@ export const KSIS: Question[] = [
     question:
       'Процесс определения (оптимального) пути доступа к объектам (компьютерам) сети',
     answers: [
-      { text: 'маршрутизация', isRight: false },
+      { text: 'маршрутизация', isRight: true },
       { text: 'трафик', isRight: false },
       { text: 'маршрут', isRight: false },
       { text: 'рабочая группа', isRight: false },
@@ -3155,7 +3155,7 @@ export const KSIS: Question[] = [
   {
     question: 'Какой тип записи DNS хранит соответствие имени адресу IPv6?',
     answers: [
-      { text: 'AAAA', isRight: false },
+      { text: 'AAAA', isRight: true },
       { text: 'A', isRight: false },
       { text: 'CNAME', isRight: false },
       { text: 'MX', isRight: false },
@@ -3169,7 +3169,7 @@ export const KSIS: Question[] = [
       { text: 'кольцо', isRight: false },
       { text: 'шина', isRight: false },
       { text: 'снежинка', isRight: false },
-      { text: 'морской узел', isRight: false },
+      { text: 'морской узел', isRight: true },
     ],
   },
   {
@@ -3177,7 +3177,7 @@ export const KSIS: Question[] = [
       'Какой тип записи DNS хранит соответствие имени и почтового сервера домена:',
     answers: [
       { text: 'CNAME', isRight: false },
-      { text: 'MX', isRight: false },
+      { text: 'MX', isRight: true },
       { text: 'A', isRight: false },
       { text: 'NS', isRight: false },
       { text: 'AAAA', isRight: false },
@@ -3189,7 +3189,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'маршрутизатор (router)', isRight: false },
       { text: 'мост (bridge)', isRight: false },
-      { text: 'усилитель', isRight: false },
+      { text: 'усилитель', isRight: true },
       { text: 'концентратор (hub)', isRight: false },
       { text: 'коммутатор (switch)', isRight: false },
     ],
@@ -3201,7 +3201,7 @@ export const KSIS: Question[] = [
       { text: 'канальный', isRight: false },
       { text: 'транспортный', isRight: false },
       { text: 'сетевой', isRight: false },
-      { text: 'физический', isRight: false },
+      { text: 'физический', isRight: true },
     ],
   },
   {
@@ -3209,7 +3209,7 @@ export const KSIS: Question[] = [
     answers: [
       {
         text: 'представления битов данных в виде электрических или световых сигналов',
-        isRight: false,
+        isRight: true,
       },
       { text: 'маршрутизация пакетов', isRight: false },
       { text: 'управление доступом к разделяемой среде', isRight: false },
@@ -3231,7 +3231,7 @@ export const KSIS: Question[] = [
       { text: 'туннель', isRight: false },
       { text: 'маршрутизатор', isRight: false },
       { text: 'концентратор', isRight: false },
-      { text: 'коммутатор', isRight: false },
+      { text: 'коммутатор', isRight: true },
     ],
   },
   {
@@ -3239,7 +3239,7 @@ export const KSIS: Question[] = [
       'Какие значения подменяются при передаче ТСР-пакета из глобальной сети в локальную сеть через маршрутизатор с технологией «статический NAT»;',
     answers: [
       { text: 'IP-адрес получателя и порт получателя', isRight: false },
-      { text: 'IP-адрес получателя', isRight: false },
+      { text: 'IP-адрес получателя', isRight: true },
       { text: 'IP-адрес отправителя', isRight: false },
       { text: 'IP-адрес получателя и МАС-адрес получателя', isRight: false },
       { text: 'IP-адрес отправителя и порт отправителя', isRight: false },
@@ -3248,7 +3248,7 @@ export const KSIS: Question[] = [
   {
     question: 'К какому уровню ISO/OSI относится протокол UDP?',
     answers: [
-      { text: 'транспортный', isRight: false },
+      { text: 'транспортный', isRight: true },
       { text: 'сетевой', isRight: false },
       { text: 'представительный', isRight: false },
       { text: 'физический', isRight: false },
@@ -3262,7 +3262,7 @@ export const KSIS: Question[] = [
       { text: 'кодирование битов перепадами уровня сигнала', isRight: false },
       { text: 'самосинхронизация', isRight: false },
       { text: 'наличие возврата уровня сигнала к 0', isRight: false },
-      { text: 'отсутствие возврата уровня сигнала к 0', isRight: false },
+      { text: 'отсутствие возврата уровня сигнала к 0', isRight: true },
     ],
   },
   {
@@ -3273,7 +3273,7 @@ export const KSIS: Question[] = [
       { text: 'HTTP', isRight: false },
       { text: 'РОРЗ', isRight: false },
       { text: 'FTP', isRight: false },
-      { text: 'IMAP', isRight: false },
+      { text: 'IMAP', isRight: true },
     ],
   },
   {
@@ -3282,7 +3282,7 @@ export const KSIS: Question[] = [
       { text: 'физический', isRight: false },
       { text: 'сетевой', isRight: false },
       { text: 'канальный', isRight: false },
-      { text: 'прикладной', isRight: false },
+      { text: 'прикладной', isRight: true },
       { text: 'транспортный', isRight: false },
     ],
   },
@@ -3290,7 +3290,7 @@ export const KSIS: Question[] = [
     question:
       'Какой из способов обновления данных веб-сайта по протоколу НТТР характеризуется: высокой частотой обновления данных (режим реального времени); низким потреблением полосы пропускания канала связи (заголовки НТТР отсутствуют при передаче данных); передачей в одном направлении (от сервера клиенту):',
     answers: [
-      { text: 'Потоковая передача (Comet Streaming)', isRight: false },
+      { text: 'Потоковая передача (Comet Streaming)', isRight: true },
       { text: 'Веб-гнездо (Web Socket)', isRight: false },
       { text: 'Полное обновление страницы', isRight: false },
       { text: 'Периодический опрос (Ajax Polling)', isRight: false },
@@ -3305,7 +3305,7 @@ export const KSIS: Question[] = [
       { text: 'ping', isRight: false },
       { text: 'getmac', isRight: false },
       { text: 'netstat -a', isRight: false },
-      { text: 'arp -a', isRight: false },
+      { text: 'arp -a', isRight: true },
     ],
   },
   {
@@ -3314,7 +3314,7 @@ export const KSIS: Question[] = [
     answers: [
       {
         text: 'Доступ к почтовому ящику с возможностью управления перемещением и хранением сообщений на сервере',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Извлечение электронной почты по принципу «загрузи-и-удали>>>',
@@ -3328,7 +3328,7 @@ export const KSIS: Question[] = [
   {
     question: 'К какому уровню ISO/OSI относится протокол ЅЅН?',
     answers: [
-      { text: 'прикладной', isRight: false },
+      { text: 'прикладной', isRight: true },
       { text: 'канальный', isRight: false },
       { text: 'транспортный', isRight: false },
       { text: 'физический', isRight: false },
@@ -3341,7 +3341,7 @@ export const KSIS: Question[] = [
     answers: [
       {
         text: 'Высокая частота обновления данных (режим реального времени), низкое потребление полосы пропускания канала связи (заголовки HTTP отсутствуют при передаче данных), передача данных в одном направлении (от сервера к клиенту);',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Передача данных в одном направлении (от сервера к клиенту), среднее потребление полосы пропускания канала связи (заголовки HTTP присутствуют при передаче данных);',
@@ -3365,7 +3365,7 @@ export const KSIS: Question[] = [
     question:
       'Выберите название протокола, который устанавливает соединение и создает сеанс обмена данными между двумя сетевыми процессами, работающих на разных компьютерах:',
     answers: [
-      { text: 'TCP', isRight: false },
+      { text: 'TCP', isRight: true },
       { text: 'ICMP', isRight: false },
       { text: 'ARP', isRight: false },
       { text: 'IP', isRight: false },
@@ -3380,7 +3380,7 @@ export const KSIS: Question[] = [
       { text: 'канальный;', isRight: false },
       { text: 'транспортный;', isRight: false },
       { text: 'прикладной;', isRight: false },
-      { text: 'физический', isRight: false },
+      { text: 'физический', isRight: true },
     ],
   },
   {
@@ -3390,14 +3390,14 @@ export const KSIS: Question[] = [
       { text: 'локальная сеть', isRight: false },
       { text: 'муниципальная', isRight: false },
       { text: 'региональная', isRight: false },
-      { text: 'глобальная сеть', isRight: false },
+      { text: 'глобальная сеть', isRight: true },
     ],
   },
   {
     question: 'Какую основную функцию выполняет сервер DNS?',
     answers: [
       { text: 'поиск информации в сети INTERNET', isRight: false },
-      { text: 'преобразование имен доменов в IP-адреса', isRight: false },
+      { text: 'преобразование имен доменов в IP-адреса', isRight: true },
       { text: 'хранение IP-адресов компаний и организаций', isRight: false },
       { text: 'время повторной передачи ошибочного IP-адреса', isRight: false },
       { text: 'хранение информации в сети INTERNET', isRight: false },
@@ -3410,7 +3410,7 @@ export const KSIS: Question[] = [
       { text: 'динамический NAT (PAT)', isRight: false },
       { text: 'PPTP', isRight: false },
       { text: 'WAN', isRight: false },
-      { text: 'статический NAT', isRight: false },
+      { text: 'статический NAT', isRight: true },
       { text: 'L2TP', isRight: false },
     ],
   },
@@ -3422,7 +3422,7 @@ export const KSIS: Question[] = [
       { text: 'усилитель', isRight: false },
       { text: 'мост', isRight: false },
       { text: 'концентратор', isRight: false },
-      { text: 'коммутатор', isRight: false },
+      { text: 'коммутатор', isRight: true },
     ],
   },
   {
@@ -3438,7 +3438,7 @@ export const KSIS: Question[] = [
       },
       {
         text: 'обеспечивает надежную передачу данных по физическому каналу',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -3449,7 +3449,7 @@ export const KSIS: Question[] = [
       { text: 'IP-адрес отправителя', isRight: false },
       { text: 'IP-адрес получателя и порт получателя', isRight: false },
       { text: 'IP-адрес получателя', isRight: false },
-      { text: 'IP-адрес отправителя и порт отправителя', isRight: false },
+      { text: 'IP-адрес отправителя и порт отправителя', isRight: true },
       { text: 'IP-адрес отправителя и MAC-адрес отправителя', isRight: false },
     ],
   },
@@ -3464,7 +3464,7 @@ export const KSIS: Question[] = [
       },
       {
         text: 'Отсутствие заголовков НТТР при передаче данных',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Дуплексная передача обновляемых данных между сервером и клиентом',
@@ -3479,7 +3479,7 @@ export const KSIS: Question[] = [
     answers: [
       { text: 'прямым', isRight: false },
       { text: 'последовательным', isRight: false },
-      { text: 'итеративным', isRight: false },
+      { text: 'итеративным', isRight: true },
       { text: 'рекурсивным', isRight: false },
       { text: 'обратным', isRight: false },
     ],

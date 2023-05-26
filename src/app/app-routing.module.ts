@@ -23,6 +23,14 @@ const routes: Routes = [
     path: 'osisp',
     component: ExamPageComponent,
   },
+  {
+    path: 'ksis',
+    component: ExamPageComponent,
+  },
+  {
+    path: 'yap',
+    component: ExamPageComponent,
+  },
 ];
 
 @NgModule({
