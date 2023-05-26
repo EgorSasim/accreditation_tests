@@ -9,7 +9,7 @@ export const OOTPISP: Question[] = [
       { text: 'размер ссылки (8 байт)', isRight: false },
       { text: 'более 16 байт', isRight: false },
       { text: 'о байт', isRight: false },
-      { text: 'размер ссылки (4 байта)', isRight: false },
+      { text: 'размер ссылки (4 байта)', isRight: true },
     ],
   },
   {
@@ -18,7 +18,7 @@ export const OOTPISP: Question[] = [
       { text: 'Использование шаблонов в моделях', isRight: false },
       { text: 'Синхронизацию шаблонов', isRight: false },
       { text: 'Использование шаблонов в диаграммах', isRight: false },
-      { text: 'Изображение шаблонов на языке UML', isRight: false },
+      { text: 'Изображение шаблонов на языке UML', isRight: true },
       { text: 'Выполнение кодогенерации по шаблонам', isRight: false },
     ],
   },
@@ -26,7 +26,7 @@ export const OOTPISP: Question[] = [
     question: 'Когда будет выполняться блок finally при обработке исключений?',
     answers: [
       { text: 'При работе с потоками данных', isRight: false },
-      { text: 'Всегда', isRight: false },
+      { text: 'Всегда', isRight: true },
       { text: 'Не существует такого блока', isRight: false },
       { text: 'Создано исключение', isRight: false },
       { text: 'Исключений не было', isRight: false },
@@ -50,7 +50,7 @@ export const OOTPISP: Question[] = [
       { text: 'Доступ к модулю получают все', isRight: false },
       {
         text: 'Данные становятся видимыми для всего модуля, а также доступ к модулю получают программы, в которых этот модуль подключаются на уровне исходного кода',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -61,7 +61,7 @@ export const OOTPISP: Question[] = [
       { text: 'Классов', isRight: false },
       { text: 'Состояний объектов', isRight: false },
       { text: 'Взаимодействия объектов', isRight: false },
-      { text: 'Переходов объектов', isRight: false },
+      { text: 'Переходов объектов', isRight: true },
     ],
   },
   {
@@ -79,7 +79,7 @@ export const OOTPISP: Question[] = [
       { text: 'метод, содержащий в себе еще один метод', isRight: false },
       {
         text: 'два или больше методов имеют одинаковое название, но разные аргументы',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -89,7 +89,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Исследование существующих систем', isRight: false },
       { text: 'Проектирование и реализацию базы данных', isRight: false },
-      { text: 'Постановку задачи проектирования', isRight: false },
+      { text: 'Постановку задачи проектирования', isRight: true },
       {
         text: 'Проектирование и реализацию программных модулей',
         isRight: false,
@@ -106,7 +106,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Итератор', isRight: false },
       { text: 'Одиночка', isRight: false },
-      { text: 'фабричный метод', isRight: false },
+      { text: 'фабричный метод', isRight: true },
       { text: 'Посетитель', isRight: false },
       { text: 'Наблюдатель', isRight: false },
     ],
@@ -118,7 +118,7 @@ export const OOTPISP: Question[] = [
       { text: 'Нет правильных ответов', isRight: false },
       { text: 'Наследование', isRight: false },
       { text: 'Композиция', isRight: false },
-      { text: 'Агрегация', isRight: false },
+      { text: 'Агрегация', isRight: true },
       { text: 'Реализация', isRight: false },
     ],
   },
@@ -130,7 +130,7 @@ export const OOTPISP: Question[] = [
       { text: 'Любое количество', isRight: false },
       { text: 'Не больше одного', isRight: false },
       { text: 'Не больше двух', isRight: false },
-      { text: 'Всегда один', isRight: false },
+      { text: 'Всегда один', isRight: true },
     ],
   },
   {
@@ -147,7 +147,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'доступ к модулю получают лишь процедуры этого модуля',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'доступ к модулю получают только модули расширения',
@@ -160,7 +160,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Экономический, технологический', isRight: false },
       { text: 'функциональный, проектный', isRight: false },
-      { text: 'Проектный, технический, коммерческий', isRight: false },
+      { text: 'Проектный, технический, коммерческий', isRight: true },
       { text: 'Технологический, технический', isRight: false },
       { text: 'Коммерческий, программный', isRight: false },
     ],
@@ -178,7 +178,7 @@ export const OOTPISP: Question[] = [
         text: 'Для координации работы других классов приложения',
         isRight: false,
       },
-      { text: 'Для взаимодействия с внешними актерами', isRight: false },
+      { text: 'Для взаимодействия с внешними актерами', isRight: true },
       {
         text: 'Для моделирования классов, которые отвечают за хранение определенной информации',
         isRight: false,
@@ -191,7 +191,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Class', isRight: false },
       { text: 'Statechart', isRight: false },
-      { text: 'Sequence', isRight: false },
+      { text: 'Sequence', isRight: true },
       { text: 'Никакую', isRight: false },
       { text: 'Activity', isRight: false },
     ],
@@ -201,7 +201,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Методом', isRight: false },
       { text: 'Процессом', isRight: false },
-      { text: 'Нотацией', isRight: false },
+      { text: 'Нотацией', isRight: true },
       { text: 'Инструментом', isRight: false },
       { text: 'Методологией', isRight: false },
     ],
@@ -215,7 +215,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'Доступ к модулю получают данный модуль и модули расширения',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Доступ к модулю получают лишь процедуры этого модуля',
@@ -234,7 +234,7 @@ export const OOTPISP: Question[] = [
       { text: 'посланник', isRight: false },
       { text: 'представитель', isRight: false },
       { text: 'посол', isRight: false },
-      { text: 'Делегат', isRight: false },
+      { text: 'Делегат', isRight: true },
       { text: 'ходок', isRight: false },
     ],
   },
@@ -250,7 +250,7 @@ export const OOTPISP: Question[] = [
         isRight: false,
       },
       { text: 'также известен как publish-subscribe', isRight: false },
-      { text: 'все предложенные ответы верны', isRight: false },
+      { text: 'все предложенные ответы верны', isRight: true },
       { text: 'прием поведения объектов', isRight: false },
     ],
   },
@@ -263,7 +263,7 @@ export const OOTPISP: Question[] = [
       { text: 'Программные модули и связи между ними', isRight: false },
       {
         text: 'Функциональные составные части средства и связи между ними',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -274,7 +274,7 @@ export const OOTPISP: Question[] = [
         text: 'статический метод не может обращаться к нестатическим полям',
         isRight: false,
       },
-      { text: 'все приведенные утверждения верны', isRight: false },
+      { text: 'все приведенные утверждения верны', isRight: true },
       {
         text: 'его можно вызвать, даже если экземпляр класса не создан',
         isRight: false,
@@ -308,7 +308,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'Способность класса принадлежать более чем одному типу',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -321,7 +321,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'Статическая структура и динамическое поведение',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Состояния и поведение объектов', isRight: false },
       { text: 'Время и деньги', isRight: false },
@@ -346,7 +346,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'Диаграмма Use Case строится в самом начале моделирования, являясь первой из создаваемых диаграмм',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -361,7 +361,7 @@ export const OOTPISP: Question[] = [
       { text: 'метод, содержащий в себе еще один метод', isRight: false },
       {
         text: 'два или больше метода имеют одинаковое название и одинаковые аргументы, но один из методов находится в производном классе',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'два или больше методов имеют разные название, но одинаковые аргументы',
@@ -391,7 +391,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'Они предоставляют проверенные техники решения задач',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -409,7 +409,7 @@ export const OOTPISP: Question[] = [
       { text: 'нет правильных ответов', isRight: false },
       {
         text: 'для каждого класса создаётся таблица виртуальных методов',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'для каждого объекта создаётся таблица виртуальных методов',
@@ -424,7 +424,7 @@ export const OOTPISP: Question[] = [
       { text: 'Технологическим', isRight: false },
       { text: 'Функциональным', isRight: false },
       { text: 'Техническим', isRight: false },
-      { text: 'Эргономическим', isRight: false },
+      { text: 'Эргономическим', isRight: true },
       { text: 'Экономическим', isRight: false },
     ],
   },
@@ -433,7 +433,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Наличия абстрактных классов', isRight: false },
       { text: 'Наличия множественного наследования', isRight: false },
-      { text: 'Наличия виртуальных методов', isRight: false },
+      { text: 'Наличия виртуальных методов', isRight: true },
       { text: 'Использования виртуального наследования', isRight: false },
       { text: 'Нет правильных ответов', isRight: false },
     ],
@@ -446,7 +446,7 @@ export const OOTPISP: Question[] = [
         isRight: false,
       },
       { text: 'класс, не имеющий объектов', isRight: false },
-      { text: 'объект, создаваемый в единственном экземпляре', isRight: false },
+      { text: 'объект, создаваемый в единственном экземпляре', isRight: true },
       {
         text: 'объект, реализующий некоторый интерфейс путем обращения к другому объекту через свойственный ему интерфейс',
         isRight: false,
@@ -464,7 +464,7 @@ export const OOTPISP: Question[] = [
       { text: 'Во всех средствах их одинаковое количество', isRight: false },
       { text: 'Rational XDE, Enterprise Architect', isRight: false },
       { text: 'Rational XDE', isRight: false },
-      { text: 'Enterprise Architect', isRight: false },
+      { text: 'Enterprise Architect', isRight: true },
       { text: 'Rational Rose', isRight: false },
     ],
   },
@@ -476,7 +476,7 @@ export const OOTPISP: Question[] = [
       { text: 'метод', isRight: false },
       { text: 'поле', isRight: false },
       { text: 'конструктор', isRight: false },
-      { text: 'все из вышеперечисленного может входить', isRight: false },
+      { text: 'все из вышеперечисленного может входить', isRight: true },
     ],
   },
   {
@@ -487,7 +487,7 @@ export const OOTPISP: Question[] = [
       { text: 'только a', isRight: false },
       { text: 'a и c', isRight: false },
       { text: 'a и b', isRight: false },
-      { text: 'только c', isRight: false },
+      { text: 'только c', isRight: true },
     ],
   },
   {
@@ -500,7 +500,7 @@ export const OOTPISP: Question[] = [
         text: 'Автоматизация /стандартизация / метод/ средство',
         isRight: false,
       },
-      { text: 'Методология / метод / нотация / средство', isRight: false },
+      { text: 'Методология / метод / нотация / средство', isRight: true },
     ],
   },
   {
@@ -510,7 +510,7 @@ export const OOTPISP: Question[] = [
       { text: 'Устранение или разрешение элементов риска', isRight: false },
       {
         text: 'Упорядочение элементов риска по степени их влияния',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Оценка вероятности и величины потери по каждому элементу риска',
@@ -541,7 +541,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'CASE-средство, CASE-система, CASE-технология, CASE-индустрия',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -560,7 +560,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'Применение легкой методологии и отсутствие необходимости в сертификации',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -574,7 +574,7 @@ export const OOTPISP: Question[] = [
       { text: 'Строится архитектура создаваемой системы', isRight: false },
       {
         text: 'Передача готового продукта в распоряжение пользователей',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Готовится документации', isRight: false },
       { text: 'Строятся варианты использования', isRight: false },
@@ -583,7 +583,7 @@ export const OOTPISP: Question[] = [
   {
     question: '41.С какого элемента всегда начинается диаграмма Activity?',
     answers: [
-      { text: 'Start State', isRight: false },
+      { text: 'Start State', isRight: true },
       { text: 'State', isRight: false },
       { text: 'Object', isRight: false },
       { text: 'Actor', isRight: false },
@@ -604,7 +604,7 @@ export const OOTPISP: Question[] = [
       { text: 'Для добавления обязанностей объектам', isRight: false },
       {
         text: 'Когда классу заранее неизвестно, объекты каких классов ему нужно создавать',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Для доступа к содержимому агрегированных объектов без раскрытия их внутреннего представления',
@@ -622,7 +622,7 @@ export const OOTPISP: Question[] = [
       },
       { text: 'Выполнение обратного проектирования', isRight: false },
       { text: 'Проверка соответствия модели и кода', isRight: false },
-      { text: 'Построение модели по исходному коду', isRight: false },
+      { text: 'Построение модели по исходному коду', isRight: true },
     ],
   },
   {
@@ -631,7 +631,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'статических полей', isRight: false },
       { text: 'защищённых полей', isRight: false },
-      { text: 'виртуальных методов', isRight: false },
+      { text: 'виртуальных методов', isRight: true },
       { text: 'передачи аргументов по ссылке', isRight: false },
       { text: 'ограничения доступа к полям и методам', isRight: false },
     ],
@@ -640,7 +640,7 @@ export const OOTPISP: Question[] = [
     question: '45.В каком отношении не могут быть объекты?',
     answers: [
       { text: 'Агрегации', isRight: false },
-      { text: 'Базовом', isRight: false },
+      { text: 'Базовом', isRight: true },
       { text: 'Композиции', isRight: false },
       { text: 'Наследовании', isRight: false },
       { text: 'Ассоциации', isRight: false },
@@ -657,7 +657,7 @@ export const OOTPISP: Question[] = [
         text: 'используют пример программирования наблюдатель',
         isRight: false,
       },
-      { text: 'не связаны наследованием', isRight: false },
+      { text: 'не связаны наследованием', isRight: true },
     ],
   },
   {
@@ -667,7 +667,7 @@ export const OOTPISP: Question[] = [
       { text: 'Граничный класс, прецедент, сущность', isRight: false },
       { text: 'Управление, прецедент, сущность', isRight: false },
       { text: 'Артефакт, управление, сущность', isRight: false },
-      { text: 'Граничный класс, управление, сущность', isRight: false },
+      { text: 'Граничный класс, управление, сущность', isRight: true },
     ],
   },
   {
@@ -675,7 +675,7 @@ export const OOTPISP: Question[] = [
       '48.Какой прием программирования (pattern of programming) используется для создания семейств зависимых между собой объектов?',
     answers: [
       { text: 'Наблюдатель', isRight: false },
-      { text: 'Абстрактная фабрика', isRight: false },
+      { text: 'Абстрактная фабрика', isRight: true },
       { text: 'Строитель', isRight: false },
       { text: 'Фабричный метод', isRight: false },
       { text: 'Прототип', isRight: false },
@@ -686,7 +686,7 @@ export const OOTPISP: Question[] = [
     answers: [
       {
         text: 'обычный метод быстрее, виртульный и абстрактный одинаково',
-        isRight: false,
+        isRight: true,
       },
       { text: 'виртуальный метод', isRight: false },
       { text: 'абстрактный метод', isRight: false },
@@ -700,7 +700,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Мост', isRight: false },
       { text: 'Декоратор', isRight: false },
-      { text: 'Абстрактная фабрика', isRight: false },
+      { text: 'Абстрактная фабрика', isRight: true },
       { text: 'Адаптер', isRight: false },
       { text: 'Компоновщик', isRight: false },
     ],
@@ -713,7 +713,7 @@ export const OOTPISP: Question[] = [
       { text: 'Взаимодействия классов и объектов', isRight: false },
       { text: 'Взаимодействия объектов', isRight: false },
       { text: 'Взаимодействия программных модулей', isRight: false },
-      { text: 'Состояний объектов', isRight: false },
+      { text: 'Состояний объектов', isRight: true },
     ],
   },
   {
@@ -721,7 +721,7 @@ export const OOTPISP: Question[] = [
     answers: [
       {
         text: 'Процент автоматизированных операций от их общего количества',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Тип используемых ресурсов', isRight: false },
       { text: 'Скорость обработки информации', isRight: false },
@@ -737,7 +737,7 @@ export const OOTPISP: Question[] = [
       { text: 'Строитель', isRight: false },
       { text: 'Мост', isRight: false },
       { text: 'Наблюдатель', isRight: false },
-      { text: 'Итератор', isRight: false },
+      { text: 'Итератор', isRight: true },
     ],
   },
   {
@@ -747,7 +747,7 @@ export const OOTPISP: Question[] = [
       { text: 'Архитектурные шаблоны', isRight: false },
       { text: 'Шаблоны анализа', isRight: false },
       { text: 'Шаблоны тестирования', isRight: false },
-      { text: 'Шаблоны проектирования и реализации', isRight: false },
+      { text: 'Шаблоны проектирования и реализации', isRight: true },
       { text: 'Шаблоны реализации и тестирования', isRight: false },
     ],
   },
@@ -755,7 +755,7 @@ export const OOTPISP: Question[] = [
     question:
       '55.Какой из перечисленных объектов является приемом, структурирующим объекты?',
     answers: [
-      { text: 'Компоновщик', isRight: false },
+      { text: 'Компоновщик', isRight: true },
       { text: 'Одиночка', isRight: false },
       { text: 'Состояние', isRight: false },
       { text: 'Итератор', isRight: false },
@@ -769,7 +769,7 @@ export const OOTPISP: Question[] = [
       { text: 'Средние', isRight: false },
       { text: 'Объектно-ориентированные', isRight: false },
       { text: 'Легкие', isRight: false },
-      { text: 'Тяжелые', isRight: false },
+      { text: 'Тяжелые', isRight: true },
       { text: 'Клиент-серверные', isRight: false },
     ],
   },
@@ -779,7 +779,7 @@ export const OOTPISP: Question[] = [
       { text: 'Метод, определяющий размер объекта в байтах', isRight: false },
       {
         text: 'Метод, который выполняется прежде, чем объект будет уничтожен',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Функция, которая уничтожает объекты других классов',
@@ -800,7 +800,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'private abstract', isRight: false },
       { text: 'public virtual', isRight: false },
-      { text: 'public abstract', isRight: false },
+      { text: 'public abstract', isRight: true },
       { text: 'private virtual', isRight: false },
       { text: 'protected abstract', isRight: false },
     ],
@@ -811,7 +811,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Realization', isRight: false },
       { text: 'Dependency', isRight: false },
-      { text: 'Generalization', isRight: false },
+      { text: 'Generalization', isRight: true },
       { text: 'Aggregation association', isRight: false },
       { text: 'Association Class', isRight: false },
     ],
@@ -819,7 +819,7 @@ export const OOTPISP: Question[] = [
   {
     question: '60. Что не входит в набор характеристик CASE-средства?',
     answers: [
-      { text: 'Клиент-серверная модель', isRight: false },
+      { text: 'Клиент-серверная модель', isRight: true },
       { text: 'Структура', isRight: false },
       { text: 'Входы/выходы', isRight: false },
       { text: 'Обозначение и наименование', isRight: false },
@@ -837,7 +837,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'Отделение друг от друга элементов объекта, определяющих его устройство и поведение',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Построение новых классов на основе существующих',
@@ -867,7 +867,7 @@ export const OOTPISP: Question[] = [
       { text: 'Разницы нет', isRight: false },
       {
         text: 'Объект – динамический модуль, класс – описание динамического модуля',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -878,7 +878,7 @@ export const OOTPISP: Question[] = [
       { text: 'является частным случаем ассоциации', isRight: false },
       { text: 'является синонимом отношения зависимости', isRight: false },
       { text: 'не существует в ООП', isRight: false },
-      { text: 'является отношением типа наследования', isRight: false },
+      { text: 'является отношением типа наследования', isRight: true },
     ],
   },
   {
@@ -887,7 +887,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Метод', isRight: false },
       { text: 'Нотация', isRight: false },
-      { text: 'Технология', isRight: false },
+      { text: 'Технология', isRight: true },
       { text: 'Методология', isRight: false },
       { text: 'Средство', isRight: false },
     ],
@@ -898,7 +898,7 @@ export const OOTPISP: Question[] = [
       { text: 'Модуль', isRight: false },
       { text: 'Функция', isRight: false },
       { text: 'Объект', isRight: false },
-      { text: 'Компонент', isRight: false },
+      { text: 'Компонент', isRight: true },
       { text: 'Класс', isRight: false },
     ],
   },
@@ -924,7 +924,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'Для описания системы в терминах вариантов использования',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -936,7 +936,7 @@ export const OOTPISP: Question[] = [
       { text: 'a, c', isRight: false },
       { text: 'b, c', isRight: false },
       { text: 'c, d', isRight: false },
-      { text: 'b, d', isRight: false },
+      { text: 'b, d', isRight: true },
     ],
   },
   {
@@ -952,7 +952,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'Класс содержит поля и методы, интерфейс – только методы',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Объект абстрактного класса можно создать, объект интерфейса – нет',
@@ -968,7 +968,7 @@ export const OOTPISP: Question[] = [
     question: '69. Когда не выполняют синхронизацию модели и кода?',
     answers: [
       { text: 'В момент активизации модели', isRight: false },
-      { text: 'В ходе построения модели', isRight: false },
+      { text: 'В ходе построения модели', isRight: true },
       { text: 'В момент сохранения кода после его изменения', isRight: false },
       { text: 'В момент сохранения модели', isRight: false },
       { text: 'В момент активизации окна кода', isRight: false },
@@ -981,7 +981,7 @@ export const OOTPISP: Question[] = [
       { text: 'Агрегация', isRight: false },
       { text: 'Инкапсуляция', isRight: false },
       { text: 'Абстракция', isRight: false },
-      { text: 'Наследование', isRight: false },
+      { text: 'Наследование', isRight: true },
       { text: 'Полиморфизм', isRight: false },
     ],
   },
@@ -994,7 +994,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'метод, устанавливающий или возвращающий значение поля',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'свойство класса ничем не отличается от поля класса',
@@ -1009,7 +1009,7 @@ export const OOTPISP: Question[] = [
       '72. Выберите верное утверждение: a) Агрегация и композиция являются частными случаями ассоциации; b) Композиция – это сильная ассоциация (содержащийся объект полностью зависит от объекта контейнера); c) Агрегация – это слабая ассоциация (содержащийся объект не зависит от объекта контейнера); d) Агрегация – это сильная ассоциация; e) Композиция – это слабая ассоциация',
     answers: [
       { text: 'b, c', isRight: false },
-      { text: 'a, b, c', isRight: false },
+      { text: 'a, b, c', isRight: true },
       { text: 'a, d, e', isRight: false },
       { text: 'a, b, d', isRight: false },
       { text: 'd, e', isRight: false },
@@ -1022,14 +1022,14 @@ export const OOTPISP: Question[] = [
       { text: 'Технологическим', isRight: false },
       { text: 'Энергетическим', isRight: false },
       { text: 'Экономическим', isRight: false },
-      { text: 'Функциональным', isRight: false },
+      { text: 'Функциональным', isRight: true },
       { text: 'Техническим', isRight: false },
     ],
   },
   {
     question: '72. На какие категории делят CASE-средства?',
     answers: [
-      { text: 'Легкие, средние и тяжелые', isRight: false },
+      { text: 'Легкие, средние и тяжелые', isRight: true },
       { text: 'Тяжелые и легкие', isRight: false },
       { text: 'Дешевые и легкие', isRight: false },
       { text: 'Тяжелые и дорогие', isRight: false },
@@ -1043,14 +1043,14 @@ export const OOTPISP: Question[] = [
       { text: 'Агрегация', isRight: false },
       { text: 'Наследование', isRight: false },
       { text: 'Абстракция', isRight: false },
-      { text: 'Инкапсуляция', isRight: false },
+      { text: 'Инкапсуляция', isRight: true },
       { text: 'Полиморфизм', isRight: false },
     ],
   },
   {
     question: '74 Что показывает связь Generalization на диаграмме Class?',
     answers: [
-      { text: 'Наследование между классами', isRight: false },
+      { text: 'Наследование между классами', isRight: true },
       { text: 'Зависимость между классами', isRight: false },
       { text: 'Инкапсуляцию', isRight: false },
       {
@@ -1065,7 +1065,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Для принятия решений', isRight: false },
       { text: 'Для планирования процессов', isRight: false },
-      { text: 'Для хранения, поиска и обработки информации', isRight: false },
+      { text: 'Для хранения, поиска и обработки информации', isRight: true },
       { text: 'Для автоматического управления объектами', isRight: false },
       { text: 'Для автоматизации проектирования', isRight: false },
     ],
@@ -1085,7 +1085,7 @@ export const OOTPISP: Question[] = [
       { text: 'Управление программным средством', isRight: false },
       {
         text: 'Переход от спецификации к разработке архитектуры ПС',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Написание программного кода', isRight: false },
     ],
@@ -1104,7 +1104,7 @@ export const OOTPISP: Question[] = [
       { text: 'Для написания программного кода', isRight: false },
       {
         text: 'Для представления общей организации процесса тестирования программных систем',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Для представления общей организации процесса моделирования',
@@ -1122,7 +1122,7 @@ export const OOTPISP: Question[] = [
       },
       { text: 'нет правильных ответов', isRight: false },
       { text: 'структурный прием', isRight: false },
-      { text: 'прием поведения', isRight: false },
+      { text: 'прием поведения', isRight: true },
     ],
   },
   {
@@ -1144,7 +1144,7 @@ export const OOTPISP: Question[] = [
       { text: 'Для отображения иерархии в системе', isRight: false },
       {
         text: 'Для моделирования классов, которые отвечают за хранение определенной информации',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -1159,7 +1159,7 @@ export const OOTPISP: Question[] = [
       { text: 'Контроль корректности ПС', isRight: false },
       {
         text: 'Фиксация технических решений, создание учебных материалов и инструкций для пользователей',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Управление программным средством', isRight: false },
       { text: 'Написание программного кода', isRight: false },
@@ -1183,7 +1183,7 @@ export const OOTPISP: Question[] = [
       { text: 'UML – это язык для разработки интерфейсов', isRight: false },
       {
         text: 'UML – это язык, предназначенный для описания проектов с помощью графических примитивов',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -1192,7 +1192,7 @@ export const OOTPISP: Question[] = [
       '82. Если класс в C# объявлен без модификатора доступа непосредственно в пространстве имён (т.е. не вложен в другие классы или структуры), то какой модификатор будет по умолчанию?',
     answers: [
       { text: 'Protected internal', isRight: false },
-      { text: 'Internal', isRight: false },
+      { text: 'Internal', isRight: true },
       { text: 'Protected', isRight: false },
       { text: 'Private', isRight: false },
       { text: 'Public', isRight: false },
@@ -1208,7 +1208,7 @@ export const OOTPISP: Question[] = [
       { text: 'Виртуальные методы должны быть без параметров', isRight: false },
       {
         text: 'Виртуальные методы работают как не виртуальные',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -1218,7 +1218,7 @@ export const OOTPISP: Question[] = [
     answers: [
       {
         text: 'Внесение изменений в код и (или) модель с целью их соответствия друг другу',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Генерация кода по модели', isRight: false },
       { text: 'Построение диаграммы Class по коду', isRight: false },
@@ -1229,7 +1229,7 @@ export const OOTPISP: Question[] = [
   {
     question: '85.Событие – это …?',
     answers: [
-      { text: 'список делегатов', isRight: false },
+      { text: 'список делегатов', isRight: true },
       { text: 'атрибут класса', isRight: false },
       { text: 'нет правильных ответов', isRight: false },
       { text: 'исключительная ситуация', isRight: false },
@@ -1246,7 +1246,7 @@ export const OOTPISP: Question[] = [
       { text: 'Нотацию', isRight: false },
       {
         text: 'Процедуру генерации описаний компонентов программного обеспечения',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Используемые средства', isRight: false },
       { text: 'Тип используемых ресурсов', isRight: false },
@@ -1259,7 +1259,7 @@ export const OOTPISP: Question[] = [
       { text: 'Нет правильного ответа', isRight: false },
       { text: 'Наследование', isRight: false },
       { text: 'Абстракция', isRight: false },
-      { text: 'Инкапсуляция', isRight: false },
+      { text: 'Инкапсуляция', isRight: true },
       { text: 'Полиморфизм', isRight: false },
     ],
   },
@@ -1267,7 +1267,7 @@ export const OOTPISP: Question[] = [
     question:
       '88.Какая группа критериев не используется при оценке уровня совершенства CASE-средства?',
     answers: [
-      { text: 'Технические', isRight: false },
+      { text: 'Технические', isRight: true },
       { text: 'Функциональные', isRight: false },
       { text: 'Экономические', isRight: false },
       { text: 'Эргономические', isRight: false },
@@ -1283,7 +1283,7 @@ export const OOTPISP: Question[] = [
       { text: 'Реализует алгоритмы', isRight: false },
       {
         text: 'Поддерживает методы на основе принятой нотации',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -1293,7 +1293,7 @@ export const OOTPISP: Question[] = [
       { text: 'Уязвимость и сложность разработки', isRight: false },
       {
         text: 'Принцип модульности и высокий уровень автоматизации',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Модульность и применение тяжелой методологии', isRight: false },
       { text: 'Применение тяжелой методологии', isRight: false },
@@ -1307,7 +1307,7 @@ export const OOTPISP: Question[] = [
     question:
       '91.Какой инструмент позволяет структурировать область диаграммы?',
     answers: [
-      { text: 'Swimlanes', isRight: false },
+      { text: 'Swimlanes', isRight: true },
       { text: 'Activity', isRight: false },
       { text: 'Decision', isRight: false },
       { text: 'Synchronizations', isRight: false },
@@ -1324,7 +1324,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'Серверная страница, клиентская страница, HTML форма',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Компонент, клиентская страница, серверная страница',
@@ -1342,7 +1342,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Легкой и тяжелой', isRight: false },
       { text: 'Легкой', isRight: false },
-      { text: 'Средней', isRight: false },
+      { text: 'Средней', isRight: true },
       { text: 'Тяжелой', isRight: false },
       { text: 'Можно отнести к любой', isRight: false },
     ],
@@ -1353,7 +1353,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Сопровождение', isRight: false },
       { text: 'Тестирование', isRight: false },
-      { text: 'Проектирование', isRight: false },
+      { text: 'Проектирование', isRight: true },
       { text: 'Анализ требований', isRight: false },
       { text: 'Программирование', isRight: false },
     ],
@@ -1365,14 +1365,14 @@ export const OOTPISP: Question[] = [
       { text: 'Class', isRight: false },
       { text: 'Activity', isRight: false },
       { text: 'Use Case', isRight: false },
-      { text: 'Deployment', isRight: false },
+      { text: 'Deployment', isRight: true },
     ],
   },
   {
     question: '96.Укажите основные элементы диаграммы Deployment',
     answers: [
       { text: 'Актеры и роли', isRight: false },
-      { text: 'Процессор и устройство', isRight: false },
+      { text: 'Процессор и устройство', isRight: true },
       { text: 'Компоненты и связи между ними', isRight: false },
       { text: 'Объекты и классы', isRight: false },
       { text: 'Объекты и их состояния', isRight: false },
@@ -1384,7 +1384,7 @@ export const OOTPISP: Question[] = [
     answers: [
       {
         text: 'Декомпозиция системы на ряд внутренне сильно связанных, но слабо связанных между собой частей',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Выделение существенных характеристик некоторого объекта',
@@ -1406,7 +1406,7 @@ export const OOTPISP: Question[] = [
       '98.Целью какого приема программирования (patter of programming) является расширение функциональности класса или же её изменения без использования механизма наследования?',
     answers: [
       { text: 'Итератор', isRight: false },
-      { text: 'Декоратор', isRight: false },
+      { text: 'Декоратор', isRight: true },
       { text: 'Компоновщик', isRight: false },
       { text: 'Приспособленец', isRight: false },
       { text: 'Прокси', isRight: false },
@@ -1419,7 +1419,7 @@ export const OOTPISP: Question[] = [
       { text: 'Ранжирование системы абстракций', isRight: false },
       {
         text: 'Построение новых классов на основе существующих с возможностью добавления или переопределения данных и методов',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Выделение существенных характеристик некоторого объекта',
@@ -1457,7 +1457,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'Итерационный и инкрементный подход к созданию ПО, управление вариантами использования, построение системы на базе архитектуры ПО',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -1465,7 +1465,7 @@ export const OOTPISP: Question[] = [
     question:
       '101.Какой прием программирования обеспечивает существование одного экземпляра некоторого класса и предоставляет единую точку доступа к нему?',
     answers: [
-      { text: 'Одиночка', isRight: false },
+      { text: 'Одиночка', isRight: true },
       { text: 'Компоновщик', isRight: false },
       { text: 'Адаптер', isRight: false },
       { text: 'Декоратор', isRight: false },
@@ -1478,7 +1478,7 @@ export const OOTPISP: Question[] = [
       { text: 'Экспертные системы', isRight: false },
       {
         text: 'Системы автоматизированной разработки программных средств',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Системы автоматического управления', isRight: false },
       { text: 'Системы распознавания', isRight: false },
@@ -1493,7 +1493,7 @@ export const OOTPISP: Question[] = [
         isRight: false,
       },
       { text: 'передачи аргумента Attribute в конструктор', isRight: false },
-      { text: 'наследования от класса Attribute', isRight: false },
+      { text: 'наследования от класса Attribute', isRight: true },
       { text: 'создания поля Attribute в классе', isRight: false },
       { text: 'создания метода Attribute в классе', isRight: false },
     ],
@@ -1511,7 +1511,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'Определение функций, которые должна реализовать создаваемая система',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -1520,7 +1520,7 @@ export const OOTPISP: Question[] = [
       '105. Как называется совокупность задач, которые приходится решать при создании программного средства?',
     answers: [
       { text: 'Проблема', isRight: false },
-      { text: 'Проект', isRight: false },
+      { text: 'Проект', isRight: true },
       { text: 'Система', isRight: false },
       { text: 'Комплекс', isRight: false },
       { text: 'План', isRight: false },
@@ -1531,7 +1531,7 @@ export const OOTPISP: Question[] = [
       '106. С помощью какого ключевого слова можно создать потокобезопасную реализацию приема одиночка?',
     answers: [
       { text: 'Fixed', isRight: false },
-      { text: 'Lock', isRight: false },
+      { text: 'Lock', isRight: true },
       { text: 'Using', isRight: false },
       { text: 'Sealed', isRight: false },
       { text: 'Static', isRight: false },
@@ -1544,7 +1544,7 @@ export const OOTPISP: Question[] = [
       { text: 'Взаимодействия объектов и классов', isRight: false },
       { text: 'Состояний объектов', isRight: false },
       { text: 'Взаимодействия классов', isRight: false },
-      { text: 'Взаимодействия объектов', isRight: false },
+      { text: 'Взаимодействия объектов', isRight: true },
       { text: 'Взаимодействия программных модулей', isRight: false },
     ],
   },
@@ -1552,7 +1552,7 @@ export const OOTPISP: Question[] = [
     question: '108. Что является элементами языка UML?',
     answers: [
       { text: 'Латинский алфавит', isRight: false },
-      { text: 'Графические примитивы', isRight: false },
+      { text: 'Графические примитивы', isRight: true },
       { text: 'Векторы', isRight: false },
       { text: 'Векторы и латинский алфавит', isRight: false },
       { text: 'Векторы и арифметические операции', isRight: false },
@@ -1564,7 +1564,7 @@ export const OOTPISP: Question[] = [
       { text: 'Enterprise Architect', isRight: false },
       { text: 'Rational XDE', isRight: false },
       { text: 'C#', isRight: false },
-      { text: 'UML', isRight: false },
+      { text: 'UML', isRight: true },
       { text: 'Rational Rose', isRight: false },
     ],
   },
@@ -1576,7 +1576,7 @@ export const OOTPISP: Question[] = [
       { text: 'У диаграммы Collaboration больше инструментов', isRight: false },
       {
         text: 'Диаграмма Sequence отражает взаимодействие объектов во времени, а диаграмма Collaboration – взаимодействие объектов в пространстве',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'По диаграмме Collaboration можно генерировать код приложения, а по диаграмме его нельзя Sequence генерировать',
@@ -1594,7 +1594,7 @@ export const OOTPISP: Question[] = [
     answers: [
       {
         text: 'Взаимодействие между аппаратными и программными частями системы',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Взаимодействия между программными модулями', isRight: false },
       {
@@ -1614,7 +1614,7 @@ export const OOTPISP: Question[] = [
   {
     question: '112.Что означает идентификация проектного риска?',
     answers: [
-      { text: 'Выявление элементов риска в проекте', isRight: false },
+      { text: 'Выявление элементов риска в проекте', isRight: true },
       {
         text: 'Оценка вероятности и величины потери по каждому элементу риска',
         isRight: false,
@@ -1632,7 +1632,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Дорогие', isRight: false },
       { text: 'Дешевые', isRight: false },
-      { text: 'Пассивные', isRight: false },
+      { text: 'Пассивные', isRight: true },
       { text: 'Дорогие активные', isRight: false },
       { text: 'Активные', isRight: false },
     ],
@@ -1644,7 +1644,7 @@ export const OOTPISP: Question[] = [
       { text: 'CASE-технология', isRight: false },
       { text: 'Унифицированный процесс разработки', isRight: false },
       { text: 'Объектно-ориентированный подход', isRight: false },
-      { text: 'Enterprise Architect', isRight: false },
+      { text: 'Enterprise Architect', isRight: true },
       { text: 'Язык UML', isRight: false },
     ],
   },
@@ -1656,7 +1656,7 @@ export const OOTPISP: Question[] = [
       { text: 'Итератор', isRight: false },
       { text: 'Декоратор', isRight: false },
       { text: 'Прокси', isRight: false },
-      { text: 'Приспособленец', isRight: false },
+      { text: 'Приспособленец', isRight: true },
     ],
   },
   {
@@ -1664,7 +1664,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Этапы жизненного цикла программных систем', isRight: false },
       { text: 'Артефакты и прецеденты', isRight: false },
-      { text: 'Временные промежутки (фазы, циклы, итерации)', isRight: false },
+      { text: 'Временные промежутки (фазы, циклы, итерации)', isRight: true },
       { text: 'Актеры и роли', isRight: false },
       { text: 'Объекты и классы', isRight: false },
     ],
@@ -1676,7 +1676,7 @@ export const OOTPISP: Question[] = [
       { text: 'Class, Component', isRight: false },
       { text: 'Free Form', isRight: false },
       { text: 'Collaboration, Sequence', isRight: false },
-      { text: 'Statechart, Activity', isRight: false },
+      { text: 'Statechart, Activity', isRight: true },
       { text: 'Use Case, Class', isRight: false },
     ],
   },
@@ -1687,7 +1687,7 @@ export const OOTPISP: Question[] = [
       { text: 'Private', isRight: false },
       { text: 'Lock', isRight: false },
       { text: 'Abstract', isRight: false },
-      { text: 'Sealed', isRight: false },
+      { text: 'Sealed', isRight: true },
       { text: 'Fixed', isRight: false },
     ],
   },
@@ -1698,7 +1698,7 @@ export const OOTPISP: Question[] = [
       { text: 'Контроль корректности программного средства', isRight: false },
       {
         text: 'Формальная проверка соответствия программного средства всем техническим требованиям',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Разработка документации', isRight: false },
       { text: 'Разработка программного кода', isRight: false },
@@ -1707,7 +1707,7 @@ export const OOTPISP: Question[] = [
   {
     question: '120. Класс, параметризованный типом данных называется:',
     answers: [
-      { text: 'шаблон', isRight: false },
+      { text: 'шаблон', isRight: true },
       { text: 'трафарет', isRight: false },
       { text: 'модель', isRight: false },
       { text: 'лекало', isRight: false },
@@ -1718,7 +1718,7 @@ export const OOTPISP: Question[] = [
     question:
       '121.Какая модель строится самой первой на основе диаграммы Class?',
     answers: [
-      { text: 'Модель предметной области', isRight: false },
+      { text: 'Модель предметной области', isRight: true },
       { text: 'Модель прецедентов', isRight: false },
       { text: 'Модель анализа', isRight: false },
       { text: 'Бизнес-моедь', isRight: false },
@@ -1730,7 +1730,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Statechart, Activity', isRight: false },
       { text: 'Class, Component', isRight: false },
-      { text: 'Sequence', isRight: false },
+      { text: 'Sequence', isRight: true },
       { text: 'Free Form', isRight: false },
       { text: 'Use Case, Class', isRight: false },
     ],
@@ -1739,7 +1739,7 @@ export const OOTPISP: Question[] = [
     question:
       '123. Какие элементы диаграммы Sequence преобразуются в код в процессе кодогенерации?',
     answers: [
-      { text: 'Вся диаграмма', isRight: false },
+      { text: 'Вся диаграмма', isRight: true },
       { text: 'Объекты и их линии жизни', isRight: false },
       {
         text: 'По диаграмме Sequence не выполняется кодогенерация',
@@ -1757,7 +1757,7 @@ export const OOTPISP: Question[] = [
       { text: 'Для поддержки тестирования', isRight: false },
       {
         text: 'Для создания высокоуровневых моделей бизнес-процессов',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Для соотнесения функциональных требований с вариантами использования, выполнения моделирования объектов в реальном времени',
@@ -1778,7 +1778,7 @@ export const OOTPISP: Question[] = [
         isRight: false,
       },
       { text: 'Количество вложенных инвестиций', isRight: false },
-      { text: 'Величина проекта и команды разработчиков', isRight: false },
+      { text: 'Величина проекта и команды разработчиков', isRight: true },
       {
         text: 'Степень автоматизации процесса создания программного продукта',
         isRight: false,
@@ -1794,7 +1794,7 @@ export const OOTPISP: Question[] = [
       '126.К каким критериям относится показатель скорости обработки информации в CASE-средстве?',
     answers: [
       { text: 'Техническим', isRight: false },
-      { text: 'Функциональным', isRight: false },
+      { text: 'Функциональным', isRight: true },
       { text: 'Экономическим', isRight: false },
       { text: 'Эргономическим', isRight: false },
       { text: 'Технологическим', isRight: false },
@@ -1805,7 +1805,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Class', isRight: false },
       { text: 'Generalization', isRight: false },
-      { text: 'Decision', isRight: false },
+      { text: 'Decision', isRight: true },
       { text: 'Package', isRight: false },
       { text: 'Interface', isRight: false },
     ],
@@ -1819,7 +1819,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'предоставляет способ последовательного доступа ко всем элементам составного объекта',
-        isRight: false,
+        isRight: true,
       },
       { text: 'структурный прием', isRight: false },
       { text: 'также известен как обёртка', isRight: false },
@@ -1834,7 +1834,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Динамическое программирование', isRight: false },
       { text: 'Легкая', isRight: false },
-      { text: 'Средняя', isRight: false },
+      { text: 'Средняя', isRight: true },
       { text: 'Классическая', isRight: false },
       { text: 'Тяжелая', isRight: false },
     ],
@@ -1847,7 +1847,7 @@ export const OOTPISP: Question[] = [
       { text: 'base', isRight: false },
       { text: 'from', isRight: false },
       { text: 'is', isRight: false },
-      { text: 'where', isRight: false },
+      { text: 'where', isRight: true },
     ],
   },
   {
@@ -1857,7 +1857,7 @@ export const OOTPISP: Question[] = [
       { text: 'Структурный', isRight: false },
       { text: 'Наследование', isRight: false },
       { text: 'Объектный', isRight: false },
-      { text: 'Полиморфизм', isRight: false },
+      { text: 'Полиморфизм', isRight: true },
       { text: 'Инкапсуляция', isRight: false },
     ],
   },
@@ -1867,7 +1867,7 @@ export const OOTPISP: Question[] = [
       { text: 'Архитектурные шаблоны', isRight: false },
       { text: 'Шаблоны реализации', isRight: false },
       { text: 'Шаблоны тестирования', isRight: false },
-      { text: 'Шаблоны кооперации', isRight: false },
+      { text: 'Шаблоны кооперации', isRight: true },
       { text: 'Шаблоны проектирования', isRight: false },
     ],
   },
@@ -1880,7 +1880,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'способность программы изучать и модифицировать свою структуру и поведение во время выполнения',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'способность компилятора изучать структуру и поведение программы',
@@ -1906,7 +1906,7 @@ export const OOTPISP: Question[] = [
       { text: 'Набор документации', isRight: false },
       {
         text: 'Продукт, готовый к передаче конечным пользователям',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -1914,7 +1914,7 @@ export const OOTPISP: Question[] = [
     question: '135.Термин «агрегация» точнее всего описывает отношение между:',
     answers: [
       { text: 'вами и вашими друзьями', isRight: false },
-      { text: 'вашей комнатой и мебелью в ней', isRight: false },
+      { text: 'вашей комнатой и мебелью в ней', isRight: true },
       { text: 'вами и вашими руками', isRight: false },
       { text: 'вами и вашей комнатой', isRight: false },
       { text: 'missing question', isRight: false },
@@ -1925,7 +1925,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Browser', isRight: false },
       { text: 'Component Assigned Tool', isRight: false },
-      { text: 'Model Assistant', isRight: false },
+      { text: 'Model Assistant', isRight: true },
       { text: 'Data Modeler', isRight: false },
       { text: 'Web Modeler', isRight: false },
     ],
@@ -1935,7 +1935,7 @@ export const OOTPISP: Question[] = [
     answers: [
       {
         text: 'Зависимость одного элемента диаграммы от другого на уровне доступа',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Простые связи между элементами', isRight: false },
       {
@@ -1953,7 +1953,7 @@ export const OOTPISP: Question[] = [
     question:
       '138. Какая функция в C++, не будучи компонентом класса, имеет доступ к его защищенным и внутренних компонентов?',
     answers: [
-      { text: 'Дружественная', isRight: false },
+      { text: 'Дружественная', isRight: true },
       { text: 'Статическая', isRight: false },
       { text: 'Полиморфная', isRight: false },
       { text: 'Виртуальная', isRight: false },
@@ -1975,7 +1975,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'Выделение существенных характеристик некоторого объекта',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Построение новых классов на основе существующих',
@@ -1991,7 +1991,7 @@ export const OOTPISP: Question[] = [
       { text: 'Энергетическим', isRight: false },
       { text: 'Экономическим', isRight: false },
       { text: 'Технологическим', isRight: false },
-      { text: 'Функциональным', isRight: false },
+      { text: 'Функциональным', isRight: true },
     ],
   },
   {
@@ -1999,7 +1999,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Набор программных модулей', isRight: false },
       { text: 'Библиотеку процедур и функций', isRight: false },
-      { text: 'Набор диаграмм', isRight: false },
+      { text: 'Набор диаграмм', isRight: true },
       { text: 'Совокупность алгоритмов', isRight: false },
       { text: 'Набор графических файлов', isRight: false },
     ],
@@ -2017,7 +2017,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'Для отражения взаимодействия между программными модулями системы',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Для анализа аппаратной части системы', isRight: false },
       {
@@ -2031,7 +2031,7 @@ export const OOTPISP: Question[] = [
       '143.Как называются компоненты компьютерных систем, которые многократно используются и выполняют в них типовые функции?',
     answers: [
       { text: 'Процедуры', isRight: false },
-      { text: 'Программные модули', isRight: false },
+      { text: 'Программные модули', isRight: true },
       { text: 'Подсистемы', isRight: false },
       { text: 'Структурные элементы', isRight: false },
       { text: 'Функции', isRight: false },
@@ -2041,7 +2041,7 @@ export const OOTPISP: Question[] = [
     question:
       '144.На каком этапе жизненного цикла программного средства строится диаграмма Activity?',
     answers: [
-      { text: 'Проектирование', isRight: false },
+      { text: 'Проектирование', isRight: true },
       { text: 'Сопровождение', isRight: false },
       { text: 'Анализ требований', isRight: false },
       { text: 'Тестирование', isRight: false },
@@ -2070,7 +2070,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'Для составления набора тестов и планов тестирования, которые выполняются в соответствии с текущей моделью',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -2081,7 +2081,7 @@ export const OOTPISP: Question[] = [
       { text: 'Логические и физические', isRight: false },
       {
         text: 'Структурные, объектно-ориентированные, комбинированные',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Модель данных, Web-модель', isRight: false },
       { text: 'Клиент-серверные, объектно-ориентированные', isRight: false },
@@ -2093,7 +2093,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Прокси', isRight: false },
       { text: 'Одиночка', isRight: false },
-      { text: 'Декоратор', isRight: false },
+      { text: 'Декоратор', isRight: true },
       { text: 'Прототип', isRight: false },
       { text: 'Абстрактная фабрика', isRight: false },
     ],
@@ -2108,7 +2108,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'Это ранжированная или упорядоченная система абстракций',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Это декомпозиция системы на ряд внутренне сильно связанных, но слабо связанных между собой модулей',
@@ -2127,7 +2127,7 @@ export const OOTPISP: Question[] = [
   {
     question: '149. С какого элемента всегда начинается диаграмма Statechart?',
     answers: [
-      { text: 'Start State', isRight: false },
+      { text: 'Start State', isRight: true },
       { text: 'Актер', isRight: false },
       { text: 'Object', isRight: false },
       { text: 'End State', isRight: false },
@@ -2142,7 +2142,7 @@ export const OOTPISP: Question[] = [
       { text: 'ОС', isRight: false },
       { text: 'линковщиком', isRight: false },
       { text: 'IDE', isRight: false },
-      { text: 'CLR', isRight: false },
+      { text: 'CLR', isRight: true },
     ],
   },
   {
@@ -2150,7 +2150,7 @@ export const OOTPISP: Question[] = [
       '151. На каких UML-диаграммах связи между элементами всегда двунаправленные?',
     answers: [
       { text: 'Таких диаграмм нет', isRight: false },
-      { text: 'Deployment', isRight: false },
+      { text: 'Deployment', isRight: true },
       { text: 'Class', isRight: false },
       { text: 'Component', isRight: false },
       { text: 'Activity', isRight: false },
@@ -2161,7 +2161,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Принцип модульности', isRight: false },
       { text: 'Распределенная обработка данных', isRight: false },
-      { text: 'Автоматизация', isRight: false },
+      { text: 'Автоматизация', isRight: true },
       { text: 'Разработка архитектуры', isRight: false },
       { text: 'Объектно-ориентированный подход', isRight: false },
     ],
@@ -2176,14 +2176,14 @@ export const OOTPISP: Question[] = [
         text: 'класс может реализовать более одного интерфейса',
         isRight: false,
       },
-      { text: 'класс может реализовать только один интерфейс', isRight: false },
+      { text: 'класс может реализовать только один интерфейс', isRight: true },
     ],
   },
   {
     question:
       '154. Какие из следующих итерационных методологий появились позже других?',
     answers: [
-      { text: 'Объектно-ориентированные', isRight: false },
+      { text: 'Объектно-ориентированные', isRight: true },
       { text: 'Тяжелые', isRight: false },
       { text: 'Средние', isRight: false },
       { text: 'Легкие', isRight: false },
@@ -2193,7 +2193,7 @@ export const OOTPISP: Question[] = [
   {
     question: '155. Какой модуль отсутствует в Rational Rose?',
     answers: [
-      { text: 'Client-Server Model', isRight: false },
+      { text: 'Client-Server Model', isRight: true },
       { text: 'Model Assistant', isRight: false },
       { text: 'Web Modeler', isRight: false },
       { text: 'Data Modeler', isRight: false },
@@ -2208,7 +2208,7 @@ export const OOTPISP: Question[] = [
       { text: 'Виртуальная', isRight: false },
       { text: 'Полиморфная', isRight: false },
       { text: 'Статическая', isRight: false },
-      { text: 'Дружественная', isRight: false },
+      { text: 'Дружественная', isRight: true },
     ],
   },
   {
@@ -2216,7 +2216,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Decision', isRight: false },
       { text: 'Activity', isRight: false },
-      { text: 'Destroy', isRight: false },
+      { text: 'Destroy', isRight: true },
       { text: 'Swimlanes', isRight: false },
       { text: 'Synchronizations', isRight: false },
     ],
@@ -2224,7 +2224,7 @@ export const OOTPISP: Question[] = [
   {
     question: '158. Что означает декомпозиция программной системы?',
     answers: [
-      { text: 'Разделение', isRight: false },
+      { text: 'Разделение', isRight: true },
       { text: 'Объединение', isRight: false },
       { text: 'Планирование', isRight: false },
       { text: 'Распараллеливание', isRight: false },
@@ -2234,7 +2234,7 @@ export const OOTPISP: Question[] = [
   {
     question: '159.Каким элементом завершается диаграмма Statechart?',
     answers: [
-      { text: 'End State', isRight: false },
+      { text: 'End State', isRight: true },
       { text: 'Object', isRight: false },
       { text: 'State', isRight: false },
       { text: 'Start State', isRight: false },
@@ -2244,7 +2244,7 @@ export const OOTPISP: Question[] = [
   {
     question: '160. Что означает разрешение проектного риска?',
     answers: [
-      { text: 'Устранение элементов риска', isRight: false },
+      { text: 'Устранение элементов риска', isRight: true },
       { text: 'Выявление элементов риска в проекте', isRight: false },
       {
         text: 'Упорядочение элементов риска по степени их влияния',
@@ -2263,7 +2263,7 @@ export const OOTPISP: Question[] = [
     answers: [
       {
         text: 'От вероятности и потери неудовлетворительного результата',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'От масштаба проекта, размера команды разработчиков, количества выделенных средств',
@@ -2285,7 +2285,7 @@ export const OOTPISP: Question[] = [
       { text: 'Информационная система', isRight: false },
       { text: 'CASE-средство', isRight: false },
       { text: 'CASE-система', isRight: false },
-      { text: 'База знаний', isRight: false },
+      { text: 'База знаний', isRight: true },
     ],
   },
   {
@@ -2294,7 +2294,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Структурный и логический', isRight: false },
       { text: 'Вероятностный и детерминированный', isRight: false },
-      { text: 'Статический и динамический', isRight: false },
+      { text: 'Статический и динамический', isRight: true },
       { text: 'Динамический и объектный', isRight: false },
       { text: 'Статический и объектный', isRight: false },
     ],
@@ -2307,7 +2307,7 @@ export const OOTPISP: Question[] = [
         isRight: false,
       },
       { text: 'Для анализа состояний объектов', isRight: false },
-      { text: 'Для анализа аппаратной части системы', isRight: false },
+      { text: 'Для анализа аппаратной части системы', isRight: true },
       {
         text: 'Для изучения взаимодействия между программными модулями системы',
         isRight: false,
@@ -2335,7 +2335,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'производные классы содержат поля и методы родительского',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'производные классы наследуют поля родительского класса',
@@ -2349,7 +2349,7 @@ export const OOTPISP: Question[] = [
       { text: 'Actor', isRight: false },
       { text: 'Start State', isRight: false },
       { text: 'State', isRight: false },
-      { text: 'End State', isRight: false },
+      { text: 'End State', isRight: true },
       { text: 'Object', isRight: false },
     ],
   },
@@ -2357,7 +2357,7 @@ export const OOTPISP: Question[] = [
     question:
       '167. Укажите UML-диаграммы, по которым можно генерировать код приложения',
     answers: [
-      { text: 'Диаграмма Class', isRight: false },
+      { text: 'Диаграмма Class', isRight: true },
       { text: 'Диаграммы Use Case и Class', isRight: false },
       { text: 'Диаграммы Component, Class, Activity', isRight: false },
       {
@@ -2372,7 +2372,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'По просьбам разработчиков и пользователей', isRight: false },
       { text: 'Из-за использования новой версии языка UML', isRight: false },
-      { text: 'Из-за ориентации на создание web-приложений', isRight: false },
+      { text: 'Из-за ориентации на создание web-приложений', isRight: true },
       {
         text: 'Из-за использования большого количества шаблонов',
         isRight: false,
@@ -2388,7 +2388,7 @@ export const OOTPISP: Question[] = [
         text: 'Имеется два статических и два динамических аспекта',
         isRight: false,
       },
-      { text: 'Да', isRight: false },
+      { text: 'Да', isRight: true },
       { text: 'Есть аналог только статического аспекта', isRight: false },
       { text: 'Нет', isRight: false },
       { text: 'Есть аналог только динамического аспекта', isRight: false },
@@ -2402,7 +2402,7 @@ export const OOTPISP: Question[] = [
       { text: 'Никак не влияют', isRight: false },
       { text: 'Влияют только сущность и управление', isRight: false },
       { text: 'Влияют только граничный класс и сущность', isRight: false },
-      { text: 'Влияют все три стереотипа', isRight: false },
+      { text: 'Влияют все три стереотипа', isRight: true },
     ],
   },
   {
@@ -2422,14 +2422,14 @@ export const OOTPISP: Question[] = [
         isRight: false,
       },
       { text: 'Для работы с кодом', isRight: false },
-      { text: 'Для поддержки тестирования', isRight: false },
+      { text: 'Для поддержки тестирования', isRight: true },
     ],
   },
   {
     question:
       '172. Какие из следующих методов можно переопределить в C#? a) GetHashCode(); b) ToString(); c) GetType()',
     answers: [
-      { text: 'a, b', isRight: false },
+      { text: 'a, b', isRight: true },
       { text: 'b, c', isRight: false },
       { text: 'только a', isRight: false },
       { text: 'b, c', isRight: false },
@@ -2444,7 +2444,7 @@ export const OOTPISP: Question[] = [
         text: 'Использование одним классом объектов другого класса',
         isRight: false,
       },
-      { text: 'Один класс содержит другой', isRight: false },
+      { text: 'Один класс содержит другой', isRight: true },
       { text: 'Наследование между классами', isRight: false },
       { text: 'Инкапсуляцию', isRight: false },
     ],
@@ -2456,7 +2456,7 @@ export const OOTPISP: Question[] = [
       { text: 'IEnumeration', isRight: false },
       { text: 'IComparable', isRight: false },
       { text: 'ICollection', isRight: false },
-      { text: 'IEnumerable', isRight: false },
+      { text: 'IEnumerable', isRight: true },
       { text: 'IEnumerator', isRight: false },
     ],
   },
@@ -2467,7 +2467,7 @@ export const OOTPISP: Question[] = [
       { text: 'Итератор', isRight: false },
       { text: 'Одиночка', isRight: false },
       { text: 'Состояние', isRight: false },
-      { text: 'Компоновщик', isRight: false },
+      { text: 'Компоновщик', isRight: true },
       { text: 'Наблюдатель', isRight: false },
     ],
   },
@@ -2478,7 +2478,7 @@ export const OOTPISP: Question[] = [
       { text: 'Проектирования', isRight: false },
       { text: 'Тестирования', isRight: false },
       { text: 'Программирования', isRight: false },
-      { text: 'Анализа требований и определения функций', isRight: false },
+      { text: 'Анализа требований и определения функций', isRight: true },
       { text: 'Документирования', isRight: false },
     ],
   },
@@ -2486,7 +2486,7 @@ export const OOTPISP: Question[] = [
     question: '177.Какого стереотипа нет для классов?',
     answers: [
       { text: 'Управление', isRight: false },
-      { text: 'Структура', isRight: false },
+      { text: 'Структура', isRight: true },
       { text: 'Синхронизация', isRight: false },
       { text: 'Сущность', isRight: false },
       { text: 'Граничный класс', isRight: false },
@@ -2498,7 +2498,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Функциональным', isRight: false },
       { text: 'Техническим', isRight: false },
-      { text: 'Технологическим', isRight: false },
+      { text: 'Технологическим', isRight: true },
       { text: 'Энергетическим', isRight: false },
       { text: 'Экономическим', isRight: false },
     ],
@@ -2508,7 +2508,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Активные и дорогие', isRight: false },
       { text: 'Пассивные', isRight: false },
-      { text: 'Активные', isRight: false },
+      { text: 'Активные', isRight: true },
       { text: 'Активные и пассивные', isRight: false },
       { text: 'Активные и дешевые', isRight: false },
     ],
@@ -2521,7 +2521,7 @@ export const OOTPISP: Question[] = [
       { text: 'Его размер', isRight: false },
       {
         text: 'Совокупность его цели, планируемых затрат времени и средств',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Неопределенное понятие', isRight: false },
     ],
@@ -2534,14 +2534,14 @@ export const OOTPISP: Question[] = [
       { text: 'Агрегация', isRight: false },
       { text: 'Реализация', isRight: false },
       { text: 'Нет правильных ответов', isRight: false },
-      { text: 'Композиция', isRight: false },
+      { text: 'Композиция', isRight: true },
     ],
   },
   {
     question:
       '182.Можно ли конструктор пометить с помощью модификатора virtual?',
     answers: [
-      { text: 'Нет, конструктор не может быть виртуальным', isRight: false },
+      { text: 'Нет, конструктор не может быть виртуальным', isRight: true },
       {
         text: 'Можно только если конструктор и static и protected',
         isRight: false,
@@ -2563,7 +2563,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'Оценка вероятности и величины потери по каждому элементу риска',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Выявление элементов риска в проекте', isRight: false },
       { text: 'Устранение или разрешение элементов риска', isRight: false },
@@ -2574,7 +2574,7 @@ export const OOTPISP: Question[] = [
     question: '184.Какой диаграмме принадлежит значок Decision?',
     answers: [
       { text: 'Никакой', isRight: false },
-      { text: 'Activity', isRight: false },
+      { text: 'Activity', isRight: true },
       { text: 'Class', isRight: false },
       { text: 'Use Case', isRight: false },
       { text: 'Он имеется во всех диаграммах', isRight: false },
@@ -2587,7 +2587,7 @@ export const OOTPISP: Question[] = [
       { text: 'Объекты и классы', isRight: false },
       { text: 'Актеры и роли', isRight: false },
       { text: 'Артефакты и прецеденты', isRight: false },
-      { text: 'Этапы жизненного цикла программных систем', isRight: false },
+      { text: 'Этапы жизненного цикла программных систем', isRight: true },
     ],
   },
   {
@@ -2604,7 +2604,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'Для постоянного заказчика, для временного заказчика, тиражируемый, аутсорсинг',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Для постоянного заказчика, для временного заказчика, под заказ, тиражируемый, аутсорсинг',
@@ -2622,7 +2622,7 @@ export const OOTPISP: Question[] = [
     answers: [
       {
         text: 'Формальная проверка того, что созданное программное средство удовлетворяет всем техническим требованиям',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Фиксация технических решений', isRight: false },
       { text: 'Планирование, слежение и руководство', isRight: false },
@@ -2637,7 +2637,7 @@ export const OOTPISP: Question[] = [
       { text: 'Методология, метод, нотация', isRight: false },
       { text: 'Нотация, методика, инструмент', isRight: false },
       { text: 'Технология, методология, инструмент', isRight: false },
-      { text: 'Процесс, инструмент, система обозначений', isRight: false },
+      { text: 'Процесс, инструмент, система обозначений', isRight: true },
       {
         text: 'Проектирование, программирование, тестирование',
         isRight: false,
@@ -2649,7 +2649,7 @@ export const OOTPISP: Question[] = [
     answers: [
       {
         text: 'Распределенная структура проекта и начальные предпосылки к тяжелой методологии',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Применение легкой методологии и отсутствие необходимости в сертификации',
@@ -2671,7 +2671,7 @@ export const OOTPISP: Question[] = [
       '190. Какие этапы жизненного цикла программных средств охватывают продукты корпорации Rational Software?',
     answers: [
       { text: 'Проектирование и программирование', isRight: false },
-      { text: 'Все этапы жизненного цикла', isRight: false },
+      { text: 'Все этапы жизненного цикла', isRight: true },
       {
         text: 'Анализ требований, проектирование и программирование',
         isRight: false,
@@ -2699,7 +2699,7 @@ export const OOTPISP: Question[] = [
       { text: 'Все', isRight: false },
       {
         text: 'Пользователи системы, другие системы и подсистемы',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -2710,7 +2710,7 @@ export const OOTPISP: Question[] = [
       { text: 'Инкапсуляция', isRight: false },
       { text: 'Иерархичность', isRight: false },
       { text: 'Модульность', isRight: false },
-      { text: 'Автоматизация', isRight: false },
+      { text: 'Автоматизация', isRight: true },
       { text: 'Абстракция', isRight: false },
     ],
   },
@@ -2721,7 +2721,7 @@ export const OOTPISP: Question[] = [
       { text: 'Collaboration', isRight: false },
       { text: 'Component', isRight: false },
       { text: 'Activity', isRight: false },
-      { text: 'Class', isRight: false },
+      { text: 'Class', isRight: true },
       { text: 'Use Case', isRight: false },
     ],
   },
@@ -2732,7 +2732,7 @@ export const OOTPISP: Question[] = [
       { text: 'верны b, c, e, f', isRight: false },
       { text: 'верны: a, c, d, f', isRight: false },
       { text: 'все неверны', isRight: false },
-      { text: 'все верны', isRight: false },
+      { text: 'все верны', isRight: true },
       { text: 'верны: a, b, c', isRight: false },
     ],
   },
@@ -2743,7 +2743,7 @@ export const OOTPISP: Question[] = [
       { text: 'Объекты, классы, программные модули', isRight: false },
       { text: 'Объекты', isRight: false },
       { text: 'Аппаратные и программные части системы', isRight: false },
-      { text: 'Программные модули', isRight: false },
+      { text: 'Программные модули', isRight: true },
     ],
   },
   {
@@ -2751,7 +2751,7 @@ export const OOTPISP: Question[] = [
       '196. Что отсутствует в коде в результате автоматической кодогенерации?',
     answers: [
       { text: 'Наследование классов', isRight: false },
-      { text: 'Содержание методов', isRight: false },
+      { text: 'Содержание методов', isRight: true },
       { text: 'Имена классов', isRight: false },
       { text: 'Структуры', isRight: false },
       { text: 'Атрибуты', isRight: false },
@@ -2760,7 +2760,7 @@ export const OOTPISP: Question[] = [
   {
     question: '197. Конструктор, не имеющий ни одного параметра называется:',
     answers: [
-      { text: 'конструктор по умолчанию', isRight: false },
+      { text: 'конструктор по умолчанию', isRight: true },
       { text: 'конъюнктур', isRight: false },
       { text: 'обычный конструктор', isRight: false },
       { text: 'статический конструктор', isRight: false },
@@ -2774,7 +2774,7 @@ export const OOTPISP: Question[] = [
       { text: 'a, b, c', isRight: false },
       { text: 'b, c, d, e', isRight: false },
       { text: 'c, e', isRight: false },
-      { text: 'a, c, d, e', isRight: false },
+      { text: 'a, c, d, e', isRight: true },
       { text: 'b, c, d', isRight: false },
     ],
   },
@@ -2784,7 +2784,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'можно изменить в конструкторе', isRight: false },
       { text: 'можно инициализировать при объявлении', isRight: false },
-      { text: 'можно изменить в методе класса', isRight: false },
+      { text: 'можно изменить в методе класса', isRight: true },
       { text: 'можно инициализировать в конструкторе', isRight: false },
       { text: 'нельзя изменять', isRight: false },
     ],
@@ -2802,7 +2802,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'Для отражения взаимодействия между программными модулями системы',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Для анализа аппаратной части системы', isRight: false },
       {
@@ -2815,7 +2815,7 @@ export const OOTPISP: Question[] = [
     question:
       '201.К каким критериям уровня развития CASE-средств относится показатель интенсивности обработки информации?',
     answers: [
-      { text: 'Функциональным', isRight: false },
+      { text: 'Функциональным', isRight: true },
       { text: 'Техническим', isRight: false },
       { text: 'Экономическим', isRight: false },
       { text: 'Технологическим', isRight: false },
@@ -2825,7 +2825,7 @@ export const OOTPISP: Question[] = [
   {
     question: '202.Что является уникальным элементом диаграммы Sequence?',
     answers: [
-      { text: 'Отражение взаимодействия объектов во времени', isRight: false },
+      { text: 'Отражение взаимодействия объектов во времени', isRight: true },
       { text: 'Отражение действий объектов', isRight: false },
       { text: 'Наличие элемента «синхронизация»', isRight: false },
       {
@@ -2841,7 +2841,7 @@ export const OOTPISP: Question[] = [
       { text: 'Сопровождение', isRight: false },
       { text: 'Проектирование и программирование', isRight: false },
       { text: 'Проектирование и автоматизация', isRight: false },
-      { text: 'Планирование, организация и контроль', isRight: false },
+      { text: 'Планирование, организация и контроль', isRight: true },
       { text: 'Тестирование и документирование', isRight: false },
     ],
   },
@@ -2850,7 +2850,7 @@ export const OOTPISP: Question[] = [
     answers: [
       {
         text: 'Отражает прецедент, являющийся частью главного прецедента',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Отражает расширение прецедента', isRight: false },
       { text: 'Обозначает простые связи между элементами', isRight: false },
@@ -2870,7 +2870,7 @@ export const OOTPISP: Question[] = [
       { text: 'Модель анализа', isRight: false },
       { text: 'Модель предметной области', isRight: false },
       { text: 'Модель для генерации кода', isRight: false },
-      { text: 'Физическую модель', isRight: false },
+      { text: 'Физическую модель', isRight: true },
       { text: 'Web-модель', isRight: false },
     ],
   },
@@ -2880,7 +2880,7 @@ export const OOTPISP: Question[] = [
     answers: [
       {
         text: 'Функциональных, технологических, экономических, эргономических',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Статистических, функциональных, энергетических, экономических, технических',
@@ -2906,7 +2906,7 @@ export const OOTPISP: Question[] = [
       { text: 'Физической моделью', isRight: false },
       { text: 'Логической моделью', isRight: false },
       { text: 'Базой данных', isRight: false },
-      { text: 'Паспортом (номенклатурой)', isRight: false },
+      { text: 'Паспортом (номенклатурой)', isRight: true },
       { text: 'Абстракцией', isRight: false },
     ],
   },
@@ -2915,7 +2915,7 @@ export const OOTPISP: Question[] = [
       '208. Сколько уровней интеграции существует в технологии Borland?',
     answers: [
       { text: 'Четыре', isRight: false },
-      { text: 'Три', isRight: false },
+      { text: 'Три', isRight: true },
       { text: 'Пять', isRight: false },
       { text: 'В данной технологии нет уровней интеграции', isRight: false },
       { text: 'Два', isRight: false },
@@ -2926,7 +2926,7 @@ export const OOTPISP: Question[] = [
       '209.Какую диаграмму можно получить автоматически из диаграммы Sequence?',
     answers: [
       { text: 'Никакую', isRight: false },
-      { text: 'Collaboration', isRight: false },
+      { text: 'Collaboration', isRight: true },
       { text: 'Class', isRight: false },
       { text: 'Statechart', isRight: false },
       { text: 'Activity', isRight: false },
@@ -2939,7 +2939,7 @@ export const OOTPISP: Question[] = [
         text: 'Ни в С++, ни в С# нет понятия единого базового класса',
         isRight: false,
       },
-      { text: 'В C# все классы имеют единый базовый класс', isRight: false },
+      { text: 'В C# все классы имеют единый базовый класс', isRight: true },
       {
         text: 'Все классы в С++ и C# по умолчанию имеют базовый класс',
         isRight: false,
@@ -2958,7 +2958,7 @@ export const OOTPISP: Question[] = [
       { text: 'Легкие и тяжелые', isRight: false },
       {
         text: 'Охватывающие один этап, несколько этапов или весь жизненный цикл программного средства',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Структурные и объектно-ориентированные', isRight: false },
       {
@@ -2976,7 +2976,7 @@ export const OOTPISP: Question[] = [
         text: 'доступ к модулю получают только модули расширения',
         isRight: false,
       },
-      { text: 'доступ к модулю получают все', isRight: false },
+      { text: 'доступ к модулю получают все', isRight: true },
       {
         text: 'доступ к модулю получают данный модуль и модули расширения',
         isRight: false,
@@ -3003,7 +3003,7 @@ export const OOTPISP: Question[] = [
       { text: 'Метод возвращает значение, процедура - нет', isRight: false },
       {
         text: 'В метод класса, всегда неявно передаётся ссылка на объект',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -3015,7 +3015,7 @@ export const OOTPISP: Question[] = [
       { text: 'Нет правильных ответов', isRight: false },
       { text: 'Будет создана исключительная ситуация', isRight: false },
       { text: 'Произойдёт ошибка', isRight: false },
-      { text: 'Вернутся равные значения', isRight: false },
+      { text: 'Вернутся равные значения', isRight: true },
     ],
   },
   {
@@ -3032,7 +3032,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'Для управления работой других классов приложения',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Для отображения иерархии в системе', isRight: false },
       {
@@ -3048,7 +3048,7 @@ export const OOTPISP: Question[] = [
       { text: 'Сопровождение', isRight: false },
       { text: 'Верификация', isRight: false },
       { text: 'Проектирование', isRight: false },
-      { text: 'Маркетинг', isRight: false },
+      { text: 'Маркетинг', isRight: true },
       { text: 'Тестирование', isRight: false },
     ],
   },
@@ -3061,7 +3061,7 @@ export const OOTPISP: Question[] = [
       { text: 'Непрерывность процесса проектирования', isRight: false },
       {
         text: 'Простоту разработки CASE-средства и подготовки его к эксплуатации',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Надежность CASE-средства', isRight: false },
     ],
@@ -3072,7 +3072,7 @@ export const OOTPISP: Question[] = [
       { text: 'Use Case', isRight: false },
       { text: 'Он имеется во всех диаграммах', isRight: false },
       { text: 'Никакой', isRight: false },
-      { text: 'Activity', isRight: false },
+      { text: 'Activity', isRight: true },
       { text: 'Class', isRight: false },
     ],
   },
@@ -3087,7 +3087,7 @@ export const OOTPISP: Question[] = [
         isRight: false,
       },
       { text: 'Классический и объектно-ориентированный', isRight: false },
-      { text: 'Классический и быстрый', isRight: false },
+      { text: 'Классический и быстрый', isRight: true },
     ],
   },
   {
@@ -3100,7 +3100,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'В метод класса, всегда неявно передаётся ссылка на объект данного класса',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Процедура возвращает значение, метод – нет', isRight: false },
       { text: 'Процедура и метод идентичны', isRight: false },
@@ -3112,7 +3112,7 @@ export const OOTPISP: Question[] = [
     answers: [
       {
         text: 'Для построения каталога требований конечных пользователей и отношений между ними',
-        isRight: false,
+        isRight: true,
       },
       {
         text: 'Для определения построения компонентов программы на физическом уровне',
@@ -3136,7 +3136,7 @@ export const OOTPISP: Question[] = [
     question:
       '222. Какие скрытые поля есть у объекта в C#? a) Syncblk; b) Flags; c) MethodTable',
     answers: [
-      { text: 'только c', isRight: false },
+      { text: 'только c', isRight: true },
       { text: 'a и c', isRight: false },
       { text: 'a, b, c', isRight: false },
       { text: 'a и b', isRight: false },
@@ -3147,7 +3147,7 @@ export const OOTPISP: Question[] = [
     question: '223.Перечислите основные элементы диаграммы Use Case',
     answers: [
       { text: 'Актеры, объекты и классы', isRight: false },
-      { text: 'Актеры и роли', isRight: false },
+      { text: 'Актеры и роли', isRight: true },
       { text: 'Актеры, объекты и роли', isRight: false },
       { text: 'Объекты и классы', isRight: false },
       { text: 'Роли, объекты и классы', isRight: false },
@@ -3158,7 +3158,7 @@ export const OOTPISP: Question[] = [
       '224. Как называется механизм объектно-ориентированного программирования, который предоставляет возможность объектам с одинаковой спецификацией иметь различную реализацию?',
     answers: [
       { text: 'Абстракция', isRight: false },
-      { text: 'Полиморфизм', isRight: false },
+      { text: 'Полиморфизм', isRight: true },
       { text: 'Наследование', isRight: false },
       { text: 'Агрегация', isRight: false },
       { text: 'Инкапсуляция', isRight: false },
@@ -3171,7 +3171,7 @@ export const OOTPISP: Question[] = [
       { text: 'Разработка документации', isRight: false },
       {
         text: 'Формальная проверка соответствия программного средства всем техническим требованиям',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Разработка программного кода', isRight: false },
       { text: 'Управление программным средством', isRight: false },
@@ -3198,7 +3198,7 @@ export const OOTPISP: Question[] = [
       },
       {
         text: 'Методологию автоматизации всего жизненного цикла программных средств',
-        isRight: false,
+        isRight: true,
       },
     ],
   },
@@ -3210,7 +3210,7 @@ export const OOTPISP: Question[] = [
       { text: 'a, b и d', isRight: false },
       { text: 'a и c', isRight: false },
       { text: 'd и e', isRight: false },
-      { text: 'a и d', isRight: false },
+      { text: 'a и d', isRight: true },
     ],
   },
   {
@@ -3219,7 +3219,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'operation', isRight: false },
       { text: 'iterator', isRight: false },
-      { text: 'operator', isRight: false },
+      { text: 'operator', isRight: true },
       { text: 'constructor', isRight: false },
       { text: 'allocator', isRight: false },
     ],
@@ -3228,7 +3228,7 @@ export const OOTPISP: Question[] = [
     question:
       '229. Перечислите режимы, в которых можно выполнять синхронизацию кода и модели в современных CASE-средствах',
     answers: [
-      { text: 'Ручной и автоматический', isRight: false },
+      { text: 'Ручной и автоматический', isRight: true },
       { text: 'Ручной и автоматизированный', isRight: false },
       { text: 'Ручной', isRight: false },
       { text: 'Автоматический и автоматизированный', isRight: false },
@@ -3242,7 +3242,7 @@ export const OOTPISP: Question[] = [
       { text: 'Никакой', isRight: false },
       { text: 'Он имеется во всех диаграммах', isRight: false },
       { text: 'Class', isRight: false },
-      { text: 'Activity', isRight: false },
+      { text: 'Activity', isRight: true },
     ],
   },
   {
@@ -3251,7 +3251,7 @@ export const OOTPISP: Question[] = [
       { text: 'Никакой', isRight: false },
       { text: 'Collaboration', isRight: false },
       { text: 'Statechart', isRight: false },
-      { text: 'Sequence', isRight: false },
+      { text: 'Sequence', isRight: true },
       { text: 'Activity', isRight: false },
     ],
   },
@@ -3261,7 +3261,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Use Case, Class', isRight: false },
       { text: 'Free Form', isRight: false },
-      { text: 'Collaboration, Sequence', isRight: false },
+      { text: 'Collaboration, Sequence', isRight: true },
       { text: 'Class, Component', isRight: false },
       { text: 'Statechart, Activity', isRight: false },
     ],
@@ -3271,7 +3271,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Activity', isRight: false },
       { text: 'Class', isRight: false },
-      { text: 'Collaboration', isRight: false },
+      { text: 'Collaboration', isRight: true },
       { text: 'Use Case', isRight: false },
       { text: 'Component', isRight: false },
     ],
@@ -3284,7 +3284,7 @@ export const OOTPISP: Question[] = [
         text: 'Оценку вероятности и величины потери по каждому элементу риска',
         isRight: false,
       },
-      { text: 'Подготовку к работе с каждым элементом риска', isRight: false },
+      { text: 'Подготовку к работе с каждым элементом риска', isRight: true },
       { text: 'Выявление элементов риска в проекте', isRight: false },
       {
         text: 'Упорядочение элементов риска по степени их влияния',
@@ -3299,7 +3299,7 @@ export const OOTPISP: Question[] = [
       { text: 'Основные элементы диаграммы Class', isRight: false },
       {
         text: 'Любые продукты проекта и действия, выполняемые в системе для получения результата',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Различные виды пользователей в системе', isRight: false },
       { text: 'Элементы диаграммы Component', isRight: false },
@@ -3313,7 +3313,7 @@ export const OOTPISP: Question[] = [
         text: 'доступ к модулю получают только модули расширения',
         isRight: false,
       },
-      { text: 'доступ к модулю получают все', isRight: false },
+      { text: 'доступ к модулю получают все', isRight: true },
       {
         text: 'доступ к модулю получают данный модуль и модули расширения',
         isRight: false,
@@ -3337,7 +3337,7 @@ export const OOTPISP: Question[] = [
         isRight: false,
       },
       { text: 'передачи аргумента Attribute в конструктор', isRight: false },
-      { text: 'наследования от класса Attribute', isRight: false },
+      { text: 'наследования от класса Attribute', isRight: true },
       { text: 'создания поля Attribute в классе', isRight: false },
     ],
   },
@@ -3346,7 +3346,7 @@ export const OOTPISP: Question[] = [
     answers: [
       {
         text: 'Отношение между классом и интерфейсом, который этим классом реализуется',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Агрегацию', isRight: false },
       { text: 'Наследование между классами', isRight: false },
@@ -3360,7 +3360,7 @@ export const OOTPISP: Question[] = [
     answers: [
       { text: 'Свойство', isRight: false },
       { text: 'Поле', isRight: false },
-      { text: 'Конструктор', isRight: false },
+      { text: 'Конструктор', isRight: true },
       { text: 'Все из вышеперечисленного может входить', isRight: false },
       { text: 'Метод', isRight: false },
     ],
@@ -3373,7 +3373,7 @@ export const OOTPISP: Question[] = [
       { text: 'Модель данных и Web-модель', isRight: false },
       {
         text: 'Модель предметной области, модель анализа, модель для генерации кода',
-        isRight: false,
+        isRight: true,
       },
       { text: 'Модель для генерации кода и логическую модель', isRight: false },
     ],
@@ -3383,7 +3383,7 @@ export const OOTPISP: Question[] = [
       '241.Сколько родительских классов может иметь производный класс в C#?',
     answers: [
       { text: 'Не больше двух', isRight: false },
-      { text: 'Всегда один', isRight: false },
+      { text: 'Всегда один', isRight: true },
       { text: 'Любое количество', isRight: false },
       { text: 'Не больше одного', isRight: false },
       { text: 'Нет правильных ответов', isRight: false },
@@ -3394,7 +3394,7 @@ export const OOTPISP: Question[] = [
       '242.Что из нижеперечисленного не относится к конструктору: a) наследуется; b) может быть объявлен static; c) может быть записан в abstract классе; d) может возвращать значения; e) если явно не описать конструктор в классе, класс станет static',
     answers: [
       { text: 'c,e', isRight: false },
-      { text: 'a,c,d,e', isRight: false },
+      { text: 'a,c,d,e', isRight: true },
       { text: 'a,b,c', isRight: false },
       { text: 'b,c,d,e', isRight: false },
       { text: 'a,b,c,d', isRight: false },
